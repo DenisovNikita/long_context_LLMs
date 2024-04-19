@@ -8,6 +8,7 @@ from soup2dict import convert
 import time
 from IPython.display import clear_output
 from pathlib import Path
+from tqdm import tqdm, trange
 
 BOOKS = [
     "and_quiet_flows_the_don",
