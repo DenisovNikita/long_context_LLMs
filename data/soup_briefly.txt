@@ -1,0 +1,1982 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Тихий Дон · Краткое содержание по частям
+  </title>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <style>
+   html{overflow-y:scroll}body{font-family:system-ui,sans-serif}body,form,ul,ol,li,h1,h2,h3,p{margin:0;padding:0;font-size:100%;font-weight:400}input,select,button,textarea{font-family:inherit;font-size:inherit}ul{list-style:none}header,main,footer,nav,aside,section{display:block}iframe{border:0}a{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.1em}a:link{color:#0059a9;text-decoration-color:hsla(220,100%,33%,.2)}a:visited{color:#804180;text-decoration-color:hsla(300,66%,38%,.3)}a.visited-hidden{color:#000;text-decoration-color:rgba(0,0,0,.2)}input,.button{--box-shadow-inside:inset 0 -1px 2px rgba(0, 0, 0, 0.08);--box-shadow-outside:0 0 0 transparent;box-sizing:border-box}input[type="text"],input[type="tel"],input[type="search"]{--box-shadow-inside:inset 0 1px 2px rgba(0, 0, 0, 0.08);box-shadow:var(--box-shadow-inside),var(--box-shadow-outside);border:1px solid rgba(0,0,0,.15);border-radius:3px;color:#000;background:#fff;min-width:3em}input[type="text"]:hover,input[type="tel"]:hover,input[type="search"]:hover{--box-shadow-inside:inset 0 1px 2px rgba(0, 0, 0, 0.12);border-color:rgba(0,0,0,.33)}input[type="text"]:focus,input[type="tel"]:focus,input[type="search"]:focus{--box-shadow-inside:inset 0 1px 2px rgba(27, 31, 35, 0.08);--box-shadow-outside:0 0 0 2px rgba(3, 102, 214, 0.3);border-color:#2188ff;outline:0}input[type="search"]{-webkit-appearance:none}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}.button{--box-shadow-inside:inset 0 -1px 2px rgba(0, 0, 0, 0.08);border:1px solid rgba(0,0,0,.15);border-radius:3px;box-shadow:var(--box-shadow-inside),var(--box-shadow-outside);color:#000;background:#fff}.button:hover{--box-shadow-inside:inset 0 -1px 2px rgba(0, 0, 0, 0.12);border-color:rgba(0,0,0,.33);z-index:3}.button:focus{--box-shadow-inside:inset 0 -1px 2px rgba(0, 0, 0, 0.08);--box-shadow-outside:0 0 0 2px rgba(3, 102, 214, 0.3);border-color:#2188ff;outline:0;z-index:4}.button::-moz-focus-inner{border:0}.button:active{--box-shadow-inside:inset 0 1px 3px rgba(27, 31, 35, 0.3)}.button[disabled]{opacity:.5}.button[aria-expanded=true],.button[aria-pressed=true]{background:rgba(0,0,0,.16);--box-shadow-inside:inset 0 1px 3px rgba(27, 31, 35, 0.3);z-index:2}#h-space{height:48px}#h-content{display:flex;height:48px;width:100%;position:relative;z-index:9}@supports (position:fixed){@media screen{#h-content{position:fixed;top:0;background:linear-gradient(#fff,rgba(255,255,255,.9))}}}#h-logo>*{display:block;margin:7px 8px;height:34px;border-radius:2px;padding:0 6px}#h-logo a:hover,#h-logo a:active{box-shadow:0 0 0 3px rgba(3,102,214,.15)}#h-logo a:focus{box-shadow:0 0 0 .5px #2188ff,0 0 0 3px rgba(3,102,214,.3);outline:0}#h-logo svg{margin-top:3px}#h-logo a{text-decoration:none;color:#000;position:relative}#h-logo desc{display:inline-block;font-weight:700;font-size:24px;line-height:34px}#h-search{padding:6px 0;width:90%;font-size:16px;line-height:20px}#h-search-q{width:100%;height:36px;padding:0 4px 0 8px}#h-search-suggests,#h-search.expanded #h-search-suggests:empty{display:none}#h-search.expanded #h-search-suggests{display:block}#h-search-suggests{position:absolute;right:0;left:0;top:48px;padding-bottom:50px;overflow:hidden;pointer-events:none}#h-search-suggests ul{padding:4px 0;background:#fff;box-shadow:0 1px 32px -14px #000;pointer-events:auto;border-top:1px solid #eee}#h-search-suggests li a{display:block;padding:6px 14px;text-decoration:none;color:#000;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#h-search-suggests li a:hover{background:#eee}#h-search-suggests li a span{font-size:11px;color:#666;padding-left:3px;font-weight:400;font-style:normal}#h-search-suggests li.a,#h-search-suggests li.author{font-style:italic}#h-search-suggests mark{background:transparent;color:inherit;font-weight:700}@media (min-width:450px){#h-search{position:relative}#h-search-suggests{overflow:visible;top:42px;padding:0;width:min-content;min-width:100%;max-width:320px}#h-search-suggests ul{padding:3px 0;box-shadow:0 1px 2px rgba(0,0,0,.12),0 1px 6px rgba(0,0,0,.12);border-radius:2px}#h-search-suggests li a{padding:7px 10px}}#h-menu{position:relative;padding:6px 8px;white-space:nowrap}#h-menu-toggle{height:36px;padding:0 6px 0 8px;font-size:15px;font-weight:700;text-transform:uppercase;user-select:none}#h-menu-toggle[aria-expanded=true],#h-menu-toggle[aria-expanded=false]:active{padding-top:1px;background:#fafafa;--box-shadow-inside:inset 0 1px 3px rgba(27, 31, 35, 0.3)}#h-menu-toggle[aria-expanded=true]+#h-menu-list,#h-menu-toggle[aria-expanded=false]:active+#h-menu-list,#h-menu:focus-within #h-menu-toggle:not([aria-expanded])+#h-menu-list{display:block}#h-menu-list{display:none;position:absolute;background:#fff;margin-top:4px;padding:8px 0;right:9px;box-shadow:0 1px 2px rgba(0,0,0,.12),0 1px 6px rgba(0,0,0,.12);border-radius:2px}#h-menu-list a,#h-menu-list b{display:block;padding:12px 32px 12px 16px;text-decoration:none;color:#000;font-size:16px;line-height:16px}#h-menu-list a:hover{background:#eee}@media (min-width:1100px){#h-menu{width:auto}#h-menu-toggle{display:none}#h-menu-list{display:table!important;position:static;padding:0;-webkit-box-shadow:none;box-shadow:none;background:transparent;margin-top:0}#h-menu-list li{display:table-cell}#h-menu-list .emoji{display:none}#h-menu-list a,#h-menu-list b{padding:9px 8px;position:relative;background:transparent!important;border-radius:4px;font-size:14px;border:1px solid transparent}#h-menu-list b{font-weight:400;background:#fafafa!important;border-color:rgba(0,0,0,.15);box-shadow:inset 0 1px 3px rgba(27,31,35,.3);cursor:default}#h-menu-list a:hover{background:#fff!important;z-index:2;border-color:rgba(0,0,0,.33);box-shadow:inset 0 -1px 2px rgba(0,0,0,.12)}#h-menu-list a:focus{z-index:3;outline:none;border-color:#2188ff;box-shadow:inset 0 -1px 2px rgba(0,0,0,.08),0 0 0 2px rgba(3,102,214,.3)}#h-menu-list a:active{border-color:#2188ff;box-shadow:inset 0 1px 3px rgba(27,31,35,.3),0 0 0 2px rgba(3,102,214,.3)}}
+  </style>
+  <meta content="no-referrer-when-downgrade" name="referrer"/>
+  <script defer="" src="/static/js/header.js?1690211133">
+  </script>
+  <link href="/static/favicon/red.svg" rel="icon" type="image/svg+xml"/>
+  <link href="/static/favicon/180.png?2" rel="apple-touch-icon"/>
+  <link href="/static/manifest.json?1664441514" rel="manifest"/>
+  <meta content="#fff" name="theme-color"/>
+  <meta content="Казак пережил Первую мировую войну, Революцию, Гражданскую войну, восстание донских казаков, воевал то с красными, то с белыми, но так и не понял, кто прав, потерял любимую женщину и остался ни с чем." name="description"/>
+  <meta content="https://briefly.ru/static/cache/films/720/37.jpeg" property="og:image"/>
+  <link href="https://briefly.ru/sholohov/tihy_don/" rel="canonical"/>
+ </head>
+ <body>
+  <header id="h-space">
+   <div id="h-content">
+    <div id="h-logo">
+     <a href="/">
+      <svg focusable="false" height="28" viewbox="0 0 100 28" width="100" xmlns="http://www.w3.org/2000/svg">
+       <desc>
+        брифли
+       </desc>
+       <path d="M.2 13.77c0-3.22.57-8 2.48-9.63 1.6-1.4 5.82-2.46 10.5-3.28l.56 3.25c-4.15.66-7.73 1.24-8.68 2.03A5.14 5.14 0 0 0 3.78 9.5a10.07 10.07 0 0 1 4.96-1.24c3.7 0 5.9 1.83 5.9 6.22 0 5.35-3.25 7.73-7.6 7.73-4.17 0-6.84-2.56-6.84-8.43zm10.78.88c0-2.08-.92-3.6-3.35-3.6a8.98 8.98 0 0 0-3.96 1.06c-.03.45 0 1.2 0 1.62 0 3.85 1.25 5.6 3.66 5.6 2.83 0 3.65-2.44 3.65-4.68zm6.05-7.62h3.6v1.12a7.27 7.27 0 0 1 3.83-1.48c4 0 6.38 2.2 6.38 7.2 0 6.23-3.8 8.34-7.9 8.34-.9 0-1.68-.08-2.3-.13V28h-3.6zm10.13 7.15c0-2.84-.96-4.45-3.74-4.45a8.27 8.27 0 0 0-2.8.8v8.65a17.72 17.72 0 0 0 2.42.2c2.67.02 4.12-2.22 4.12-5.2zm5.9-7.12h3.58v7.86l-.08 2.17 1.4-2.18 5.4-7.86h3.58V21.9h-3.6v-7.8l.07-2.17-1.37 2.17-5.4 7.8h-3.57zm24.18 15.17c-4.9 0-7.87-2.67-7.87-7.67 0-5.16 3.23-7.86 7.87-7.9v-5.5h3.56v5.5c5.05 0 7.88 2.7 7.88 7.8 0 5.2-3.43 7.7-7.88 7.77V28h-3.56zm-.03-12.66c-3.03 0-4.16 2.02-4.16 4.9 0 3 1.18 4.9 4.2 4.9 0-5.93-.03-9.8-.03-9.8zm7.75 4.88c0-2.84-1.13-4.83-4.14-4.88v9.74c3.02 0 4.15-1.87 4.15-4.85zm2.5 8C71.7 19 71.9 14 72.26 7.02h10.22v14.9h-3.63V9.8h-3.5c-.5 7.33-1.85 11.33-5.34 14.38zM85.05 7.03h3.58v7.9l-.08 2.17 1.4-2.18 5.38-7.9h3.58v14.9h-3.57V14.1l.06-2.18L94 14.1l-5.37 7.83h-3.58z">
+       </path>
+      </svg>
+     </a>
+    </div>
+    <form accept-charset="UTF-8" action="/search/" id="h-search" method="get" role="search">
+     <input aria-autocomplete="list" aria-controls="h-search-suggests" aria-expanded="false" aria-haspopup="listbox" aria-label="Поиск авторов и произведений" autocomplete="off" id="h-search-q" name="q" placeholder="поиск" role="combobox" size="5" type="search"/>
+     <nav id="h-search-suggests" role="listbox">
+     </nav>
+    </form>
+    <nav id="h-menu">
+     <button aria-controls="h-menu-list" class="button" id="h-menu-toggle" type="button">
+      Меню
+     </button>
+     <ul id="h-menu-list">
+      <li>
+       <a href="/toprated/">
+        <span class="emoji">
+         👍
+        </span>
+        Лучшее
+       </a>
+      </li>
+      <li>
+       <a href="/popular/">
+        <span class="emoji">
+         🔥
+        </span>
+        Популярное
+       </a>
+      </li>
+      <li>
+       <a href="/nonfiction/">
+        <span class="emoji">
+         💼
+        </span>
+        Нонфикшен
+       </a>
+      </li>
+      <li>
+       <a href="/cultures/">
+        <span class="emoji">
+         🌍
+        </span>
+        По культурам
+       </a>
+      </li>
+      <li>
+       <a href="/authors/">
+        <span class="emoji">
+         👥
+        </span>
+        По авторам
+       </a>
+      </li>
+      <li>
+       <a href="/new/">
+        <span class="emoji">
+         🌱
+        </span>
+        Новинки
+       </a>
+      </li>
+      <li>
+       <a href="/random/random/">
+        Случайное
+       </a>
+      </li>
+      <li>
+       <a href="/wanted/">
+        Что добавить?
+       </a>
+      </li>
+      <li>
+       <a href="https://wiki.briefly.ru/">
+        Написать пересказ
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <style>
+   .summary_box{padding:0 16px;max-width:720px;margin:0 auto}@media (min-width:360px){.summary_box{padding-left:24px;padding-right:24px}}
+  </style>
+  <main id="content">
+   <style>
+    .breadcrumbs{display:flex;padding:8px 4px;text-align:left;order:1;background:#f5f5f5}.breadcrumb{display:inline-flex;height:72px;width:calc(50% - 8px);margin:0 4px;border-radius:4px;overflow:hidden;background:#fff;box-shadow:0 1px 8px -4px #000;box-shadow:0 1px 2px rgba(0,0,0,.12),0 1px 6px rgba(0,0,0,.12);font-size:13px;line-height:16px;text-decoration:none}.breadcrumb:hover{box-shadow:0 1px 16px -4px #2188ff;box-shadow:0 1px 2px rgba(0,0,0,.12),0 1px 6px rgba(33,136,255,.5)}.breadcrumb:focus{outline:0;box-shadow:inset 0 -1px 2px rgba(0,0,0,.08),0 0 0 2px rgba(3,102,214,.3)}.breadcrumb:active{box-shadow:inset 0 1px 3px rgba(27,31,35,.3)}.breadcrumb__image{display:block;flex-shrink:0;width:54px;height:72px;overflow:hidden;background-color:#eee}.breadcrumb__image_type_emoji{text-align:center;font-size:40px;line-height:72px}.breadcrumb__content{align-self:center;color:#000!important;width:min-content;max-width:100px;padding:9px;vertical-align:middle}.breadcrumb__timespan{font-size:11px;line-height:13px;color:#666;padding-top:2px;margin-bottom:-1px}.portrait-gallery__cell{float:left;display:block;width:18px;height:24px;overflow:hidden}.portrait-gallery__img{width:100%;height:100%;object-fit:cover}.breadcrumb__image img{width:100%;height:100%;display:block;object-fit:cover}@media (min-width:420px){.breadcrumbs{display:flex;justify-content:center;margin-top:24px;padding:0;background:transparent}.breadcrumb{margin:8px;width:auto}}@media (max-width:1219px){.breadcrumb__image{padding-bottom:0!important}}
+   </style>
+   <nav class="breadcrumbs">
+    <a class="breadcrumb breadcrumb_type_culture" href="/cultures/soviet/">
+     <picture class="breadcrumb__image portrait" style="background-color:#7F7069">
+      <source sizes="54px" srcset="/static/cache/cultures/54/64.avif 54w, /static/cache/cultures/81/64.avif 81w, /static/cache/cultures/108/64.avif 108w, /static/cache/cultures/162/64.avif 162w" type="image/avif"/>
+      <source sizes="54px" srcset="/static/cache/cultures/54/64.webp 54w, /static/cache/cultures/81/64.webp 81w, /static/cache/cultures/108/64.webp 108w, /static/cache/cultures/162/64.webp 162w" type="image/webp"/>
+      <img alt="" height="72" src="/static/cache/cultures/54/64.jpeg" width="54"/>
+     </picture>
+     <div class="breadcrumb__content">
+      <div class="breadcrumb__title">
+       Советская литература
+      </div>
+     </div>
+    </a>
+    <a class="breadcrumb breadcrumb_type_author" href="/sholohov/">
+     <picture class="breadcrumb__image portrait" style="background-color:#746455">
+      <source sizes="54px" srcset="/static/cache/authors/54/sholohov.avif 54w, /static/cache/authors/120/sholohov.avif 120w, /static/cache/authors/160/sholohov.avif 160w" type="image/avif"/>
+      <source sizes="54px" srcset="/static/cache/authors/54/sholohov.webp 54w, /static/cache/authors/120/sholohov.webp 120w, /static/cache/authors/160/sholohov.webp 160w" type="image/webp"/>
+      <img alt="" height="72" src="/static/cache/authors/54/sholohov.jpeg" width="54"/>
+     </picture>
+     <div class="breadcrumb__content breadcrumb__content_type_author">
+      <div class="breadcrumb__name">
+       Михаил Шолохов
+      </div>
+      <div class="breadcrumb__timespan" title="Родился в 1905 году, умер в 1984 году">
+       <noindex>
+        <span style="white-space:nowrap">
+         1905–1984
+        </span>
+       </noindex>
+      </div>
+     </div>
+    </a>
+   </nav>
+   <style>
+    .honey{position:relative;z-index:2}.honey.collapsed{display:none!important}.honey__disclaimer{font-size:11px;line-height:15px;color:#666;margin-bottom:3px;letter-spacing:2px;text-transform:uppercase}.honey__disclaimer_position_after{margin-top:6px;margin-bottom:0}.honey__wrapper{position:relative;z-index:2;background:#fff;width:max-content;margin:0 auto}.honey__wrapper:before{content:'';position:absolute;z-index:1;left:0;top:0;right:0;bottom:0;background-image:linear-gradient(to bottom,#eee,#eee 1px,transparent 1px,transparent),linear-gradient(to top,#eee,#eee 1px,transparent 1px,transparent);background-size:100% 1px,100% 1px;background-repeat:no-repeat;background-position:top,bottom}@supports (pointer-events:none) and (mix-blend-mode:darken){.honey__wrapper:after{content:'';position:absolute;z-index:3;left:0;top:0;right:0;bottom:0;background-image:linear-gradient(to bottom,#eee,#eee 1px,transparent 1px,transparent),linear-gradient(to top,#eee,#eee 1px,transparent 1px,transparent);background-size:100% 1px,100% 1px;background-repeat:no-repeat;background-position:top,bottom;mix-blend-mode:darken;pointer-events:none}}@media (resolution:2dppx){.honey__wrapper:before,.honey__wrapper:after{background-size:100% .5px,100% .5px}}@media (resolution:3dppx){.honey__wrapper:before,.honey__wrapper:after{background-size:100% .66px,100% .66px}}.honey__container{width:inherit;height:inherit;min-width:inherit;min-height:inherit;max-width:inherit;position:relative;z-index:2;display:flex;align-items:center;justify-content:center;contain:style paint}.honey__container_type_native{contain:none!important;height:auto!important}.honey__failed{align-items:center}.honey__failed::after{content:'×';font-size:60px;opacity:.1}.honey__failed_type_contextjs{color:red}div[id^='yandex_rtb'] div[data-visibility],div[id^='yandex_rtb'] div[data-videoslot],.honey yatag[data-id]{border-radius:0!important}.honey__container:empty{width:calc(100vw - 16px)}@media (min-width:360px){.honey__container:empty{width:calc(100vw - 24px)}}@media (min-width:384px){.honey__container:empty{width:calc(100vw - 48px)}}@media (min-width:680px){.honey__container:empty{width:auto}.honey__wrapper:before{background:none;border:1px solid #eee}@supports (pointer-events:none) and (mix-blend-mode:darken){.honey__wrapper:after{border:1px solid #eee;background:#fff}}@media (resolution:2dppx){.honey__wrapper:before,.honey__wrapper:after{border:0;box-shadow:inset 0 0 0 .5px #eee}}@media (resolution:3dppx){.honey__wrapper:before,.honey__wrapper:after{border:0;box-shadow:inset 0 0 0 .66px #ddd}}}.honey_placement_in-article{display:none;flex-direction:column;align-items:center;margin:24px -16px 34px}.honey__disclaimer_placement_in-article{padding-left:8px;padding-right:8px}.honey__wrapper_placement_in-article{margin:0;max-width:calc(100vw - 16px)}.honey__container_placement_in-article{min-width:300px;height:250px}@media (min-width:316px){.honey_placement_in-article{display:flex}}@media (min-width:352px){.honey__container_placement_in-article{min-width:336px;height:280px}}@media (min-width:360px){.honey__wrapper_placement_in-article{max-width:calc(100vw - 24px)}}@media (min-width:384px){.honey_placement_in-article{margin-left:0;margin-right:0}.honey__wrapper_placement_in-article{max-width:100%}}@media (min-width:680px){.honey_placement_in-article{float:right;clear:right;margin-left:48px}.honey__container_placement_in-article{min-width:inherit!important;width:300px!important;height:250px!important}.honey__container_placement_in-article{contain:size layout paint style}}@media (min-width:1024px){.honey_placement_in-article{margin-right:-100px}}.honey_placement_after-article{margin:0 0 36px;display:flex;flex-direction:column;min-width:300px}.honey__disclaimer_placement_after-article{text-align:center;max-width:300px;margin-left:auto;margin-right:auto;padding-left:8px;padding-right:8px}.honey__container_placement_after-article{min-width:300px;min-height:250px;contain:content}.honey__container_placement_after-article:empty{width:100vw}.honey__wrapper_placement_after-article{margin:0;align-self:center}@media (min-width:680px){.honey_placement_after-article{display:none}}.direct-interscroller{contain:none!important}
+   </style>
+   <article class="summary_box">
+    <style>
+     #content h1{display:block;font-size:40px;line-height:42px;font-weight:700;margin:0 auto 16px;max-width:560px}#content h1.short{font-size:60px;line-height:72px}#content h1.veryshort{font-size:70px;line-height:70px}@media (max-width:450px){#content h1.long{font-size:28px;line-height:32px}}#content h1 .divider{display:none}#content h1 .subtitle{display:block;max-width:300px;margin:10px auto 0;font-size:18px;line-height:24px;font-weight:400}#content h1 .subtitle.editorial{font-style:italic}.original_title{font-size:13px;line-height:18px;margin:0 auto 16px;max-width:300px;color:#666}.original_title_lang{font-style:italic}.original_title_text{unicode-bidi:embed}.original_title span[lang="ja"],.original_title span[lang="yi"],.original_title span[lang="ka"],.original_title span[lang="fa"],.original_title span[lang="ar"],.original_title span[lang="zh"]{font-size:125%;padding-left:3px}.original_title .date{white-space:nowrap}.titulus{text-align:center;margin-top:32px;margin-bottom:32px}.titulus .emoji{font-size:48px;line-height:100%;margin-top:42px;margin-bottom:16px}.inbrief{font-size:18px;line-height:24px;margin-bottom:5px}.inbrief a{text-decoration:none}.readingtime{font-size:13px;line-height:18px;color:#666;margin-bottom:8px;text-transform:lowercase}.readingtime a{color:#666;text-decoration:underline}.readingtime a:hover{color:#E20016}.sponsor{text-align:center;margin-bottom:24px;font-size:13px;line-height:18px;background:#FBF0C3;padding:12px 10%}.sponsor__label{display:inline-block}.sponsor__name{display:inline-block}.sponsor__name_smartreading{background:url(/static/ui/ic_smartreading.svg) no-repeat 2px 2px;background-size:20px 16px;padding-left:25px;padding-right:2px}.sponsor__name_makeright{background:url(https://makeright.ru/templates/mr/resources/img/favicon.png) no-repeat 2px 1px;background-size:16px 16px;padding-left:21px;padding-right:2px}@media (min-width:500px){.titulus{margin-top:24px}}
+    </style>
+    <div class="titulus">
+     <div class="title_and_meta">
+      <h1 class="entry-title long" id="title">
+       <span class="main">
+        Тихий Дон
+       </span>
+      </h1>
+      <div class="original_title">
+       <noindex>
+        <span class="date">
+         1928
+        </span>
+       </noindex>
+      </div>
+      <div class="inbrief">
+       Краткое содержание романа
+      </div>
+      <div class="readingtime">
+       Читается за 11 минут,
+       <span style="white-space: nowrap;">
+        <a href="https://www.litres.ru/book/mihail-sholohov/tihiy-don-tom-2-67922555/chitat-onlayn/?lfrom=2267795" id="orig_link" rel="noopener" target="_blank">
+         оригинал
+        </a>
+        — 48 ч
+       </span>
+      </div>
+     </div>
+    </div>
+    <style>
+     .microsummary{margin-bottom:32px;font-size:22px;line-height:30px}.microsummary__header{color:#fff;font-size:10px;line-height:20px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;background:#e20016;padding:0 6px;top:-1px;position:relative;display:inline-block;vertical-align:middle;border-radius:2px;margin-right:3px}.microsummary__divider{position:absolute;opacity:0}.microsummary__content{display:inline}
+    </style>
+    <section class="microsummary">
+     <header class="microsummary__header">
+      Сюжет
+      <span class="microsummary__divider">
+       :
+      </span>
+     </header>
+     <p class="microsummary__content">
+      Казак пережил Первую мировую войну, Революцию, Гражданскую войну, восстание донских казаков, воевал то с красными, то с белыми, но так и не понял, кто прав, потерял любимую женщину и остался ни с чем.
+     </p>
+    </section>
+    <style>
+     #toc{margin-bottom:36px}#toc+#toc{margin-top:-4px}#toc header{font-size:23px;line-height:26px;font-weight:700;margin-bottom:16px}#toc ul{margin-top:16px;margin-bottom:16px;font-size:18px;line-height:125%}#toc>ul>li>ul{font-size:15px;margin-left:32px;list-style-type:initial}#toc>ul>li>ul>li{break-inside:avoid}@media screen and (min-width:768px){#toc>ul>li>ul{column-count:2;column-gap:48px}}#toc>ul>li>ul>li>ul{font-size:13px}#toc li{margin-bottom:12px}#toc a{text-decoration-style:dashed}#toc .characters{font-size:15px;line-height:23px;margin-top:-5px}
+    </style>
+    <nav aria-labelledby="toc-heading" id="toc">
+     <header id="toc-heading">
+      Содержание
+     </header>
+     <ul>
+      <li>
+       <a href="#h2-1">
+        Очень краткое содержание
+       </a>
+      </li>
+      <li>
+       <a href="#h2-2">
+        Подробный пересказ по частям
+       </a>
+       <ul>
+        <li>
+         <a href="#h3-1">
+          <span class="chapter">
+           Книга 1
+           <span class="dot">
+            .
+           </span>
+          </span>
+          Григорий и Аксинья
+         </a>
+         <ul>
+          <li>
+           <a href="#h4-1">
+            <span class="chapter">
+             Часть 1
+             <span class="dot">
+              .
+             </span>
+            </span>
+            Начало любви
+           </a>
+          </li>
+          <li>
+           <a href="#h4-2">
+            <span class="chapter">
+             Часть 2
+             <span class="dot">
+              .
+             </span>
+            </span>
+            Любовный треугольник
+           </a>
+          </li>
+          <li>
+           <a href="#h4-3">
+            <span class="chapter">
+             Часть 3
+             <span class="dot">
+              .
+             </span>
+            </span>
+            Первая мировая война
+           </a>
+          </li>
+         </ul>
+        </li>
+        <li>
+         <a href="#h3-2">
+          <span class="chapter">
+           Книга 2
+           <span class="dot">
+            .
+           </span>
+          </span>
+          Метания Григория Мелехова
+         </a>
+         <ul>
+          <li>
+           <a href="#h4-4">
+            <span class="chapter">
+             Часть 4
+             <span class="dot">
+              .
+             </span>
+            </span>
+            Революция
+           </a>
+          </li>
+          <li>
+           <a href="#h4-5">
+            <span class="chapter">
+             Часть 5
+             <span class="dot">
+              .
+             </span>
+            </span>
+            Гражданская война. Начало казачьего бунта
+           </a>
+          </li>
+         </ul>
+        </li>
+        <li>
+         <a href="#h3-3">
+          <span class="chapter">
+           Книга 3
+           <span class="dot">
+            .
+           </span>
+          </span>
+          Григорий участвует в восстании
+         </a>
+         <ul>
+          <li>
+           <a href="#h4-6">
+            <span class="chapter">
+             Часть 6
+             <span class="dot">
+              .
+             </span>
+            </span>
+            Большое восстание на Дону
+           </a>
+          </li>
+         </ul>
+        </li>
+        <li>
+         <a href="#h3-4">
+          <span class="chapter">
+           Книга 4
+           <span class="dot">
+            .
+           </span>
+          </span>
+          Полное поражение Григория Мелехова
+         </a>
+         <ul>
+          <li>
+           <a href="#h4-7">
+            <span class="chapter">
+             Часть 7
+             <span class="dot">
+              .
+             </span>
+            </span>
+            Конец казачьего восстания и Гражданской войны
+           </a>
+          </li>
+          <li>
+           <a href="#h4-8">
+            <span class="chapter">
+             Часть 8
+             <span class="dot">
+              .
+             </span>
+            </span>
+            Потери Григория Мелехова
+           </a>
+          </li>
+         </ul>
+        </li>
+       </ul>
+      </li>
+     </ul>
+    </nav>
+    <nav aria-labelledby="toc-heading" id="toc">
+     <header id="toc-heading">
+      Главные герои
+     </header>
+     <p class="characters">
+      <a href="#character-0">
+       Григорий Мелехов
+      </a>
+      ·
+      <a href="#character-1">
+       Аксинья Астахова
+      </a>
+      ·
+      <a href="#character-2">
+       Пантелей Прокофьевич Мелехов
+      </a>
+      ·
+      <a href="#character-3">
+       Фёдор Подтёлков
+      </a>
+     </p>
+    </nav>
+    <style>
+     .cover-box{margin:0 -16px 32px}.cover-placeholder{display:block;position:relative;width:100%;min-height:50px}.cover-placeholder img{position:absolute;width:100%;height:100%}.cover-description{font-size:11px;line-height:13px;color:#666;margin:4px 16px 0}@media (min-width:360px){.cover-description{margin:4px 24px 0}.cover-box{margin-left:-24px;margin-right:-24px}}@media (min-width:500px){.cover-box,.cover-description{margin-left:0;margin-right:0}}
+    </style>
+    <figure class="cover-box">
+     <picture class="cover-placeholder" style="aspect-ratio:1.88;background-color:#7E716E">
+      <source sizes="(min-width: 776px) 720px, (min-width: 500px) calc(100vw - 48px), 100vw" srcset="/static/cache/films/360/37.avif 360w, /static/cache/films/720/37.avif 720w, /static/cache/films/1080/37.avif 1080w, /static/cache/films/1200/37.avif 1200w" type="image/avif"/>
+      <source sizes="(min-width: 776px) 720px, (min-width: 500px) calc(100vw - 48px), 100vw" srcset="/static/cache/films/360/37.webp 360w, /static/cache/films/720/37.webp 720w, /static/cache/films/1080/37.webp 1080w, /static/cache/films/1200/37.webp 1200w" type="image/webp"/>
+      <img alt="" height="384" src="/static/cache/films/720/37.jpeg" width="720"/>
+     </picture>
+     <figcaption class="cover-description">
+      Кадр из фильма «Тихий Дон» (1957)
+     </figcaption>
+    </figure>
+    <style>
+     #text{font-size:18px;line-height:25px}#text p{margin:0 0 1em}#text h2::before,#text h3::before,#text h4::before,#text h5::before{content:'';display:block;height:75px;margin-top:-75px;visibility:hidden}#text h2{font-size:32px;line-height:1.15em;margin:48px 0 18px}#text .section__cover{display:block;margin-bottom:13px}#text .section__cover img{display:block}#text h2 a{color:#000;text-decoration-color:rgba(0,0,0,.2);text-decoration-skip:ink}#text h2 a:hover{color:#b80000;text-decoration-color:rgba(255,0,0,.2)}#text .chapter{display:block;font-weight:400;font-size:13px;line-height:18px;margin:-10px 0 6px 0}#text .section-emoji{margin-right:.1em}#text h2 .chapter{margin-left:2px}#text h3 .chapter{margin-top:0}#text .chapter .dot{opacity:0}#text h3{font-size:24px;line-height:1.15em;font-weight:700;margin-top:36px;margin-bottom:16px}#text h4{font-size:18px;line-height:1.15em;font-weight:700;margin-top:36px;margin-bottom:12px}#text ul,#text ol{margin-bottom:1em;padding-left:24px}#text li{margin-bottom:.3em}#text ul li:before{content:'\2022';position:absolute;margin-left:-1em;color:#b80000}#text p.nb{font-size:13px;margin-left:10ex;margin-right:5ex;text-indent:-3.8ex;color:#666}#text p.lq{text-indent:-.55em}#text blockquote{margin:0 auto 1em;width:75%}#text blockquote.talk{width:auto;text-indent:-1.1em;margin-left:1.1em}#text blockquote.featured{font-size:26px;line-height:128%;background:#eee;width:auto;padding:24px 32px;margin:20px -16px;font-style:italic;font-family:Georgia,serif}.read-more{margin-bottom:1em}.read-more .short{font-weight:700;padding:4px 6px;margin:-4px -6px;background:#eee}.read-more .detailed{margin-left:10px}.read-more .original{margin-left:4px}.character{margin-top:20px;margin-bottom:20px;margin-left:24px!important}.character::before{content:'';display:block;height:70px;margin-top:-70px;visibility:hidden}.character__container{display:flex}.character__name{display:inline;font-weight:700}.character__description{display:inline;margin:0}.character__image,.character__emoji{flex-shrink:0;width:60px;height:80px;margin-top:2px;margin-left:-24px;margin-right:14px;border-radius:4px;overflow:hidden}.character__emoji{text-align:center;line-height:80px;font-size:40px;background:#efefef}.character__image img{width:100%;height:100%;object-fit:cover}.character__content{margin:0;align-self:center}@media (min-width:360px){#text blockquote.featured{margin-left:-24px;margin-right:-24px}#text blockquote.featured{padding-left:36px;padding-right:36px}}@media (min-width:500px){#text{line-height:28px}#text h2{font-size:36px}#text blockquote.featured{margin-left:0;margin-right:0}#text blockquote.featured{padding-left:48px;padding-right:48px}.character{margin-left:48px!important;margin-right:48px!important}.character__image,.character__emoji{margin-left:-49px}}audio{display:block;width:100%;outline:0;max-height:48px}audio::-webkit-media-controls,audio::-webkit-media-controls-enclosure,audio::-webkit-media-controls-panel{border-radius:4px;background:#eee;height:48px;max-height:48px}.section-cover{width:100%;display:inline-block;margin-top:-6px;margin-bottom:12px;position:relative;overflow:hidden}.section-cover img{position:absolute;width:100%;height:auto}@media (min-width:408px){.section-cover{width:360px}}@media (min-width:680px){.section-cover{width:280px}}
+    </style>
+    <div id="text">
+     <h2 id="h2-1">
+      Очень краткое содержание
+     </h2>
+     <p>
+      Григорий жил в хуторе на берегу Дона.
+     </p>
+     <div class="character" id="character-0">
+      <div class="character__container">
+       <picture class="character__image" style="aspect-ratio:1;background-color:#6B6767">
+        <source sizes="64px" srcset="/static/cache/characters/64/8940.avif 64w, /static/cache/characters/96/8940.avif 96w, /static/cache/characters/128/8940.avif 128w, /static/cache/characters/192/8940.avif 192w" type="image/avif"/>
+        <source sizes="64px" srcset="/static/cache/characters/64/8940.webp 64w, /static/cache/characters/96/8940.webp 96w, /static/cache/characters/128/8940.webp 128w, /static/cache/characters/192/8940.webp 192w" type="image/webp"/>
+        <img alt="" height="64" loading="lazy" src="/static/cache/characters/64/8940.jpeg" width="64"/>
+       </picture>
+       <dl class="character__content">
+        <dt class="character__name">
+         Григорий Мелехов
+        </dt>
+        <dd class="character__description">
+         — млад­ший сын Пан­те­лея Про­ко­фье­вича, моло­дой, высо­кий, смуг­лый и гор­бо­но­сый кра­са­вец, страст­ный и вспыль­чи­вый, но нере­ши­тель­ный, любит род­ной хутор.
+        </dd>
+       </dl>
+      </div>
+     </div>
+     <p>
+      Он любил Аксинью.
+     </p>
+     <div class="character" id="character-1">
+      <div class="character__container">
+       <picture class="character__image" style="aspect-ratio:1;background-color:#99867D">
+        <source sizes="64px" srcset="/static/cache/characters/64/8941.avif 64w, /static/cache/characters/96/8941.avif 96w, /static/cache/characters/128/8941.avif 128w, /static/cache/characters/192/8941.avif 192w" type="image/avif"/>
+        <source sizes="64px" srcset="/static/cache/characters/64/8941.webp 64w, /static/cache/characters/96/8941.webp 96w, /static/cache/characters/128/8941.webp 128w, /static/cache/characters/192/8941.webp 192w" type="image/webp"/>
+        <img alt="" height="64" loading="lazy" src="/static/cache/characters/64/8941.jpeg" width="64"/>
+       </picture>
+       <dl class="character__content">
+        <dt class="character__name">
+         Аксинья Астахова
+        </dt>
+        <dd class="character__description">
+         — соседка Меле­хо­вых, заму­жем, моло­дая, стат­ная, кра­си­вая тем­но­во­ло­сая, чер­но­гла­зая, с пол­ными губами, очень страст­ная, спо­собна на силь­ные чув­ства.
+        </dd>
+       </dl>
+      </div>
+     </div>
+     <p>
+      Когда муж Аксиньи надолго уехал, у них начался роман. Муж узнал и чуть не убил Аксинью, а Григория отец женил на нелюбимой.
+     </p>
+     <div aria-hidden="true" class="honey honey_placement_in-article honey_position_before-paragraph">
+      <div class="honey__disclaimer honey__disclaimer_placement_in-article">
+       Реклама
+      </div>
+      <div class="honey__wrapper honey__wrapper_placement_in-article">
+       <div class="honey__container honey__container_placement_in-article inArticle1" id="inArticle1">
+       </div>
+      </div>
+     </div>
+     <p>
+      Григорий не смог забыть Аксинью. После свадьбы их роман возобновился. Отец Григория выгнал сына из дому, тот нашёл место кучера в богатом поместье и ушёл туда вместе с Аксиньей.
+     </p>
+     <p>
+      Жена Григория совершила неудачную попытку самоубийства. Через полгода Аксинья родила дочь, а Григорий ушёл в армию.
+     </p>
+     <p>
+      Началась Первая мировая война. Григорий с трудом выносил убийства и насилие. Попав однажды в госпиталь, он познакомился с коммунистом и проникся его идеями.
+     </p>
+     <p>
+      Дочь Григория умерла, а Аксинья с горя стала любовницей сына хозяина поместья. Узнав об этом, Григорий вернулся к жене, быстро забыл о коммунистических идеях, стал героем войны, заслужил офицерское звание. Жена родила ему сына и дочь. Муж Аксиньи пропал на войне.
+     </p>
+     <p>
+      В том же году в России произошла революция, война закончилась. Григорий снова пристал к большевикам, но отступился от них, когда его командир без суда расправился с пленными. Когда казаки восстали против большевиков, Григорий присоединился к восстанию и стал одним из его руководителей.
+     </p>
+     <div aria-hidden="true" class="honey honey_placement_in-article honey_position_before-paragraph">
+      <div class="honey__disclaimer honey__disclaimer_placement_in-article">
+       Реклама
+      </div>
+      <div class="honey__wrapper honey__wrapper_placement_in-article">
+       <div class="honey__container honey__container_placement_in-article inArticle2" id="inArticle2">
+       </div>
+      </div>
+     </div>
+     <p>
+      Любовник Аксиньи женился, Аксинья вернулась к мужу, который побывал в немецком плену. Когда мужа демобилизовали, Аксинья снова сошлась с Григорием. Узнав об этом, его жена сделала аборт и умерла от большой кровопотери.
+     </p>
+     <p>
+      Красная армия подавила восстание. Григорий и Аксинья отступали за повстанческой армией. По дороге они заболели тифом. Аксинья осталась у чужих людей. Григорий добрался до моря, но за границу не уехал, а пошёл служить в Красную армию.
+     </p>
+     <p>
+      Григорию не простили прошлых ошибок и вскоре демобилизовали. Дома его хотел арестовать муж сестры, председатель хуторского ревкома. Григорий бежал и присоединился к банде недовольных продразвёрсткой.
+     </p>
+     <p>
+      Когда банду разгромили, Григорий и Аксинья подались на Кубань. Ночью их обстреляли и убили Аксинью.
+     </p>
+     <p>
+      Лето Григорий прожил в лесу среди дезертиров, а в октябре вернулся домой, к сыну.
+     </p>
+     <h2 id="h2-2">
+      Подробный пересказ по частям
+     </h2>
+     <p>
+      <em>
+       Названия книг и частей — условные.
+      </em>
+     </p>
+     <h3 id="h3-1">
+      <span class="chapter">
+       Книга 1
+       <span class="dot">
+        .
+       </span>
+      </span>
+      Григорий и Аксинья
+     </h3>
+     <h4 id="h4-1">
+      <span class="chapter">
+       Часть 1
+       <span class="dot">
+        .
+       </span>
+      </span>
+      Начало любви
+     </h4>
+     <div class="read-more">
+      <span class="short">
+       Кратко
+      </span>
+      <span class="detailed">
+       <a href="/sholohov/tikhiy_don_chast_1/" target="_blank">
+        Подробный пересказ
+       </a>
+      </span>
+     </div>
+     <p>
+      Пантелей Прокофьевич был сыном турчанки, которую его отец привёл с русско-турецкой войны.
+     </p>
+     <div class="character" id="character-2">
+      <div class="character__container">
+       <picture class="character__image" style="aspect-ratio:1;background-color:#524847">
+        <source sizes="64px" srcset="/static/cache/characters/64/8939.avif 64w, /static/cache/characters/96/8939.avif 96w, /static/cache/characters/128/8939.avif 128w, /static/cache/characters/192/8939.avif 192w" type="image/avif"/>
+        <source sizes="64px" srcset="/static/cache/characters/64/8939.webp 64w, /static/cache/characters/96/8939.webp 96w, /static/cache/characters/128/8939.webp 128w, /static/cache/characters/192/8939.webp 192w" type="image/webp"/>
+        <img alt="" height="64" loading="lazy" src="/static/cache/characters/64/8939.jpeg" width="64"/>
+       </picture>
+       <dl class="character__content">
+        <dt class="character__name">
+         Пантелей Прокофьевич Мелехов
+        </dt>
+        <dd class="character__description">
+         — казак, глава семьи Меле­хо­вых, смуг­лый, сухо­ща­вый, хро­мой и гор­бо­но­сый ста­рик, носит серьгу в ухе, хозяйствен­ный, очень вспыль­чи­вый, стро­гий и власт­ный, про­звище – Турок.
+        </dd>
+       </dl>
+      </div>
+     </div>
+     <p>
+      У него было два сына и дочь-подросток. Григорий Мелехов пошёл в отца и нравом, и внешностью. Он был влюблён в Аксинью Астахову и всячески преследовал её. Пантелей Прокофьевич был против отношений сына с замужней женщиной. Аксинью тянуло к Григорию, но она боялась мужа и как могла противилась этому влечению.
+     </p>
+     <div aria-hidden="true" class="honey honey_placement_in-article honey_position_before-paragraph">
+      <div class="honey__disclaimer honey__disclaimer_placement_in-article">
+       Реклама
+      </div>
+      <div class="honey__wrapper honey__wrapper_placement_in-article">
+       <div class="honey__container honey__container_placement_in-article inArticle3" id="inArticle3">
+       </div>
+      </div>
+     </div>
+     <p>
+      Их роман начался, когда муж Аксиньи уехал в лагерь на военные учения. Слух об их отношениях быстро дошёл до лагеря. Узнав о бесстыдном поведении сына, Пантелей Прокофьевич решил немедленно женить его.
+     </p>
+     <p>
+      Вернувшись из лагеря, муж Аксиньи чуть не убил её, а к Мелеховым стал относиться враждебно.
+     </p>
+     <p>
+      Пантелей Прокофьевич посватал сыну невесту из богатой семьи. Григорий смирился с решением отца и порвал с Аксиньей.
+     </p>
+     <p>
+      Уже на свадьбе Григорий понял, что невеста ему совсем не нравится. Аксинья же решила отбить Григория у молодой жены.
+     </p>
+     <h4 id="h4-2">
+      <span class="chapter">
+       Часть 2
+       <span class="dot">
+        .
+       </span>
+      </span>
+      Любовный треугольник
+     </h4>
+     <div class="read-more">
+      <span class="short">
+       Кратко
+      </span>
+      <span class="detailed">
+       <a href="/sholohov/tikhiy_don_chast_2/" target="_blank">
+        Подробный пересказ
+       </a>
+      </span>
+     </div>
+     <p>
+      Григорий так и не смог полюбить жену, всё время вспоминал Аксинью. Его родители, напротив, полюбили тихую и послушную женщину, как дочь. Однажды Григорий сказал жене, что не любит её. Аксинья тем временем помирилась с мужем, но не могла забыть Григория.
+     </p>
+     <p>
+      Через несколько месяцев Григорий случайно встретился с Аксиньей на лесной дороге. Женщина призналась, что не может жить без него, и у них снова начался роман.
+     </p>
+     <blockquote class="featured">
+      — Ну, Гриша, как хошь, жить без тебя моченьки нету, — твёрдо выговорила она и накрепко сжала губы, ожидая ответа.
+     </blockquote>
+     <div aria-hidden="true" class="honey honey_placement_in-article honey_position_before-paragraph">
+      <div class="honey__disclaimer honey__disclaimer_placement_in-article">
+       Реклама
+      </div>
+      <div class="honey__wrapper honey__wrapper_placement_in-article">
+       <div class="honey__container honey__container_placement_in-article inArticle4" id="inArticle4">
+       </div>
+      </div>
+     </div>
+     <p>
+      Узнав об этом, жена решила уйти от Григория. Пантелей Прокофьевич встал на её сторону и выгнал Григория из дому. Тот нашёл работу кучера в богатом поместье и переехал туда вместе с Аксиньей, удравшей от мужа. Она не сказала Григорию, что беременна, поскольку не знала, от кого. Муж Аксиньи поклялся убить Григория.
+     </p>
+     <p>
+      Жена Григория поняла, что муж к ней не вернётся, и попыталась убить себя. Попытка не удалась.
+     </p>
+     <p>
+      Через полгода Аксинья родила девочку. Затем Григорию пришла пора уходить в армию. Его приняли в 12-й казачий полк.
+     </p>
+     <h4 id="h4-3">
+      <span class="chapter">
+       Часть 3
+       <span class="dot">
+        .
+       </span>
+      </span>
+      Первая мировая война
+     </h4>
+     <div class="read-more">
+      <span class="short">
+       Кратко
+      </span>
+      <span class="detailed">
+       <a href="/sholohov/tikhiy_don_chast_3/" target="_blank">
+        Подробный пересказ
+       </a>
+      </span>
+     </div>
+     <p>
+      Жена Григория надеялась на возвращение мужа и жила у его родителей. Пантелей Прокофьевич надеялся помирить супругов.
+     </p>
+     <p>
+      Полк Григория стоял на русско-австрийской границе. Он увидел, как казаки насиловали девушку, попытался вступиться, но его связали. Это долго мучило его.
+     </p>
+     <p>
+      Когда началась Первая мировая война, под мобилизацию попал брат Григория. В первом бою Григорий убил безоружного австрийца, из-за чего долго мучился, не мог уснуть. Ненадолго встретившись с братом, Григорий пожаловался, что тяжело ему на душе.
+     </p>
+     <blockquote class="featured">
+      — Я, Петро, уморился душой. Я зараз будто недобитый какой… Будто под мельничными жерновами побывал, перемяли они меня и выплюнули.
+     </blockquote>
+     <div aria-hidden="true" class="honey honey_placement_in-article honey_position_before-paragraph">
+      <div class="honey__disclaimer honey__disclaimer_placement_in-article">
+       Реклама
+      </div>
+      <div class="honey__wrapper honey__wrapper_placement_in-article">
+       <div class="honey__container honey__container_placement_in-article inArticle5" id="inArticle5">
+       </div>
+      </div>
+     </div>
+     <p>
+      Вскоре Григорий совершил подвиг — вытащил с поля боя раненого офицера и был награждён Георгиевским крестом. Затем Григорий повредил глаз, попал в московскую глазную лечебницу, где познакомился с коммунистом. Тот быстро заразил Григория коммунистическими идеями.
+     </p>
+     <p>
+      Тем временем дочь Григория умерла от скарлатины. С горя и от одиночества Аксинья стала любовницей сына хозяина поместья. Приехав в отпуск, Григорий узнал об этом и вернулся к жене.
+     </p>
+     <h3 id="h3-2">
+      <span class="chapter">
+       Книга 2
+       <span class="dot">
+        .
+       </span>
+      </span>
+      Метания Григория Мелехова
+     </h3>
+     <h4 id="h4-4">
+      <span class="chapter">
+       Часть 4
+       <span class="dot">
+        .
+       </span>
+      </span>
+      Революция
+     </h4>
+     <div class="read-more">
+      <span class="short">
+       Кратко
+      </span>
+      <span class="detailed">
+       <a href="/sholohov/tikhiy_don_chast_4/" target="_blank">
+        Подробный пересказ
+       </a>
+      </span>
+     </div>
+     <p>
+      Побыв дома, Григорий забыл о коммунистических идеях и на фронт отправился «добрым казаком». За время войны Григорий прослыл храбрецом и заслужил четыре Георгиевских креста. Сначала он с болью вспоминал об Аксинье, но со временем сердце его огрубело, он стал жёстким и безжалостным.
+     </p>
+     <p>
+      В Восточной Пруссии Григорий столкнулся с мужем Аксиньи и спас его — вывел, раненого, из окружения. Но расстались они непримирёнными.
+     </p>
+     <p>
+      Тем временем жена Григория родила двойню — мальчика и девочку.
+     </p>
+     <div aria-hidden="true" class="honey honey_placement_in-article honey_position_before-paragraph">
+      <div class="honey__disclaimer honey__disclaimer_placement_in-article">
+       Реклама
+      </div>
+      <div class="honey__wrapper honey__wrapper_placement_in-article">
+       <div class="honey__container honey__container_placement_in-article inArticle6" id="inArticle6">
+       </div>
+      </div>
+     </div>
+     <p>
+      Муж Аксиньи отправился выполнять задание, не вернулся, и его посчитали погибшим.
+     </p>
+     <p>
+      Русский император отрёкся от престола, и власть перешла к Временному правительству. Солдаты надеялись, что теперь война закончится, но мир не был заключён.
+     </p>
+     <p>
+      Верховный главнокомандующий попытался взять власть в свои руки и избавить Россию от большевиков, потерпел поражение, но не сдался. Однажды ночью он бежал из-под ареста.
+     </p>
+     <p>
+      Осенью произошла революция. Власть перешла к рабочим. Фронт сразу развалился, и казаки вернулись домой.
+     </p>
+     <h4 id="h4-5">
+      <span class="chapter">
+       Часть 5
+       <span class="dot">
+        .
+       </span>
+      </span>
+      Гражданская война. Начало казачьего бунта
+     </h4>
+     <div class="read-more">
+      <span class="short">
+       Кратко
+      </span>
+      <span class="detailed">
+       <a href="/sholohov/tikhiy_don_chast_5/" target="_blank">
+        Подробный пересказ
+       </a>
+      </span>
+     </div>
+     <p>
+      После революции Григорий снова перешёл на сторону большевиков, поддавшись влиянию Подтёлкова. Тем временем Верховный главнокомандующий обосновался в Новочеркасске и собрал Добровольческую армию для сопротивления большевикам. Началась Гражданская война. Григорий воевал на стороне большевиков.
+     </p>
+     <p>
+      Однажды большевики под командованием Подтёлкова разбили карательный отряд Добровольческой армии.
+     </p>
+     <div class="character" id="character-3">
+      <div class="character__container">
+       <picture class="character__image" style="aspect-ratio:1;background-color:#605955">
+        <source sizes="64px" srcset="/static/cache/characters/64/9001.avif 64w, /static/cache/characters/96/9001.avif 96w, /static/cache/characters/128/9001.avif 128w, /static/cache/characters/192/9001.avif 192w" type="image/avif"/>
+        <source sizes="64px" srcset="/static/cache/characters/64/9001.webp 64w, /static/cache/characters/96/9001.webp 96w, /static/cache/characters/128/9001.webp 128w, /static/cache/characters/192/9001.webp 192w" type="image/webp"/>
+        <img alt="" height="64" loading="lazy" src="/static/cache/characters/64/9001.jpeg" width="64"/>
+       </picture>
+       <dl class="character__content">
+        <dt class="character__name">
+         Фёдор Подтёлков
+        </dt>
+        <dd class="character__description">
+         — казак, плот­ный, круп­ный, широ­копле­чий, свет­ло­во­ло­сый, с малень­кими узкими гла­зами, боль­ше­вик, очень жёст­кий и власт­ный.
+        </dd>
+       </dl>
+      </div>
+     </div>
+     <p>
+      Пленных офицеров Подтёлков велел расстрелять без суда и следствия. Григорий не одобрил такую расправу. Воспользовавшись ранением, он уехал домой.
+     </p>
+     <div aria-hidden="true" class="honey honey_placement_in-article honey_position_before-paragraph">
+      <div class="honey__disclaimer honey__disclaimer_placement_in-article">
+       Реклама
+      </div>
+      <div class="honey__wrapper honey__wrapper_placement_in-article">
+       <div class="honey__container honey__container_placement_in-article inArticle7" id="inArticle7">
+       </div>
+      </div>
+     </div>
+     <p>
+      Красноармейцы получили подкрепление и начали побеждать. Верховный главнокомандующий понял, что проиграл, и застрелился.
+     </p>
+     <p>
+      Весной отряд красноармейцев ограбил уединённый хутор. Казаки собрались и уничтожили отряд. В низовьях Дона началось большое казачье восстание. Подтёлков организовал экспедицию в верховья Дона, надеясь навербовать добровольцев, но опоздал — бунт начался и там.
+     </p>
+     <p>
+      Григорий перешёл на сторону казаков и под командованием своего брата разбил отряд Подтёлкова. Большевиков расстреляли, самого Подтёлкова повесили. Перед казнью Григорий напомнил ему о расправе над пленными офицерами.
+     </p>
+     <blockquote class="featured">
+      — Помнишь, как офицеров стреляли… По твоему приказу стреляли! А? Теперича тебе отрыгивается! Ну, не тужи! Не одному тебе чужие шкуры дубить!
+     </blockquote>
+     <h3 id="h3-3">
+      <span class="chapter">
+       Книга 3
+       <span class="dot">
+        .
+       </span>
+      </span>
+      Григорий участвует в восстании
+     </h3>
+     <h4 id="h4-6">
+      <span class="chapter">
+       Часть 6
+       <span class="dot">
+        .
+       </span>
+      </span>
+      Большое восстание на Дону
+     </h4>
+     <div class="read-more">
+      <span class="short">
+       Кратко
+      </span>
+      <span class="detailed">
+       <a href="/sholohov/tikhiy_don_chast_6/" target="_blank">
+        Подробный пересказ
+       </a>
+      </span>
+     </div>
+     <p>
+      Весной 1918 года области нижнего Дона отделились. Там выбрали своего атамана, который мечтал об автономии и надеялся на помощь Европы. Образовалась Донская армия, где служили и братья Мелеховы.
+     </p>
+     <div aria-hidden="true" class="honey honey_placement_in-article honey_position_before-paragraph">
+      <div class="honey__disclaimer honey__disclaimer_placement_in-article">
+       Реклама
+      </div>
+      <div class="honey__wrapper honey__wrapper_placement_in-article">
+       <div class="honey__container honey__container_placement_in-article inArticle8" id="inArticle8">
+       </div>
+      </div>
+     </div>
+     <p>
+      Помещик, любовник Аксиньи, привёз домой молодую жену. Аксинье пришлось уйти. В это время вернулся муж Аксиньи, который не погиб, а попал в плен и долго жил в Германии. Аксинья вернулась к нему.
+     </p>
+     <p>
+      Григорий устал воевать с превосходящими силами Красной армии и дезертировал, но скоро ему пришлось бежать от занявших Татарский красных, которые узнали, что он бывший офицер.
+     </p>
+     <p>
+      В занятых станицах красные начали расстреливать кулаков, и казачество взбунтовалось. Григорий присоединился к восстанию и стал одним их его руководителей.
+     </p>
+     <blockquote class="featured">
+      За кусок хлеба, за делянку земли, за право на жизнь всегда боролись люди и будут бороться, пока светит им солнце… Надо биться с тем, кто хочет отнять жизнь, право на неё…
+     </blockquote>
+     <p>
+      Брат Григория погиб — его взяли в плен красные и расстреляли.
+     </p>
+     <p>
+      Григорий снова сошёлся с Аксиньей и забрал её с собой, но вскоре они опять поссорились.
+     </p>
+     <p>
+      Постепенно Красная армия оттеснила повстанцев к Дону.
+     </p>
+     <h3 id="h3-4">
+      <span class="chapter">
+       Книга 4
+       <span class="dot">
+        .
+       </span>
+      </span>
+      Полное поражение Григория Мелехова
+     </h3>
+     <h4 id="h4-7">
+      <span class="chapter">
+       Часть 7
+       <span class="dot">
+        .
+       </span>
+      </span>
+      Конец казачьего восстания и Гражданской войны
+     </h4>
+     <div class="read-more">
+      <span class="short">
+       Кратко
+      </span>
+      <span class="detailed">
+       <a href="/sholohov/tikhiy_don_chast_7/" target="_blank">
+        Подробный пересказ
+       </a>
+      </span>
+     </div>
+     <p>
+      После ссоры с Григорием, Аксинья снова вернулась к мужу, но не смогла забыть любимого. Тем временем Донская и повстанческая армии соединились. Григорию не нравилось, что белые офицеры ведут себя по-старому и презрительно относятся к низшим чинам, не понимая, что всё изменилось. Однажды он отказался подчиняться приказу белого генерала и вести своих казаков на верную смерть.
+     </p>
+     <div aria-hidden="true" class="honey honey_placement_in-article honey_position_before-paragraph">
+      <div class="honey__disclaimer honey__disclaimer_placement_in-article">
+       Реклама
+      </div>
+      <div class="honey__wrapper honey__wrapper_placement_in-article">
+       <div class="honey__container honey__container_placement_in-article inArticle9" id="inArticle9">
+       </div>
+      </div>
+     </div>
+     <p>
+      Жена Григория узнала, что муж снова сошёлся с Аксиньей. Женщина была беременна, но рожать от неверного мужа не захотела, сделала неудачный аборт и умерла от сильного кровотечения. Для Григория это стало большим горем.
+     </p>
+     <p>
+      Красная армия наступала. Пантелей Прокофьевич, попавший на фронт по всеобщей мобилизации, дезертировал и долго скрывался, но когда фронт отступил от Татарского, вернулся домой. Тогда же ординарец привёз домой Григория, больного тифом.
+     </p>
+     <p>
+      Выздоровев, Григорий отказался воевать. Он и Пантелей Прокофьевич решили отступать вслед за Донской армией, а женщин и детей оставить дома.
+     </p>
+     <p>
+      Григорий взял с собой Аксинью. По дороге она заболела тифом, и её пришлось оставить у чужих людей. Пантелей Прокофьевич умер от возвратного тифа. Григорий тоже заболел. Ординарец с трудом довёз его до Новороссийска. Оттуда Григорий мог бы уехать в Турцию или уйти в Крым, но решил остаться.
+     </p>
+     <h4 id="h4-8">
+      <span class="chapter">
+       Часть 8
+       <span class="dot">
+        .
+       </span>
+      </span>
+      Потери Григория Мелехова
+     </h4>
+     <div class="read-more">
+      <span class="short">
+       Кратко
+      </span>
+      <span class="detailed">
+       <a href="/sholohov/tikhiy_don_chast_8/" target="_blank">
+        Подробный пересказ
+       </a>
+      </span>
+     </div>
+     <p>
+      Аксинья выжила и вернулась домой. Григория приняли в Красную армию. Он служил с полной самоотдачей, стараясь исправить прошлые ошибки, но ему не доверяли и комиссовали, использовав ранение как повод.
+     </p>
+     <p>
+      Дома Григорий быстро понял, что за участие в восстании ему придётся ответить. Главным его врагом стал муж сестры, председатель хуторского ревкома. Он попытался арестовать Григория, но сестра предупредила брата, и он успел сбежать.
+     </p>
+     <p>
+      Месяц Григорий прятался у дальних родственников, а потом присоединился к группе казаков, недовольных продразвёрсткой. Руководитель группы пытался поднять крестьян на новое восстание, но люди за ним не пошли. Отряд превратился в банду и был разгромлен красноармейцами.
+     </p>
+     <div aria-hidden="true" class="honey honey_placement_in-article honey_position_before-paragraph">
+      <div class="honey__disclaimer honey__disclaimer_placement_in-article">
+       Реклама
+      </div>
+      <div class="honey__wrapper honey__wrapper_placement_in-article">
+       <div class="honey__container honey__container_placement_in-article inArticle10" id="inArticle10">
+       </div>
+      </div>
+     </div>
+     <p>
+      Григорий с уцелевшими бандитами долго прятался на острове посреди Дона. Потом банда возродилась, но Григорий покинул её, отправился в Татарский, забрал Аксинью и вместе с ней подался на Кубань. Ночью они нарвались на заставу продотряда, их обстреляли и убили Аксинью.
+     </p>
+     <blockquote class="featured">
+      …вставало… солнце. Лучи его серебрили густую седину на… голове Григория… Словно пробудившись от тяжкого сна, он поднял голову и увидел над собой чёрное небо и ослепительно сияющий чёрный диск солнца.
+     </blockquote>
+     <p>
+      Лето Григорий прожил в лесу среди дезертиров, а в октябре вернулся домой, к сыну.
+     </p>
+    </div>
+    <div class="source">
+     Пересказала
+     <a href="/narrators/peskovaya/">
+      Юлия Песковая
+     </a>
+     . За основу пересказа взято издание романа из
+     <a href="http://feb-web.ru/feb/sholokh/default.asp?/feb/sholokh/texts/sh0/sh0.html" target="_blank">
+      собрания сочинений Шолохова в 8 томах
+     </a>
+     (М.: ГИХЛ, 1956—1960).
+Нашли ошибку? Пожалуйста,
+     <a href="https://wiki.briefly.ru/%D0%A2%D0%B8%D1%85%D0%B8%D0%B9_%D0%94%D0%BE%D0%BD_(%D0%A8%D0%BE%D0%BB%D0%BE%D1%85%D0%BE%D0%B2)" target="_blank">
+      отредактируйте этот пересказ
+     </a>
+     в Народном Брифли.
+    </div>
+   </article>
+   <style>
+    .source{font-size:11px;line-height:15px;margin-top:-10px;color:#666}.source a,.teller a{color:#666!important;text-decoration:underline!important;box-shadow:none!important}.source a:hover,.teller a:hover{color:#b80000!important}.teller{margin-top:20px;font-size:11px;color:#666;white-space:nowrap}.teller-space{display:inline-block;width:13px}#rating{font-size:13px;line-height:18px;margin-bottom:24px;margin-top:16px}#rating h2{margin-top:20px}#rating .desc{margin-bottom:10px;max-width:32em}#rating #comments_link{display:flex;color:#666;align-items:center;align-self:start;margin:4px 0 0 1px;padding:3px 8px}#rating #comments_link .emoji{font-size:24px;line-height:28px}#rating #comments_link .label{font-size:13px;line-height:14px;margin-left:6px;text-align:left}#disqus_box{margin-bottom:30px;min-height:250px}#disqus_box.hidden{display:none}#disqus_thread{line-height:15px;overflow:hidden}#disqus_box .hc.hc_root{padding:0!important}#disqus_box #hc_footer{display:none!important}#disqus_box .hc .hc_menu_active,.hc .hc_menu_active:hover{border:0!important}#disqus_box .hc .hc_menu{font-size:23px!important;line-height:23px!important;font-weight:bold!important;letter-spacing:-0.05em!important}#disqus_box .hc .hc_menu_box{margin-bottom:-12px!important}.shelf{max-width:720px;margin:0 auto 32px;padding:0 16px;position:relative;z-index:0}.shelf h2{font-size:23px;line-height:26px;font-weight:700;margin-bottom:2px}.shelf .desc{font-size:13px;line-height:18px}.context-things h2{margin-bottom:6px}@media (min-width:1024px){.context-things{display:flex;margin:0 auto;padding:0;width:max-content;min-width:720px;max-width:1424px}.context-things .shelf{margin:0 0 32px 28px;padding:0;max-width:350px}.context-things .shelf:first-child{margin-left:0}}@media (min-width:360px){.shelf{padding-left:24px;padding-right:24px}}.intervention-warning{background:darkred;color:#fff;padding:10px 20px}
+   </style>
+   <div class="shelf" id="rating">
+    <style>
+     #rating__container{display:flex;margin:0;padding:0}#rating__container .button{padding:6px 10px;display:flex;align-items:center}#rating__container .button__emoji{font-size:24px;position:relative}#rating__container .button__count{font-size:12px;margin-left:6px}#rating__container .button_type_dislike .button__count{display:none}.button_type_comments{margin-left:16px}.button_position_start{border-top-right-radius:0;border-bottom-right-radius:0;margin-right:-1px}.button_position_middle{border-radius:0;margin-right:-1px}.button_position_end{border-top-left-radius:0;border-bottom-left-radius:0}
+    </style>
+    <div data-id="3ac0f205e81850503b4d16e62c169923" id="rating__container">
+     <button aria-label="Нравится" aria-pressed="false" class="button button_position_start button_type_like" disabled="" name="score" value="1">
+      <span class="button__emoji" style="top: -2px;">
+       👍
+      </span>
+      <span class="button__count">
+       171
+      </span>
+     </button>
+     <button aria-label="Не нравится" aria-pressed="false" class="button button_position_end button_type_dislike" disabled="" name="score" value="2">
+      <span class="button__emoji" style="top: 2px;">
+       👎
+      </span>
+      <span class="button__count">
+       30
+      </span>
+     </button>
+     <button class="button button_type_comments" disabled="" type="button">
+      <span class="button__emoji">
+       💬
+      </span>
+      <span class="button__count">
+       32
+      </span>
+     </button>
+    </div>
+    <script defer="" src="/static/js/ratings.js?1706724003">
+    </script>
+   </div>
+   <div class="shelf hidden" id="disqus_box">
+    <h2>
+     Что скажете о пересказе?
+    </h2>
+    <p class="desc">
+     Что было непонятно? Нашли ошибку в тексте? Есть
+идеи, как лучше пересказать эту книгу? Пожалуйста, пишите. Сделаем
+пересказы более понятными, грамотными и интересными.
+    </p>
+    <div id="disqus_thread">
+    </div>
+    <script>
+     window.disqus_config = function () {
+                this.page.url = 'https://briefly.ru/sholohov/tihy_don/';
+                this.page.identifier = '131';
+            };
+
+            const disqus_shortname = 'briefly-ru';
+            const disqus_identifier = 131;
+            const disqus_url = 'https://briefly.ru/sholohov/tihy_don/';
+    </script>
+   </div>
+   <div class="honey honey_placement_after-article">
+    <div class="honey__disclaimer honey__disclaimer_placement_after-article">
+     Реклама
+    </div>
+    <div class="honey__wrapper honey__wrapper_placement_after-article">
+     <div class="honey__container honey__container_placement_after-article" id="afterArticle">
+     </div>
+    </div>
+   </div>
+   <script defer="" src="/static/js/honeybadger.js?1713238097">
+   </script>
+   <link as="script" href="https://yandex.ru/ads/system/context.js" rel="preload"/>
+   <link as="script" href="https://yandex.ru/ads/system/header-bidding.js" rel="preload"/>
+   <style>
+    #cinema{width:100%;overflow:hidden}#cinema .versions{display:flex;justify-content:center;margin:0;padding:6px 12px 0;background:#eee;overflow:hidden}#cinema .versions .film-year{padding:0 10px;font-size:13px;line-height:30px;margin:0 0 0 1px;border-radius:2px 2px 0 0}#cinema .versions .film-year:first-child{margin-left:0!important}#cinema .versions .film-year:before{display:none}#cinema .versions .film-year.link{cursor:pointer;background:#ddd}#cinema .versions .film-year.link:hover{background:#fff}#cinema .versions .film-year.current{font-weight:700;background:#000;color:#fff}#cinema .desc{font-size:13px;line-height:16px;padding:8px 12px;background:#000;color:#fff}#cinema .frame{position:relative;padding-top:75%;overflow:hidden}@media (min-width:720px){#cinema .versions{justify-content:start}#cinema .frame{padding-top:54%}}#cinema .frame .curtain{display:flex;align-items:center;justify-content:center;background:#000;position:absolute;top:10px;left:10px;right:10px;bottom:2px;z-index:3}#cinema .frame .curtain .play{width:100px;height:100px;background:rgba(0,0,0,.33);border-radius:100%;position:relative;z-index:5;display:flex;align-items:center;justify-content:center}#cinema .frame .curtain .play:after{content:'';display:block;width:45px;height:55px;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='17' height='20'><polygon points='0,0 17,10 0,20' fill='white' /></svg>") no-repeat center center;background-size:100% 100%;margin-left:10%}#cinema .frame .curtain.hidden{display:none}#cinema .frame .curtain:hover{cursor:pointer}#cinema .frame .curtain:hover .play{background:rgba(0,0,0,.5)}#cinema .frame .curtain .image{position:absolute;top:0;left:0;width:100%;height:100%;z-index:2}#cinema .frame .curtain .image img{width:100%;height:100%;object-fit:contain}#cinema .frame .curtain .preview{position:absolute;top:0;left:0;width:100%;height:100%;z-index:3;object-fit:contain}#cinema .frame .curtain .viqeo-slot{position:absolute;top:0;left:0;width:100%;height:100%;z-index:4;object-fit:contain;background:#000;display:flex;align-items:center;justify-content:center}#cinema .frame .curtain .source{position:absolute;right:0;bottom:0;background:#000;color:#fff;padding:5px 8px;font-size:11px;line-height:13px;opacity:.5;z-index:5}#cinema .frame .content{display:block;background:#000;position:absolute;top:0;left:0;width:100%;height:100%;z-index:1}#cinema .film-box.hidden{display:none}#youtubePreroll{display:none;background:#000;position:absolute;top:0;left:0;width:100%;height:100%;z-index:2}#cinema .frame #youtubePreroll{display:block}#youtubePreroll #youtubePrerollIframe,#youtubePreroll #youtubePrerollIframe iframe{background:#000;position:absolute;top:0;left:0;width:100%;height:100%;z-index:1}#youtubePreroll .ad-disclaimer{position:absolute;top:0;left:12px;z-index:2;font-size:11px;color:#fff;padding:6px 12px;background:#000}#youtubePreroll .skip-ad{position:absolute;bottom:12px;right:0;z-index:3;font-size:11px;color:#fff;padding:8px 12px;border:1px solid rgba(255,255,255,.3);border-right-width:0;cursor:pointer;background:#000}#youtubePreroll .skip-ad:hover{background:#000;border-color:#fff}
+   </style>
+   <style>
+    .audiobooks-widget{position:relative;width:calc(100vw - 16px);max-width:720px}@supports (pointer-events:none) and (mix-blend-mode:darken){.audiobooks-widget__item{position:relative}.audiobooks-widget__item::after{content:'';position:absolute;z-index:3;left:0;top:0;right:0;height:1px;box-shadow:inset 0 1px 0 #eee;mix-blend-mode:darken;pointer-events:none}@media (resolution:2dppx){.audiobooks-widget__item::after{box-shadow:inset 0 .5px 0 #eee}}@media (resolution:3dppx){.audiobooks-widget__item::after{box-shadow:inset 0 .66px 0 #ddd}}}.accordion__item_state_expanded .accordion__item-content_type_expanded{display:block}.accordion__item_state_expanded .accordion__item-content_type_collapsed{display:none}.accordion__item_state_collapsed .accordion__item-content_type_expanded{display:none}.accordion__item_state_collapsed .accordion__item-content_type_collapsed{display:block}.accordion__item_state_expanded{box-shadow:0 1px 5px -1px rgba(0,0,0,.12);z-index:3}.audiobook-card{display:inline-block;width:100%;font-size:13px;line-height:17px}.audiobook-card__cover{float:right;margin:14px 14px 10px 12px;overflow:hidden;border-radius:4px;flex-shrink:0}.audiobook-card__cover picture{display:block;position:relative;width:100%;height:0}.audiobook-card__cover img{display:block;position:absolute;width:100%;height:100%;background-color:#eee}.audiobook-card__cover_aspect-ratio-bucket_square{width:100px}.audiobook-card__cover_aspect-ratio-bucket_tall{width:80px}.audiobook-card__cover_aspect-ratio-bucket_wide{width:120px}.audiobook-card__title{font-size:19px;line-height:20px;margin:14px 14px 8px}.audiobook-card__description{margin:0 14px 8px}.audiobook-card__free-fragment-title{margin:0 14px 2px}.audiobook-card__free-fragment-player{clear:both;margin:0 14px 5px}.audiobook-card__offers{display:flex;margin:0 9px 9px}.audiobook-card__offer{flex-basis:auto;margin:5px}.audiobook-card__offer-details{font-size:11px;line-height:13px;color:#666;margin-top:3px}.audiobook-minicard{display:flex;align-items:center;width:100%;height:39px;overflow:hidden;cursor:pointer;background:rgba(0,0,0,.02);font-size:13px;line-height:17px}.audiobook-minicard:hover{background:#fff}.audiobook-minicard__cover{width:43px;height:39px;order:1;position:relative}.audiobook-minicard__cover img{position:absolute;left:0;top:0;width:100%;height:100%}.audiobook-minicard__cover_aspect-ratio-bucket_square img{object-fit:cover}.audiobook-minicard__cover_aspect-ratio-bucket_tall img,.audiobook-minicard__cover_aspect-ratio-bucket_wide img{object-fit:contain}.audiobook-minicard__play-button{flex-shrink:0;width:9px;height:11px;margin:0 12px 0 16px;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='17' height='20'><polygon points='0,0 17,10 0,20' /></svg>");background-repeat:no-repeat;background-position:center center;background-size:100% 100%}.audiobook-minicard__readers{width:48px;flex-grow:1;margin-right:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.audiobook-minicard__duration{margin-right:8px;text-align:right;white-space:nowrap}.audiobook-minicard__duration span{font-family:Lucida Grande,monospace}.shelf .audiobooks-widget{width:calc(100vw - 32px)}@supports (pointer-events:none) and (pointer-events:none){.shelf .audiobooks-widget:after{content:'';position:absolute;z-index:3;left:0;top:0;right:0;bottom:0;border:1px solid #eee;mix-blend-mode:darken;pointer-events:none}@media (resolution:2dppx){.shelf .audiobooks-widget:after{border:0;box-shadow:inset 0 0 0 .5px #eee}}@media (resolution:3dppx){.shelf .audiobooks-widget:after{border:0;box-shadow:inset 0 0 0 .66px #ddd}}}@media (min-width:360px){.audiobooks-widget{width:calc(100vw - 24px)}.shelf .audiobooks-widget{width:calc(100vw - 48px)}}@media (min-width:385px){.audiobooks-widget{width:calc(100vw - 48px)}}@media (min-width:776px){.audiobooks-widget{width:100%!important}}
+   </style>
+   <style>
+    a.partner-button{--box-shadow-outside:0 0 0 transparent;--box-shadow-inside:inset 0 -1px 2px rgba(0,0,0,0.08);border:1px solid rgba(0,0,0,.15);border-radius:4px;box-shadow:var(--box-shadow-inside),var(--box-shadow-outside);color:#000;text-decoration:none;display:inline-block;font-size:16px;line-height:16px;padding:10px 12px 10px 32px;background-color:#fff;background-size:16px 16px;background-repeat:no-repeat;background-position:10px center}a.partner-button:hover{--box-shadow-inside:inset 0 -1px 2px rgba(0,0,0,0.12);border-color:rgba(0,0,0,.33)}a.partner-button:focus{--box-shadow-inside:inset 0 -1px 2px rgba(0,0,0,0.08);--box-shadow-outside:0 0 0 2px rgba(3,102,214,0.3);border-color:#2188ff;outline:0}a.partner-button::-moz-focus-inner{border:0}a.partner-button:active{--box-shadow-inside:inset 0 1px 3px rgba(27,31,35,0.3)}.partner-button_partner_litres{background-image:url(/static/ui/ic_litres.png)}
+   </style>
+   <div class="context-things">
+    <div class="shelf">
+     <h2>
+      Экранизации 🎥
+     </h2>
+     <div data-disclaimer="Экранизация" data-highlight="1" id="cinema">
+      <div class="film-box hidden" data-id="37" id="filmVersion37">
+       <ul class="versions">
+        <li class="film-year link" onclick="showFilmVersion(39)">
+         1930
+        </li>
+        <li class="film-year current">
+         1957
+        </li>
+       </ul>
+       <div class="frame">
+        <div class="curtain" onclick="startFilmVersion(37)">
+         <span class="play">
+         </span>
+         <video class="preview" loop="" muted="" playsinline="" preload="none" src="https://video-preview.s3.yandex.net/cgY3CgEAAAA.mp4">
+         </video>
+        </div>
+        <iframe allow="autoplay; fullscreen; encrypted-media; picture-in-picture" class="content" data-src="https://www.youtube.com/embed/po41SOKXnuk?iv_load_policy=3&amp;autoplay=1&amp;hl=ru">
+        </iframe>
+       </div>
+       <div class="desc">
+        «Тихий Дон»
+(1957) .
+Режиссёр: Сергей Герасимов. Источник: YouTube.
+       </div>
+      </div>
+      <div class="film-box hidden" data-id="39" id="filmVersion39">
+       <ul class="versions">
+        <li class="film-year current">
+         1930
+        </li>
+        <li class="film-year link" onclick="showFilmVersion(37)">
+         1957
+        </li>
+       </ul>
+       <div class="frame">
+        <div class="curtain" onclick="startFilmVersion(39)">
+         <span class="play">
+         </span>
+         <video class="preview" loop="" muted="" playsinline="" preload="none" src="https://video-preview.s3.yandex.net/OqWRrwAAAAA.mp4">
+         </video>
+        </div>
+        <iframe allow="autoplay; fullscreen; encrypted-media; picture-in-picture" class="content" data-src="https://www.youtube.com/embed/H2AdCY8rez4?iv_load_policy=3&amp;autoplay=1&amp;hl=ru">
+        </iframe>
+       </div>
+       <div class="desc">
+        «Тихий Дон»
+(1930) .
+Режиссёр: Иван Правов, Ольга Преображенская, Михаил Провор. Источник: YouTube.
+       </div>
+      </div>
+     </div>
+     <script defer="" src="/static/js/cinema.js">
+     </script>
+    </div>
+    <div class="shelf">
+     <h2>
+      Аудиокниги
+     </h2>
+     <div class="accordion audiobooks-widget" data-disclaimer="Реклама аудиокниг:" data-highlight="1">
+      <div class="accordion__item accordion__item_state_expanded audiobooks-widget__item">
+       <div class="accordion__item-content accordion__item-content_type_expanded">
+        <div class="audiobook-card">
+         <div class="audiobook-card__cover audiobook-card__cover_aspect-ratio-bucket_square">
+          <a href="https://www.litres.ru/audiobook/mihail-sholohov/tihiy-don-64601331/?lfrom=2267795" rel="noopener" target="_blank">
+           <picture style="padding-bottom: 100%">
+            <source sizes="(min-width: 600px) 200px, 100px" srcset="https://cv.litres.ru/pub/c/cover_37/64601331.webp 37w,https://cv.litres.ru/pub/c/cover_95/64601331.webp 95w,https://cv.litres.ru/pub/c/cover_120/64601331.webp 120w,https://cv.litres.ru/pub/c/cover_200/64601331.webp 200w,https://cv.litres.ru/pub/c/cover_330/64601331.webp 330w,https://cv.litres.ru/pub/c/cover_415/64601331.webp 415w" type="image/webp"/>
+            <img alt="" height="330" loading="lazy" src="https://cv.litres.ru/pub/c/cover_330/64601331.jpg" style="background: #403022" width="330"/>
+           </picture>
+          </a>
+         </div>
+         <div>
+          <div class="audiobook-card__title">
+           Тихий Дон
+          </div>
+          <div class="audiobook-card__description">
+           Аудиокнига.
+23 ч 11 мин.
+Читает Сергей Горбунов.
+          </div>
+          <div class="audiobook-card__free-fragment-title">
+           Бесплатный отрывок:
+          </div>
+          <div class="audiobook-card__free-fragment-player">
+           <audio controls="" id="audio64601331" preload="none" src="https://www.litres.ru/get_mp3_trial/64601331.mp3">
+           </audio>
+          </div>
+          <div class="audiobook-card__offers">
+           <div class="audiobook-card__offer">
+            <a class="partner-button partner-button_partner_litres" href="https://www.litres.ru/audiobook/mihail-sholohov/tihiy-don-64601331/?lfrom=2267795#buy_now_noreg" rel="nofollow,noopener,sponsored" target="_blank">
+             Купить
+            </a>
+            <div class="audiobook-card__offer-details">
+             379 ₽,
+ЛитРес
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="accordion__item-content accordion__item-content_type_collapsed">
+        <div class="audiobook-minicard">
+         <picture class="audiobook-minicard__cover audiobook-minicard__cover_aspect-ratio-bucket_square">
+          <source sizes="43px" srcset="https://cv.litres.ru/pub/c/cover_37/64601331.webp 37w,https://cv.litres.ru/pub/c/cover_95/64601331.webp 95w,https://cv.litres.ru/pub/c/cover_120/64601331.webp 120w,https://cv.litres.ru/pub/c/cover_200/64601331.webp 200w,https://cv.litres.ru/pub/c/cover_330/64601331.webp 330w,https://cv.litres.ru/pub/c/cover_415/64601331.webp 415w" type="image/webp"/>
+          <img alt="" height="37" loading="lazy" sizes="43px" src="https://cv.litres.ru/pub/c/cover_37/64601331.jpg" srcset="https://cv.litres.ru/pub/c/cover_37/64601331.jpg 37w,https://cv.litres.ru/pub/c/cover_95/64601331.jpg 95w,https://cv.litres.ru/pub/c/cover_120/64601331.jpg 120w,https://cv.litres.ru/pub/c/cover_200/64601331.jpg 200w,https://cv.litres.ru/pub/c/cover_330/64601331.jpg 330w,https://cv.litres.ru/pub/c/cover_415/64601331.jpg 415w" style="background: #403022" width="37"/>
+         </picture>
+         <div class="audiobook-minicard__play-button">
+         </div>
+         <div class="audiobook-minicard__readers">
+          Сергей Горбунов
+         </div>
+         <div class="audiobook-minicard__duration">
+          <span>
+           23
+          </span>
+          ч
+          <span>
+           11
+          </span>
+          мин
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="accordion__item accordion__item_state_collapsed audiobooks-widget__item">
+       <div class="accordion__item-content accordion__item-content_type_expanded">
+        <div class="audiobook-card">
+         <div class="audiobook-card__cover audiobook-card__cover_aspect-ratio-bucket_square">
+          <a href="https://www.litres.ru/audiobook/mihail-sholohov/tihiy-don-68322047/?lfrom=2267795" rel="noopener" target="_blank">
+           <picture style="padding-bottom: 100%">
+            <source sizes="43px" srcset="https://cv.litres.ru/pub/c/cover_37/68322047.webp 37w,https://cv.litres.ru/pub/c/cover_95/68322047.webp 95w,https://cv.litres.ru/pub/c/cover_120/68322047.webp 120w,https://cv.litres.ru/pub/c/cover_200/68322047.webp 200w,https://cv.litres.ru/pub/c/cover_330/68322047.webp 330w,https://cv.litres.ru/pub/c/cover_415/68322047.webp 415w" type="image/webp"/>
+            <img alt="" height="330" loading="lazy" src="https://cv.litres.ru/pub/c/cover_330/68322047.jpg" style="background: #584b3a" width="330"/>
+           </picture>
+          </a>
+         </div>
+         <div>
+          <div class="audiobook-card__title">
+           Тихий Дон
+          </div>
+          <div class="audiobook-card__description">
+           Аудиокнига.
+22 ч 37 мин.
+Читает Игорь Пронин.
+          </div>
+          <div class="audiobook-card__free-fragment-title">
+           Бесплатный отрывок:
+          </div>
+          <div class="audiobook-card__free-fragment-player">
+           <audio controls="" id="audio68322047" preload="none" src="https://www.litres.ru/get_mp3_trial/68322047.mp3">
+           </audio>
+          </div>
+          <div class="audiobook-card__offers">
+           <div class="audiobook-card__offer">
+            <a class="partner-button partner-button_partner_litres" href="https://www.litres.ru/audiobook/mihail-sholohov/tihiy-don-68322047/?lfrom=2267795#buy_now_noreg" rel="nofollow,noopener,sponsored" target="_blank">
+             Купить
+            </a>
+            <div class="audiobook-card__offer-details">
+             349 ₽,
+ЛитРес
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="accordion__item-content accordion__item-content_type_collapsed">
+        <div class="audiobook-minicard">
+         <picture class="audiobook-minicard__cover audiobook-minicard__cover_aspect-ratio-bucket_square">
+          <source sizes="43px" srcset="https://cv.litres.ru/pub/c/cover_37/68322047.webp 37w,https://cv.litres.ru/pub/c/cover_95/68322047.webp 95w,https://cv.litres.ru/pub/c/cover_120/68322047.webp 120w,https://cv.litres.ru/pub/c/cover_200/68322047.webp 200w,https://cv.litres.ru/pub/c/cover_330/68322047.webp 330w,https://cv.litres.ru/pub/c/cover_415/68322047.webp 415w" type="image/webp"/>
+          <img alt="" height="37" loading="lazy" sizes="43px" src="https://cv.litres.ru/pub/c/cover_37/68322047.jpg" srcset="https://cv.litres.ru/pub/c/cover_37/68322047.jpg 37w,https://cv.litres.ru/pub/c/cover_95/68322047.jpg 95w,https://cv.litres.ru/pub/c/cover_120/68322047.jpg 120w,https://cv.litres.ru/pub/c/cover_200/68322047.jpg 200w,https://cv.litres.ru/pub/c/cover_330/68322047.jpg 330w,https://cv.litres.ru/pub/c/cover_415/68322047.jpg 415w" style="background: #584b3a" width="37"/>
+         </picture>
+         <div class="audiobook-minicard__play-button">
+         </div>
+         <div class="audiobook-minicard__readers">
+          Игорь Пронин
+         </div>
+         <div class="audiobook-minicard__duration">
+          <span>
+           22
+          </span>
+          ч
+          <span>
+           37
+          </span>
+          мин
+         </div>
+        </div>
+       </div>
+      </div>
+      <script defer="" src="/static/js/audiobooks.js">
+      </script>
+     </div>
+    </div>
+   </div>
+  </main>
+  <style>
+   .work-cards-grid{list-style:none;display:flex;flex-wrap:wrap}.work-cards-grid__item{display:inline-block;vertical-align:top}.work-cards-grid{margin:-16px;padding:8px}.work-cards-grid__item{margin:8px;width:calc(100% - 16px)}@media (min-width:360px){.work-cards-grid{margin:-24px;padding:12px}.work-cards-grid__item{margin:12px;width:calc(100% - 24px)}}@media (min-width:500px){.work-cards-grid__item{width:calc(100% / 2 - 24px)}}@media (min-width:750px){.work-cards-grid__item{width:calc(100% / 3 - 24px)}}@media (min-width:1024px){.work-cards-grid{margin:-32px;padding:16px}.work-cards-grid__item{margin:16px;width:calc(100% / 4 - 32px)}}@supports (display:grid){.work-cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));margin:0;padding:0}.work-cards-grid__item{width:auto;margin:0}.work-cards-grid{grid-gap:16px}@media (min-width:360px){.work-cards-grid{grid-gap:24px}}@media (min-width:1024px){.work-cards-grid{grid-gap:32px}}}
+  </style>
+  <style>
+   .work{position:relative}.work__cover{display:block;position:relative;margin-bottom:7px;overflow:hidden;border-radius:6px;aspect-ratio:1.69!important;min-width:100px;min-height:60px}.work__cover img{position:absolute;width:100%;height:auto}.work__cover_type_empty{background-color:#f2f2f2}.work__cover_type_portrait img{margin-top:-40%}.work__cover-sections{display:flex;align-items:stretch;position:absolute;width:100%;height:100%}.work__cover-section{display:block;position:relative;width:100%}@supports (object-fit:cover){.work__cover img{height:100%;object-fit:cover}.work__cover_type_portrait img{margin:0}.work__cover_type_edition img{object-fit:contain}}@supports (pointer-events:none){.work__cover:after{content:'';pointer-events:none;position:absolute;z-index:3;left:-1px;top:-1px;right:-1px;bottom:-1px;background:radial-gradient(circle,rgba(0,0,0,0) 40%,rgba(0,0,0,.06));border-radius:7px}}.work__title{font-size:19px;line-height:20px;margin-bottom:4px}.work__title a{-webkit-tap-highlight-color:transparent}.work__title a::before{content:'';position:absolute;left:-7px;top:-7px;right:-7px;bottom:-7px;border-radius:12px}.work__title a:focus{outline:0}.work__title a:hover::before,.work__title a:active::before{box-shadow:0 0 0 2px rgba(3,102,214,.15)}.work__title a:focus::before{box-shadow:0 0 0 .5px #2188ff,0 0 0 2px rgba(3,102,214,.3)}.work__meta{display:block;color:#666;font-size:12px;line-height:14px}.work__microsummary{margin:0;margin-top:5px;font-size:16px;line-height:22px}.work__disclaimer{margin-top:4px;display:block;color:#666;font-size:10px;line-height:11px}.work__portrait{display:block;float:left;margin-right:10px;width:60px;height:80px;overflow:hidden;border-radius:6px;position:relative}.work__portrait img{position:absolute;width:100%;height:auto}@supports (object-fit:cover){.work__portrait img{height:100%;object-fit:cover}}
+  </style>
+  <style>
+   .native_recommendations {
+            margin: 0 16px 32px;
+        }
+
+        @media (min-width: 360px) {
+            .native_recommendations {
+                margin-left: 24px;
+                margin-right: 24px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .native_recommendations {
+                margin-left: 48px;
+                margin-right: 48px;
+            }
+        }
+
+        .native_recommendations h2 {
+            font-size: 23px;
+            line-height: 26px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+  </style>
+  <aside class="native_recommendations">
+   <h2>
+    Читайте также
+   </h2>
+   <ul class="work-cards-grid">
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.88;background-color:#686868">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/36.avif 240w, /static/cache/films/360/36.avif 360w, /static/cache/films/720/36.avif 720w, /static/cache/films/1080/36.avif 1080w, /static/cache/films/1200/36.avif 1200w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/36.webp 240w, /static/cache/films/360/36.webp 360w, /static/cache/films/720/36.webp 720w, /static/cache/films/1080/36.webp 1080w, /static/cache/films/1200/36.webp 1200w" type="image/webp"/>
+        <img alt="" height="128" loading="lazy" src="/static/cache/films/240/36.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#746455">
+        <source sizes="54px" srcset="/static/cache/authors/54/sholohov.avif 54w, /static/cache/authors/120/sholohov.avif 120w, /static/cache/authors/160/sholohov.avif 160w, /static/cache/authors/200/sholohov.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/sholohov.webp 54w, /static/cache/authors/120/sholohov.webp 120w, /static/cache/authors/160/sholohov.webp 160w, /static/cache/authors/200/sholohov.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/sholohov.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/sholohov/sudba_cheloveka/">
+        Судьба чело­века
+       </a>
+       👨‍👦
+      </h3>
+      <small class="work__meta">
+       Михаил Шолохов · рассказ
+      </small>
+      <p class="work__microsummary">
+       Совет­ский шофёр жил с люби­мой женой, рас­тил детей. Нача­лась война. Он ушёл на фронт, попал в плен, но сбе­жал оттуда, похи­тив немца-май­ора. Герой узнал, что вся его семья погибла, и усы­но­вил сироту.
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.69;background-color:#373531">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/34.avif 240w, /static/cache/films/360/34.avif 360w, /static/cache/films/720/34.avif 720w, /static/cache/films/1080/34.avif 1080w, /static/cache/films/1200/34.avif 1200w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/34.webp 240w, /static/cache/films/360/34.webp 360w, /static/cache/films/720/34.webp 720w, /static/cache/films/1080/34.webp 1080w, /static/cache/films/1200/34.webp 1200w" type="image/webp"/>
+        <img alt="" height="142" loading="lazy" src="/static/cache/films/240/34.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#584F4C">
+        <source sizes="54px" srcset="/static/cache/authors/54/bulgakov.avif 54w, /static/cache/authors/120/bulgakov.avif 120w, /static/cache/authors/160/bulgakov.avif 160w, /static/cache/authors/200/bulgakov.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/bulgakov.webp 54w, /static/cache/authors/120/bulgakov.webp 120w, /static/cache/authors/160/bulgakov.webp 160w, /static/cache/authors/200/bulgakov.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/bulgakov.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/bulgakov/master_i_margarita/">
+        Мастер и Мар­га­рита
+       </a>
+       😈
+      </h3>
+      <small class="work__meta">
+       Михаил Булгаков · роман
+      </small>
+      <p class="work__microsummary">
+       Сатана пообе­щал жен­щине: если она ста­нет коро­ле­вой на его балу, то он найдёт её про­пав­шего воз­люб­лен­ного. И нашёл. А затем убил обоих и посе­лил где-то между адом и раем. Там влю­блён­ные обрели покой.
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.88;background-color:#B09B8B">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/illustrations/240/178.avif 240w, /static/cache/illustrations/360/178.avif 360w, /static/cache/illustrations/720/178.avif 720w, /static/cache/illustrations/1080/178.avif 1080w, /static/cache/illustrations/1200/178.avif 1200w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/illustrations/240/178.webp 240w, /static/cache/illustrations/360/178.webp 360w, /static/cache/illustrations/720/178.webp 720w, /static/cache/illustrations/1080/178.webp 1080w, /static/cache/illustrations/1200/178.webp 1200w" type="image/webp"/>
+        <img alt="" height="128" loading="lazy" src="/static/cache/illustrations/240/178.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#79645B">
+        <source sizes="54px" srcset="/static/cache/authors/54/tolstoi.avif 54w, /static/cache/authors/120/tolstoi.avif 120w, /static/cache/authors/160/tolstoi.avif 160w, /static/cache/authors/200/tolstoi.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/tolstoi.webp 54w, /static/cache/authors/120/tolstoi.webp 120w, /static/cache/authors/160/tolstoi.webp 160w, /static/cache/authors/200/tolstoi.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/tolstoi.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/tolstoi/voina_i_mir/">
+        Война и мир
+       </a>
+       🕊️
+      </h3>
+      <small class="work__meta">
+       Лев Толстой · роман
+      </small>
+      <p class="work__microsummary">
+       Дру­зья князь и граф искали смысл жизни, когда нача­лась война 1812 года. Князь умер от полу­чен­ного при Боро­дино ране­ния, поми­рив­шись с неве­стой. Граф выжил и обрёл семейное сча­стье с неве­стой князя.
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover work__cover_type_edition" style="background-color: #9baeac">
+        <source sizes="(max-width: 587px) calc((100vw - 48px) * 0.38),(max-width: 862px) calc(((100vw - 72px)/2) * 0.38),(max-width: 1020px) calc(((100vw - 108px)/3) * 0.38),calc(302px * 0.38)" srcset="
+                                https://cv.litres.ru/pub/c/cover_200/131247.webp 200w,
+                                https://cv.litres.ru/pub/c/cover_330/131247.webp 330w,
+                                https://cv.litres.ru/pub/c/cover_415/131247.webp 415w" type="image/webp"/>
+        <img alt="" loading="lazy" sizes="(max-width: 587px) calc((100vw - 48px) * 0.38),(max-width: 862px) calc(((100vw - 72px)/2) * 0.38),(max-width: 1020px) calc(((100vw - 108px)/3) * 0.38),calc(302px * 0.38)" src="https://cv.litres.ru/pub/c/cover_330/131247.jpg" srcset="
+                            https://cv.litres.ru/pub/c/cover_200/131247.jpg 200w,
+                            https://cv.litres.ru/pub/c/cover_330/131247.jpg 330w,
+                            https://cv.litres.ru/pub/c/cover_415/131247.jpg 415w"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#746455">
+        <source sizes="54px" srcset="/static/cache/authors/54/sholohov.avif 54w, /static/cache/authors/120/sholohov.avif 120w, /static/cache/authors/160/sholohov.avif 160w, /static/cache/authors/200/sholohov.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/sholohov.webp 54w, /static/cache/authors/120/sholohov.webp 120w, /static/cache/authors/160/sholohov.webp 160w, /static/cache/authors/200/sholohov.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/sholohov.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/sholohov/podnyataya_tselina/">
+        Под­ня­тая целина
+       </a>
+      </h3>
+      <small class="work__meta">
+       Михаил Шолохов · роман
+      </small>
+      <p class="work__microsummary">
+       По крайнему к степи про­улку январ­ским вече­ром 1930 г. въе­хал в хутор Гре­мя­чий Лог вер­хо­вой. У про­хо­жих спро­сил дорогу к куреню Якова Лукича Остров­нова...
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.8;background-color:#5D544A">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/167.avif 240w, /static/cache/films/360/167.avif 360w, /static/cache/films/720/167.avif 720w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/167.webp 240w, /static/cache/films/360/167.webp 360w, /static/cache/films/720/167.webp 720w" type="image/webp"/>
+        <img alt="" height="133" loading="lazy" src="/static/cache/films/240/167.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.71;background-color:#959492">
+        <source sizes="54px" srcset="/static/cache/authors/54/pasternak.avif 54w, /static/cache/authors/120/pasternak.avif 120w, /static/cache/authors/160/pasternak.avif 160w, /static/cache/authors/200/pasternak.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/pasternak.webp 54w, /static/cache/authors/120/pasternak.webp 120w, /static/cache/authors/160/pasternak.webp 160w, /static/cache/authors/200/pasternak.webp 200w" type="image/webp"/>
+        <img alt="" height="76" loading="lazy" src="/static/cache/authors/54/pasternak.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/pasternak/doktor_zhivago/">
+        Док­тор Живаго
+       </a>
+      </h3>
+      <small class="work__meta">
+       Борис Пастернак · роман
+      </small>
+      <p class="work__microsummary">
+       Когда Юрин дядюшка Нико­лай Нико­ла­е­вич пере­ехал в Петер­бург, заботу о нём, в десять лет остав­шемся сиро­той, взяли дру­гие род­ствен­ники — Гро­меко, в доме кото­рых на Сив­це­вом Вражке бывали инте­рес­ные люди, и где атмо­сфера про­фес­сор­ской семьи вполне спо­соб­ство­вала раз­ви­тию Юри­ных талан­тов...
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.88;background-color:#3A3A3A">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/90.avif 240w, /static/cache/films/360/90.avif 360w, /static/cache/films/720/90.avif 720w, /static/cache/films/1080/90.avif 1080w, /static/cache/films/1200/90.avif 1200w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/90.webp 240w, /static/cache/films/360/90.webp 360w, /static/cache/films/720/90.webp 720w, /static/cache/films/1080/90.webp 1080w, /static/cache/films/1200/90.webp 1200w" type="image/webp"/>
+        <img alt="" height="128" loading="lazy" src="/static/cache/films/240/90.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#564D48">
+        <source sizes="54px" srcset="/static/cache/authors/54/dostoevsky.avif 54w, /static/cache/authors/120/dostoevsky.avif 120w, /static/cache/authors/160/dostoevsky.avif 160w, /static/cache/authors/200/dostoevsky.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/dostoevsky.webp 54w, /static/cache/authors/120/dostoevsky.webp 120w, /static/cache/authors/160/dostoevsky.webp 160w, /static/cache/authors/200/dostoevsky.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/dostoevsky.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/dostoevsky/prestuplenie/">
+        Пре­ступ­ле­ние и нака­за­ние
+       </a>
+       🪓
+      </h3>
+      <small class="work__meta">
+       Фёдор Достоевский · роман
+      </small>
+      <p class="work__microsummary">
+       Нищий сту­дент убил ста­руху-про­цент­щицу, но исполь­зо­вать её богат­ство на благо ближ­них не успел. Из-за мук сове­сти и нерв­ной лихо­радки он при­знался в соде­ян­ном и после суда отпра­вился на каторгу.
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.8;background-color:#475157">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/166.avif 240w, /static/cache/films/360/166.avif 360w, /static/cache/films/720/166.avif 720w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/166.webp 240w, /static/cache/films/360/166.webp 360w, /static/cache/films/720/166.webp 720w" type="image/webp"/>
+        <img alt="" height="133" loading="lazy" src="/static/cache/films/240/166.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#A09494">
+        <source sizes="54px" srcset="/static/cache/authors/54/solzhenitsyn.avif 54w, /static/cache/authors/120/solzhenitsyn.avif 120w, /static/cache/authors/160/solzhenitsyn.avif 160w, /static/cache/authors/200/solzhenitsyn.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/solzhenitsyn.webp 54w, /static/cache/authors/120/solzhenitsyn.webp 120w, /static/cache/authors/160/solzhenitsyn.webp 160w, /static/cache/authors/200/solzhenitsyn.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/solzhenitsyn.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/solzhenitsyn/odin_den/">
+        Один день Ивана Дени­со­вича
+       </a>
+      </h3>
+      <small class="work__meta">
+       Александр Солженицын · повесть
+      </small>
+      <p class="work__microsummary">
+       Кре­стья­нин и фрон­то­вик Иван Дени­со­вич Шухов ока­зался «госу­дар­ствен­ным пре­ступ­ни­ком», «шпи­о­ном» и попал в один из ста­лин­ских лаге­рей, подобно мил­ли­о­нам совет­ских людей, без вины осу­ждён­ных во вре­мена «культа лич­но­сти» и мас­со­вых репрес­сий...
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.69;background-color:#44413C">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/3768.avif 240w, /static/cache/films/360/3768.avif 360w, /static/cache/films/720/3768.avif 720w, /static/cache/films/1080/3768.avif 1080w, /static/cache/films/1200/3768.avif 1200w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/3768.webp 240w, /static/cache/films/360/3768.webp 360w, /static/cache/films/720/3768.webp 720w, /static/cache/films/1080/3768.webp 1080w, /static/cache/films/1200/3768.webp 1200w" type="image/webp"/>
+        <img alt="" height="142" loading="lazy" src="/static/cache/films/240/3768.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#524946">
+        <source sizes="54px" srcset="/static/cache/authors/54/gorkii.avif 54w, /static/cache/authors/120/gorkii.avif 120w, /static/cache/authors/160/gorkii.avif 160w, /static/cache/authors/200/gorkii.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/gorkii.webp 54w, /static/cache/authors/120/gorkii.webp 120w, /static/cache/authors/160/gorkii.webp 160w, /static/cache/authors/200/gorkii.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/gorkii.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/gorkii/na_dne/">
+        На дне
+       </a>
+       🚪
+      </h3>
+      <small class="work__meta">
+       Максим Горький · пьеса
+      </small>
+      <p class="work__microsummary">
+       В ноч­лежку для нищих, поте­ряв­ших наде­жду на буду­щее, пришёл стран­ник, вер­нул им эту наде­жду и исчез. Наде­жды ока­за­лись несбы­точ­ными, а люди — не гото­выми к пере­ме­нам. Ничто не выта­щит их со дна жизни.
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover work__cover_type_edition" style="background-color: #e2d9c8">
+        <img alt="" loading="lazy" sizes="(max-width: 587px) calc((100vw - 48px) * 0.42),(max-width: 862px) calc(((100vw - 72px)/2) * 0.42),(max-width: 1020px) calc(((100vw - 108px)/3) * 0.42),calc(302px * 0.42)" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473867475l/32048518._SX330_.jpg" srcset="
+                            https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473867475l/32048518._SX200_.jpg 200w,
+                            https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473867475l/32048518._SX330_.jpg 330w,
+                            https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473867475l/32048518._SX415_.jpg 415w"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#746455">
+        <source sizes="54px" srcset="/static/cache/authors/54/sholohov.avif 54w, /static/cache/authors/120/sholohov.avif 120w, /static/cache/authors/160/sholohov.avif 160w, /static/cache/authors/200/sholohov.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/sholohov.webp 54w, /static/cache/authors/120/sholohov.webp 120w, /static/cache/authors/160/sholohov.webp 160w, /static/cache/authors/200/sholohov.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/sholohov.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/sholohov/rodinka/">
+        Родинка
+       </a>
+      </h3>
+      <small class="work__meta">
+       Михаил Шолохов · рассказ
+      </small>
+      <p class="work__microsummary">
+       Моло­дой крас­ный коман­дир долго гонялся за бан­дой и нако­нец догнал. Начался бой, на коман­дира напал ата­ман банды, убил его, снял сапоги, по родинке на ноге понял, что это его сын, и застре­лился.
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.69;background-color:#4D423D">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/illustrations/240/324.avif 240w, /static/cache/illustrations/360/324.avif 360w, /static/cache/illustrations/720/324.avif 720w, /static/cache/illustrations/1080/324.avif 1080w, /static/cache/illustrations/1200/324.avif 1200w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/illustrations/240/324.webp 240w, /static/cache/illustrations/360/324.webp 360w, /static/cache/illustrations/720/324.webp 720w, /static/cache/illustrations/1080/324.webp 1080w, /static/cache/illustrations/1200/324.webp 1200w" type="image/webp"/>
+        <img alt="" height="142" loading="lazy" src="/static/cache/illustrations/240/324.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#A09494">
+        <source sizes="54px" srcset="/static/cache/authors/54/solzhenitsyn.avif 54w, /static/cache/authors/120/solzhenitsyn.avif 120w, /static/cache/authors/160/solzhenitsyn.avif 160w, /static/cache/authors/200/solzhenitsyn.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/solzhenitsyn.webp 54w, /static/cache/authors/120/solzhenitsyn.webp 120w, /static/cache/authors/160/solzhenitsyn.webp 160w, /static/cache/authors/200/solzhenitsyn.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/solzhenitsyn.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/solzhenitsyn/matrenin_dvor/">
+        Мат­рёнин двор
+       </a>
+       👵🏻
+      </h3>
+      <small class="work__meta">
+       Александр Солженицын · рассказ
+      </small>
+      <p class="work__microsummary">
+       Жен­щина всю жизнь рабо­тала в кол­хозе. Детей и мужа она поте­ряла, но сохра­нила доброту и бес­ко­рыстно всем помо­гала. После её неле­пой страш­ной смерти род­ные поде­лили её дом и вспо­ми­нали о ней с уко­ром.
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.69;background-color:#744F45">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/20.avif 240w, /static/cache/films/360/20.avif 360w, /static/cache/films/720/20.avif 720w, /static/cache/films/1080/20.avif 1080w, /static/cache/films/1200/20.avif 1200w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/20.webp 240w, /static/cache/films/360/20.webp 360w, /static/cache/films/720/20.webp 720w, /static/cache/films/1080/20.webp 1080w, /static/cache/films/1200/20.webp 1200w" type="image/webp"/>
+        <img alt="" height="142" loading="lazy" src="/static/cache/films/240/20.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#8A7C75">
+        <source sizes="54px" srcset="/static/cache/authors/54/chehov.avif 54w, /static/cache/authors/120/chehov.avif 120w, /static/cache/authors/160/chehov.avif 160w, /static/cache/authors/200/chehov.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/chehov.webp 54w, /static/cache/authors/120/chehov.webp 120w, /static/cache/authors/160/chehov.webp 160w, /static/cache/authors/200/chehov.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/chehov.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/chehov/vishevyi_sad/">
+        Виш­нё­вый сад
+       </a>
+       🌸
+      </h3>
+      <small class="work__meta">
+       Антон Чехов · пьеса
+      </small>
+      <p class="work__microsummary">
+       Име­ние разорён­ной вдовы выста­вили на торги. Купец посо­ве­то­вал ей выру­бить сад и сдать землю в аренду. Она про­тив: без сада она не видит свою жизнь. Тогда он выку­пил име­ние и сам реа­ли­зо­вал свой план.
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.8;background-color:#706467">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/120.avif 240w, /static/cache/films/360/120.avif 360w, /static/cache/films/720/120.avif 720w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/120.webp 240w, /static/cache/films/360/120.webp 360w, /static/cache/films/720/120.webp 720w" type="image/webp"/>
+        <img alt="" height="133" loading="lazy" src="/static/cache/films/240/120.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#B69A8A">
+        <source sizes="54px" srcset="/static/cache/authors/54/rasputin.avif 54w, /static/cache/authors/120/rasputin.avif 120w, /static/cache/authors/160/rasputin.avif 160w, /static/cache/authors/200/rasputin.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/rasputin.webp 54w, /static/cache/authors/120/rasputin.webp 120w, /static/cache/authors/160/rasputin.webp 160w, /static/cache/authors/200/rasputin.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/rasputin.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/rasputin/proshanie_s_materoi/">
+        Про­ща­ние с Матёрой
+       </a>
+      </h3>
+      <small class="work__meta">
+       Валентин Распутин · повесть
+      </small>
+      <p class="work__microsummary">
+       Ста­рух насильно высе­ляют из род­ной деревни, под­ле­жа­щей затоп­ле­нию. Выну­жден­ные оста­вить род­ные дома и могилы, они тяжело про­ща­ются с род­ными кра­ями.
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.88;background-color:#8FA39F">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/illustrations/240/161.avif 240w, /static/cache/illustrations/360/161.avif 360w, /static/cache/illustrations/720/161.avif 720w, /static/cache/illustrations/1080/161.avif 1080w, /static/cache/illustrations/1200/161.avif 1200w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/illustrations/240/161.webp 240w, /static/cache/illustrations/360/161.webp 360w, /static/cache/illustrations/720/161.webp 720w, /static/cache/illustrations/1080/161.webp 1080w, /static/cache/illustrations/1200/161.webp 1200w" type="image/webp"/>
+        <img alt="" height="128" loading="lazy" src="/static/cache/illustrations/240/161.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#444444">
+        <source sizes="54px" srcset="/static/cache/authors/54/zamyatin.avif 54w, /static/cache/authors/120/zamyatin.avif 120w, /static/cache/authors/160/zamyatin.avif 160w, /static/cache/authors/200/zamyatin.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/zamyatin.webp 54w, /static/cache/authors/120/zamyatin.webp 120w, /static/cache/authors/160/zamyatin.webp 160w, /static/cache/authors/200/zamyatin.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/zamyatin.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/zamyatin/my/">
+        Мы
+       </a>
+      </h3>
+      <small class="work__meta">
+       Евгений Замятин · роман
+      </small>
+      <p class="work__microsummary">
+       Далёкое буду­щее. Д-503, талантли­вый инже­нер, стро­и­тель кос­ми­че­ского корабля «Инте­грал», ведёт записки для потом­ков, рас­ска­зы­вает им о «высо­чайших вер­ши­нах в чело­ве­че­ской исто­рии» — ...
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.76;background-color:#615B5C">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/illustrations/240/228.avif 240w, /static/cache/illustrations/360/228.avif 360w, /static/cache/illustrations/720/228.avif 720w, /static/cache/illustrations/1080/228.avif 1080w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/illustrations/240/228.webp 240w, /static/cache/illustrations/360/228.webp 360w, /static/cache/illustrations/720/228.webp 720w, /static/cache/illustrations/1080/228.webp 1080w" type="image/webp"/>
+        <img alt="" height="136" loading="lazy" src="/static/cache/illustrations/240/228.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#524946">
+        <source sizes="54px" srcset="/static/cache/authors/54/gorkii.avif 54w, /static/cache/authors/120/gorkii.avif 120w, /static/cache/authors/160/gorkii.avif 160w, /static/cache/authors/200/gorkii.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/gorkii.webp 54w, /static/cache/authors/120/gorkii.webp 120w, /static/cache/authors/160/gorkii.webp 160w, /static/cache/authors/200/gorkii.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/gorkii.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/gorkii/staruha_izergil/">
+        Ста­руха Изер­гиль
+       </a>
+      </h3>
+      <small class="work__meta">
+       Максим Горький · рассказ
+      </small>
+      <p class="work__microsummary">
+       Ста­рая румынка вспо­мнила свою бур­ную моло­дость и рас­ска­зала две легенды: о сыне орла, обречён­ном за гор­дыню на веч­ное оди­но­че­ство, и о юноше, кото­рый пожерт­во­вал собой, чтобы спа­сти род­ное племя.
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.88;background-color:#927452">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/2.avif 240w, /static/cache/films/360/2.avif 360w, /static/cache/films/720/2.avif 720w, /static/cache/films/1080/2.avif 1080w, /static/cache/films/1200/2.avif 1200w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/films/240/2.webp 240w, /static/cache/films/360/2.webp 360w, /static/cache/films/720/2.webp 720w, /static/cache/films/1080/2.webp 1080w, /static/cache/films/1200/2.webp 1200w" type="image/webp"/>
+        <img alt="" height="128" loading="lazy" src="/static/cache/films/240/2.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.75;background-color:#584F4C">
+        <source sizes="54px" srcset="/static/cache/authors/54/bulgakov.avif 54w, /static/cache/authors/120/bulgakov.avif 120w, /static/cache/authors/160/bulgakov.avif 160w, /static/cache/authors/200/bulgakov.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/bulgakov.webp 54w, /static/cache/authors/120/bulgakov.webp 120w, /static/cache/authors/160/bulgakov.webp 160w, /static/cache/authors/200/bulgakov.webp 200w" type="image/webp"/>
+        <img alt="" height="72" loading="lazy" src="/static/cache/authors/54/bulgakov.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/bulgakov/sobachie_serdtse/">
+        Соба­чье сердце
+       </a>
+       🤕
+      </h3>
+      <small class="work__meta">
+       Михаил Булгаков · повесть
+      </small>
+      <p class="work__microsummary">
+       Извест­ный учё­ный пре­вра­тил пса в чело­века. Тот ока­зался ред­ким мер­зав­цем: хамил, напи­вался, при­ста­вал к жен­щи­нам, тре­бо­вал жил­пло­щадь и писал доносы. Учё­ный не выдер­жал и пре­вра­тил его обратно в пса.
+      </p>
+     </div>
+    </li>
+    <li class="work-cards-grid__item">
+     <div class="work">
+      <noindex>
+       <picture class="work__cover" style="aspect-ratio:1.8;background-color:#B2A99B">
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/illustrations/240/16.avif 240w, /static/cache/illustrations/360/16.avif 360w, /static/cache/illustrations/720/16.avif 720w" type="image/avif"/>
+        <source sizes="(max-width: 587px) calc(100vw - 48px),  
+			(max-width: 862px) calc((100vw - 72px)/2),  
+			(max-width: 1020px) calc((100vw - 108px)/3),  
+			302px" srcset="/static/cache/illustrations/240/16.webp 240w, /static/cache/illustrations/360/16.webp 360w, /static/cache/illustrations/720/16.webp 720w" type="image/webp"/>
+        <img alt="" height="133" loading="lazy" src="/static/cache/illustrations/240/16.jpeg" width="240"/>
+       </picture>
+      </noindex>
+      <noindex>
+       <picture class="work__portrait" style="aspect-ratio:0.74;background-color:#A7A7A6">
+        <source sizes="54px" srcset="/static/cache/authors/54/tvardovskij.avif 54w, /static/cache/authors/120/tvardovskij.avif 120w, /static/cache/authors/160/tvardovskij.avif 160w, /static/cache/authors/200/tvardovskij.avif 200w" type="image/avif"/>
+        <source sizes="54px" srcset="/static/cache/authors/54/tvardovskij.webp 54w, /static/cache/authors/120/tvardovskij.webp 120w, /static/cache/authors/160/tvardovskij.webp 160w, /static/cache/authors/200/tvardovskij.webp 200w" type="image/webp"/>
+        <img alt="" height="73" loading="lazy" src="/static/cache/authors/54/tvardovskij.jpeg" width="54"/>
+       </picture>
+      </noindex>
+      <h3 class="work__title">
+       <a href="/tvardovskij/vasilij_terkin/">
+        Васи­лий Тёр­кин
+       </a>
+      </h3>
+      <small class="work__meta">
+       А. Т. Твардовский · поэма
+      </small>
+      <p class="work__microsummary">
+       В пехот­ной роте — новый парень, Васи­лий Тёр­кин. Он воюет уже вто­рой раз на своём веку (пер­вая война — фин­ская). Васи­лий за сло­вом в кар­ман не лезет, едок хоро­ший. В общем, «парень хоть куда»...
+      </p>
+     </div>
+    </li>
+   </ul>
+  </aside>
+  <script type="application/ld+json">
+   {"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/briefly.ru\/school\/","name":"Школьное"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/briefly.ru\/school\/11class\/","name":"11 класс"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/briefly.ru\/sholohov\/","name":"Шолохов"}}]},{"@type":"Article","@id":"https:\/\/briefly.ru\/sholohov\/tihy_don\/#text","headline":"Тихий Дон&nbsp;&middot; Краткое содержание по частям","author":[{"@type":"Person","name":"Юлия Песковая","url":"https:\/\/briefly.ru\/narrators\/peskovaya\/","description":"Редактор «Брифли» с 2007 года. Написала более 400 пересказов. Автор телеграм-канала «ПроЧтение»."}],"about":{"@type":"Book","name":"Тихий Дон","author":{"@type":"Person","name":"Михаил Шолохов","sameAs":["https:\/\/briefly.ru\/sholohov\/","https:\/\/ru.wikipedia.org\/wiki\/Шолохов,_Михаил_Александрович","https:\/\/www.wikidata.org\/wiki\/Q42398"]},"sameAs":["https:\/\/ru.wikipedia.org\/wiki\/Тихий_Дон","https:\/\/www.wikidata.org\/wiki\/Q75840"]},"learningResourceType":"summary","interactionStatistic":[{"@type":"InteractionCounter","interactionType":{"@type":"LikeAction"},"userInteractionCount":171},{"@type":"InteractionCounter","interactionType":{"@type":"DislikeAction"},"userInteractionCount":30},{"@type":"InteractionCounter","interactionType":{"@type":"CommentAction"},"userInteractionCount":32}],"image":[{"@type":"ImageObject","url":"https:\/\/briefly.ru\/static\/cache\/films\/720\/37.jpeg","width":720,"height":384}],"publisher":{"@type":"Organization","name":"Брифли","url":"https:\/\/briefly.ru"}}]}
+  </script>
+  <style>
+   #f{margin:0 16px}@media (min-width:360px){#f{margin:0 24px}}@media (min-width:1024px){#f{margin:0 48px}}#f h2{font-size:23px;line-height:26px;font-weight:700;margin-bottom:4px}#f_copy{margin-bottom:12px;font-size:13px;line-height:18px;color:#666}#nb_promo{margin-bottom:26px}#nb_promo p{font-size:15px;line-height:20px;margin-bottom:6px}@media (min-width:500px){#f_container{display:flex}#nb_promo{margin-left:32px}#f_container>div{width:50%}}#wanted p{font-size:15px;line-height:20px;margin-bottom:12px}#request{margin-bottom:32px}#request .form-block{margin-bottom:15px}#request .label{margin-bottom:4px}#request .label .example{font-size:12px;color:#999;margin-left:10px}#request .input input{width:100%;padding:6px 8px;font-size:18px;box-sizing:border-box}#request .submit input{padding:6px 10px;margin:0;font-size:18px;-webkit-appearance:none}#statement{display:inline-flex;align-items:center;margin-top:24px;margin-bottom:60px;font-size:20px;line-height:1.25em}
+  </style>
+  <footer id="f">
+   <div id="f_container">
+    <div id="wanted">
+     <h2>
+      Что ещё пересказать?
+     </h2>
+     <p>
+      В первую очередь мы пересказываем то, что просят наши читатели. Пожалуйста, сообщите нам, если
+не нашли нужного пересказа.
+     </p>
+     <form accept-charset="UTF-8" action="/wanted/" id="request" method="post">
+      <div class="form-block">
+       <div class="label">
+        <label for="i-w">
+         <b>
+          Название
+         </b>
+         произведения:
+        </label>
+       </div>
+       <div class="input">
+        <input id="i-w" name="w" size="50" type="text"/>
+       </div>
+      </div>
+      <div class="form-block">
+       <div class="label">
+        <label for="i-a">
+         <b>
+          Автор
+         </b>
+         произведения (имя и фамилия):
+        </label>
+       </div>
+       <div class="input">
+        <input id="i-a" name="a" size="50" type="text"/>
+       </div>
+      </div>
+      <div class="submit">
+       <input class="button" type="submit" value="Отправить заявку"/>
+      </div>
+     </form>
+    </div>
+    <div id="nb_promo">
+     <h2>
+      Напишите свой пересказ
+     </h2>
+     <p>
+      В «Народном Брифли» мы вместе пересказываем книги. Каждый может внести свой вклад. Цель —
+все произведения мира в кратком изложении. Присоединяйтесь!
+     </p>
+     <p>
+      <a href="https://wiki.briefly.ru/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%91%D1%80%D0%B8%D1%84%D0%BB%D0%B8">
+       Узнать
+больше о «Народном Брифли»
+      </a>
+     </p>
+    </div>
+   </div>
+   <div id="f_copy">
+    © 2003−2024.
+    <a href="/about/" id="f_about">
+     О проекте
+    </a>
+   </div>
+   <div id="statement">
+    🕊️ нет войне. деду пора на пенсию
+   </div>
+  </footer>
+  <script>
+   function inject(url, onLoadCallback, onErrorCallback, crossOrigin) {
+        const script = document.createElement("script");
+        if (onLoadCallback) script.onload = onLoadCallback;
+        if (onErrorCallback) script.onerror = onErrorCallback;
+        if (crossOrigin) script.crossOrigin = crossOrigin;
+        script.defer = true;
+        script.src = url;
+        document.head.appendChild(script);
+    }
+
+    function gtag() {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push(arguments);
+    }
+
+    function loadGoogleAnalytics() {
+        gtag('js', new Date());
+        gtag('config', 'G-B98SVR621R', {'debug_mode': false});
+        inject("https://www.googletagmanager.com/gtag/js?id=G-B98SVR621R");
+    }
+
+    function loadYandexMetrika() {
+        window.yandex_metrika_callbacks = window.yandex_metrika_callbacks || [];
+        window.yandex_metrika_callbacks.push(function () {
+            try {
+                window.yaCounter331875 = new Ya.Metrika({
+                    id: 331875,
+                    trackLinks: true,
+                    accurateTrackBounce: true
+                });
+            } catch (e) {
+            }
+        });
+        inject("https://mc.yandex.ru/metrika/watch.js");
+    }
+
+    function trackOutboundLinks() {
+        document.querySelectorAll('a[target="_blank"]').forEach(function (link) {
+            link.addEventListener("click", function () {
+                gtag('event', link.hostname, {
+                    event_category: 'Outbound Links',
+                    event_label: link.href
+                });
+            });
+        });
+    }
+
+    window.addEventListener("load", function () {
+        loadGoogleAnalytics();
+        loadYandexMetrika();
+        trackOutboundLinks();
+    });
+  </script>
+ </body>
+</html>
