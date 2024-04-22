@@ -1,0 +1,404 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DSpace at Saint Petersburg State University: lmplementation of efficient graph functional dependency validation algorithm on Desbordante platform</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 5.10" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Струтовский Максим Андреевич" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Strutovskij Maksim Andreevic" xml:lang="en_GB" />
+<meta name="DC.creator" content="Черников Антон Александрович" xml:lang="ru_RU" />
+<meta name="DC.creator" content="Cernikov Anton Aleksandrovic" xml:lang="en_GB" />
+<meta name="DC.contributor" content="Литвинов Юрий Викторович" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Litvinov Urij Viktorovic" xml:lang="en_GB" />
+<meta name="DCTERMS.dateAccepted" content="2023-07-26T12:44:45Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2023-07-26T12:44:45Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2023" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="068877" xml:lang="en_GB" />
+<meta name="DC.identifier" content="http://hdl.handle.net/11701/42736" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="Графовые функциональные зависимости (Graph Functional Dependencies, GFD) - недавно разработанная концепция, направленная на поиск топологических структур в графах и функциональных зависимостей между атрибутами. Процесс проверки, удовлетворяет ли данная GFD конкретному графу, называется проверкой GFD. В этой очень дорогостоящей задаче с точки зрения вычислений нахождение подходящих подграфов составляет около 99% общего времени выполнения. Авторы концепции первоначально предложили параллельную схему (алгоритм), ориентированную конкретно на кластеры высокопроизводительных серверов.&#xA;Цель этой работы заключается в том, чтобы открыть доступ к проверке GFD для более широкой аудитории, сделав возможным её запуск на компьютере потребительского класса. Первоначальные эксперименты показали, что существующий алгоритм не является оптимальным для этих целей. Поэтому был предложен алгоритм проверки GFD, который использует недавно разработанный метод поиска подграфов. В отличие от параллельной схемы, он является последовательным и работает на всем графе. Его новизна заключается в использовании Compact-Path Index (CPI). В работе производится его сравнение с наивным последовательным алгоритмом и параллельной схемой, вычисляется время выполнения и максимальное потребление памяти. Предложенная реализация алгоритма проверки GFD имеет открытый исходный код. Насколько известно, это единственная общедоступная реализация алгоритма для этой задачи.&#xA;Эксперименты на реальном графе продемонстрировали до трёх раз большую производительность (в среднем 2,6 раза) по сравнению с параллельной схемой. Использование нового алгоритма поиска подграфов также снизило потребление памяти в пять раз." xml:lang="ru_RU" />
+<meta name="DCTERMS.abstract" content="Graph functional dependencies (GFD) are a recently-developed concept aimed at capturing both topological structures in graphs&#xA;and functional dependencies between attributes. The process of verifying whether a given GFD holds over a particular graph is referred to as GFD validation. In this very computationally expensive problem, locating suitable subgraphs accounts for about 99% of the total run time. The concept's authors originally proposed a parallel scheme (algorithm), targeting specifically clusters of high-performance servers.&#xA;The goal of this work is to open GFD validation to a broader public by making it possible to run it on a consumer class PC. Initial experiments demonstrated that the existing algorithm may not be optimal for these purposes. Therefore, we propose the GFD validation algorithm that employs a recently developed graph matching technique. In contrast to the parallel scheme, it is sequential and operates on the entire graph. Its novelty lies in the use of the Compact Path Index (CPI). The work compares it with the naive sequential algorithm and the parallel scheme, evaluating run times and peak memory consumption. The proposed implementation of the GFD validation algorithm is open-source. As far as is known, this is the only publicly available implementation of an algorithm for this problem.&#xA;Experiments on a real-life graph demonstrated up to three times performance (2.6x on average) improvement over the parallel scheme. Employing the new subgraph matching algorithm also reduced memory consumption by five times." xml:lang="en_GB" />
+<meta name="DC.language" content="ru" scheme="DCTERMS.RFC1766" />
+<meta name="DC.subject" content="графовая функциональная зависимость" xml:lang="ru_RU" />
+<meta name="DC.subject" content="посик подграфа" xml:lang="ru_RU" />
+<meta name="DC.subject" content="проверка зависимости" xml:lang="ru_RU" />
+<meta name="DC.subject" content="graph functional dependency" xml:lang="en_GB" />
+<meta name="DC.subject" content="subgraph search" xml:lang="en_GB" />
+<meta name="DC.subject" content="dependency validation" xml:lang="en_GB" />
+<meta name="DC.title" content="lmplementation of efficient graph functional dependency validation algorithm on Desbordante platform" xml:lang="en_GB" />
+<meta name="DCTERMS.alternative" content="Реализация эффективного алгоритма проверки графовых функциональных зависимостей в платформе Desbordante" xml:lang="ru_RU" />
+
+<meta name="citation_keywords" content="графовая функциональная зависимость; посик подграфа; проверка зависимости; graph functional dependency; subgraph search; dependency validation" />
+<meta name="citation_title" content="lmplementation of efficient graph functional dependency validation algorithm on Desbordante platform" />
+<meta name="citation_language" content="ru" />
+<meta name="citation_author" content="Черников Антон Александрович" />
+<meta name="citation_author" content="Cernikov Anton Aleksandrovic" />
+<meta name="citation_pdf_url" content="https://dspace.spbu.ru/bitstream/11701/42736/2/report.pdf" />
+<meta name="citation_date" content="2023" />
+<meta name="citation_abstract_html_url" content="https://dspace.spbu.ru/handle/11701/42736" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46082349-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VXGFQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5VXGFQ');</script>
+<!-- End Google Tag Manager -->
+
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-inverse navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul class="nav navbar-nav">
+<li class=""><a href="/"> Главная страница</a></li>
+                
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Просмотр <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Разделы и коллекции</a></li>
+				<li class="divider"></li>
+        <li class="dropdown-header">Просмотр ресурсов по:</li>
+				
+				
+				
+				      			<li><a href="/browse?type=dateissued">Даты выпуска</a></li>
+					
+				      			<li><a href="/browse?type=author">Авторы</a></li>
+					
+				      			<li><a href="/browse?type=title">Заголовки</a></li>
+					
+				      			<li><a href="/browse?type=subject">Темы</a></li>
+					
+				    
+				
+
+            </ul>
+          </li>
+<li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/policies/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Политика<\/a>');
+// -->
+</script><noscript><a href="/policies/index_ru.html" target="dspacepopup">Политика</a></noscript></li>
+          <li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/help/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Справка<\/a>');
+// -->
+</script><noscript><a href="/help/index_ru.html" target="dspacepopup">Справка</a></noscript></li>
+       </ul>
+
+ 
+    <div class="nav navbar-nav navbar-right">
+	 <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Язык<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='ru';
+                  document.repost.submit();" href="?locale=ru">
+         русский
+       </a>
+      </li>
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='en';
+                  document.repost.submit();" href="?locale=en">
+         English
+       </a>
+      </li>
+ 
+     </ul>
+    </li>
+    </ul>
+  </div>
+ 
+ 
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+         
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Войти <b class="caret"></b></a>
+	             
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Мой архив ресурсов</a></li>
+               <li><a href="/subscribe">Обновления на e-mail</a></li>
+               <li><a href="/profile">Редактировать профиль</a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+          
+	
+	<form method="get" action="/simple-search" class="navbar-form navbar-right">
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Поиск&nbsp;в&nbsp;архиве" name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form></div>
+    </nav>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+<div class="container banner">
+	<div class="row">
+<div class="col-md-2"><a target="_blank" href="http://spbu.ru/"><img class="pull-right" src="/image/logo.png"></a>
+</div>
+<div class="col-md-10 brand">
+
+		<h1>Архив открытого доступа</br>Санкт-Петербургского государственного университета</h1>
+         
+        </div>
+        </div>
+</div>	
+<br/>
+                
+
+<div class="container">
+                
+
+
+
+  
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">DSpace at Saint Petersburg State University</a></li>
+
+  <li><a href="/handle/11701/2611">GRADUATION PROJECTS</a></li>
+
+  <li><a href="/handle/11701/2697">MATHEMATICS AND MECHANICS</a></li>
+
+  <li><a href="/handle/11701/2698">BACHELOR STUDIES</a></li>
+
+</ol>
+
+</div>                
+
+
+
+        
+<div class="container">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div class="well">Пожалуйста, используйте этот идентификатор, чтобы цитировать или ссылаться на этот ресурс:
+                <code>http://hdl.handle.net/11701/42736</code></div>
+
+
+
+    
+    <table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel">Название:&nbsp;</td><td class="metadataFieldValue">lmplementation&#x20;of&#x20;efficient&#x20;graph&#x20;functional&#x20;dependency&#x20;validation&#x20;algorithm&#x20;on&#x20;Desbordante&#x20;platform</td></tr>
+<tr><td class="metadataFieldLabel">Другие названия:&nbsp;</td><td class="metadataFieldValue">Реализация&#x20;эффективного&#x20;алгоритма&#x20;проверки&#x20;графовых&#x20;функциональных&#x20;зависимостей&#x20;в&#x20;платформе&#x20;Desbordante</td></tr>
+<tr><td class="metadataFieldLabel">Авторы:&nbsp;</td><td class="metadataFieldValue"><a class="author"href="/browse?type=author&amp;value=%D0%A1%D1%82%D1%80%D1%83%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC+%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B5%D0%B2%D0%B8%D1%87">Струтовский&#x20;Максим&#x20;Андреевич</a><br /><a class="author"href="/browse?type=author&amp;value=Strutovskij+Maksim+Andreevic">Strutovskij&#x20;Maksim&#x20;Andreevic</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%A7%D0%B5%D1%80%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%90%D0%BD%D1%82%D0%BE%D0%BD+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87">Черников&#x20;Антон&#x20;Александрович</a><br /><a class="author"href="/browse?type=author&amp;value=Cernikov+Anton+Aleksandrovic">Cernikov&#x20;Anton&#x20;Aleksandrovic</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%9B%D0%B8%D1%82%D0%B2%D0%B8%D0%BD%D0%BE%D0%B2+%D0%AE%D1%80%D0%B8%D0%B9+%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87">Литвинов&#x20;Юрий&#x20;Викторович</a><br /><a class="author"href="/browse?type=author&amp;value=Litvinov+Urij+Viktorovic">Litvinov&#x20;Urij&#x20;Viktorovic</a></td></tr>
+<tr><td class="metadataFieldLabel">Дата публикации:&nbsp;</td><td class="metadataFieldValue">2023</td></tr>
+<tr><td class="metadataFieldLabel">URI (Унифицированный идентификатор ресурса):&nbsp;</td><td class="metadataFieldValue"><a href="http://hdl.handle.net/11701/42736">http:&#x2F;&#x2F;hdl.handle.net&#x2F;11701&#x2F;42736</a></td></tr>
+<tr><td class="metadataFieldLabel">Располагается в коллекциях:</td><td class="metadataFieldValue"><a href="/handle/11701/2698">BACHELOR STUDIES</a><br/></td></tr>
+</table><br/>
+<div class="panel panel-info"><div class="panel-heading">Файлы этого ресурса:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Файл</th>
+<th id="t2" class="standard">Описание</th>
+<th id="t3" class="standard">Размер</th><th id="t4" class="standard">Формат</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42736/2/report.pdf">report.pdf</a></td><td headers="t2" class="standard">Article</td><td headers="t3" class="standard">117,81 kB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42736/2/report.pdf">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42736/3/reviewSV_Cernikov_otzyv_naucnogo_rukovoditela_na_VKR.pdf">reviewSV_Cernikov_otzyv_naucnogo_rukovoditela_na_VKR.pdf</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">90,51 kB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42736/3/reviewSV_Cernikov_otzyv_naucnogo_rukovoditela_na_VKR.pdf">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42736/4/reviewSV_st068877_Cernikov_Anton_Aleksandrovic_%28supervisor%29%28Ru%29.txt">reviewSV_st068877_Cernikov_Anton_Aleksandrovic_(supervisor)(Ru).txt</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">4,35 kB</td><td headers="t4" class="standard">Text</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42736/4/reviewSV_st068877_Cernikov_Anton_Aleksandrovic_%28supervisor%29%28Ru%29.txt">Просмотреть/Открыть</a></td></tr></table>
+</div>
+
+<div class="container row">
+
+
+    <a class="btn btn-default" href="/handle/11701/42736?mode=full">
+        Показать полное описание ресурса
+    </a>
+
+    <a class="statisticsLink  btn btn-primary" href="/handle/11701/42736/statistics">Просмотр статистики</a>
+
+<script type="text/javascript" src="//yandex.st/share/share.js"	charset="utf-8"></script>
+	  	<div class="yashare-auto-init" data-yashareL10n="ru" style="display: inline-block; float: right;" data-yashareType="none" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div> 
+
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p class="submitFormHelp alert alert-info">Все ресурсы в архиве электронных ресурсов защищены авторским правом, все права сохранены.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+<footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+             <div class="row">
+             <div class="col-md-7" style="padding-top: 12px;">
+              Архив открытого доступа. <a target="_blank" href="http://spbu.ru/">Санкт-Петербургский государственный университет.</a>&nbsp;&copy;&nbsp;2019. Поддерживается <a target="_blank" href="https://it.spbu.ru/">УСИТ СПбГУ</a>
+              </div>
+              <div class="col-md-5">
+                        <div id="footer_feedback" class="pull-right">
+                                <p class="text-muted"><a target="_blank" href="http://www.dspace.org/">DSpace Software</a> Copyright&nbsp;&copy;&nbsp;2002-2013&nbsp; &nbsp;-
+                                <a target="_blank" href="/feedback">Обратная связь</a>
+                                <a href="/htmlmap"></a></p>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+    </footer>
+    </body>
+</html>
+

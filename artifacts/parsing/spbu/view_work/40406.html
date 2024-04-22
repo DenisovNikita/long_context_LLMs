@@ -1,0 +1,410 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DSpace at Saint Petersburg State University: Coordinating Buyback Contracts with Limited Funding</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 5.10" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Никольченко Наталья Константиновна" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Nikolcenko Natala Konstantinovna" xml:lang="en_GB" />
+<meta name="DC.creator" content="Сон Ирина Олеговна" xml:lang="ru_RU" />
+<meta name="DC.creator" content="Son Irina Olegovna" xml:lang="en_GB" />
+<meta name="DC.contributor" content="Зенкевич Николай Анатольевич" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Zenkevic Nikolaj Anatolevic" xml:lang="en_GB" />
+<meta name="DCTERMS.dateAccepted" content="2023-07-26T12:58:29Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2023-07-26T12:58:29Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2023" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="014605" xml:lang="en_GB" />
+<meta name="DC.identifier" content="http://hdl.handle.net/11701/43321" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="Целью данной работы является построение модели контракта с обратным выкупом при ограниченном финансировании и разработка алгоритма выбора параметров данного контракта, которые обеспечивают условную координацию цепи с двумя участниками.&#xA;Для достижения поставленной цели были сформулированы следующие задачи:&#xA;• Проанализировать и представить обзор современных исследований по применению контрактов для координации цепей поставок, в особенности контракта с обратным выкупом, а также по проблеме ограниченного финансирования в координации цепей поставок с помощью контрактов;&#xA;• Построить модель контракта с обратным выкупом при ограниченном финансировании и проанализировать координационные свойства данного контракта;&#xA;• Разработать алгоритм выбора параметров условно-координирующего контракта с обратным выкупом при ограниченном финансировании;&#xA;• Применить разработанные модель и алгоритм для определения параметров данного контракта на кейсе компании.&#xA;В работе были получены следующие результаты:&#xA;• Установлено, что контракт с обратным выкупом при ограниченном финансировании не обеспечивает координацию, однако позволяет достичь условной координации цепи согласно определениям координирующего и условно-координирующего контрактов, используемым в работе;&#xA;• Доказано, что в условиях ограниченного финансирования торговый кредит является более предпочтительной формой кредитования ритейлера, чем банковский кредит, т.к. он обеспечивает более высокие прибыли обоим участникам цепи поставок как при контракте с обратным выкупом, так и при контракте по оптовой цене;&#xA;• Установлено, что более высокая прибыль цепи поставок, достигаемая при торговом кредите за счет роста прибыли обоих участников, совпадает с уровнем прибыли цепи в случае, когда средства ритейлера не ограничены;&#xA;• Разработан алгоритм выбора параметров контракта с обратным выкупом при ограниченном финансировании, который обеспечивает условную координацию цепи с двумя участниками и максимизирует прибыль цепи с учетом источника кредитования, выбранного ритейлером (торговый или банковский кредит);&#xA;• Данный алгоритм также позволяет выбрать параметры контракта по оптовой цене, которые выгодны обоим участникам цепи – также с учетом выбранного источника кредитования." xml:lang="ru_RU" />
+<meta name="DCTERMS.abstract" content="The goal of this study is to build a model of the buyback contract with limited funding that allows for two forms of borrowing – bank loan and trade credit – and develop an algorithm for selecting parameters of the buyback contract with limited funding that provide conditional coordination of a supplier-retailer supply chain.&#xA;To achieve the research goal, the following tasks were formulated:&#xA;• To analyze existing approaches to supply chain coordination with contracts, and with buyback contract in particular, and approaches to limited funding in order to justify the scope and approach to modeling the buyback contract with limited funding and studying its coordinating properties;&#xA;• To construct the model of the buyback contract with limited funding and analyze coordinating properties of this contract;&#xA;• To develop an algorithm for selecting the parameters of conditionally coordinating buyback contract with limited funding; and&#xA;• To apply the constructed model and developed algorithm to a company case.&#xA;Results obtained in the study are as follows:&#xA;• It is found that the buyback contract with limited funding does not coordinate the supply chain, but allows to achieve its conditional coordination according to the definitions of coordinating and conditionally coordinating contracts applied in the paper;&#xA;• It is proved that in the case of the retailer’s limited funding trade credit is preferable to the bank loan as it provides the supply chain members with higher profits relative to those earned by them with the bank loan, this conclusion is fair for both wholesale-price and buyback contract types;&#xA;• It is shown that the supply chain profit reached with the trade credit coincides with that achieved in the case where retailer’s funds are sufficient, this profit level is higher relative to the supply chain profit with the bank loan;&#xA;• The algorithm for selecting the parameters of the buyback contract with limited funding is proposed, it allows to achieve conditional coordination in the supplier-retailer supply chain and maximizes its total profit considering the type of credit chosen by the retailer (trade credit or bank loan);&#xA;• The algorithm also allows to select the parameters of the wholesale-price contract that are beneficial for both supplier and retailer – with the type of credit taken into account as well." xml:lang="en_GB" />
+<meta name="DC.language" content="ru" scheme="DCTERMS.RFC1766" />
+<meta name="DC.subject" content="Цепь поставок" xml:lang="ru_RU" />
+<meta name="DC.subject" content="координация" xml:lang="ru_RU" />
+<meta name="DC.subject" content="обратный выкуп" xml:lang="ru_RU" />
+<meta name="DC.subject" content="контракт" xml:lang="ru_RU" />
+<meta name="DC.subject" content="ограниченное финансирование" xml:lang="ru_RU" />
+<meta name="DC.subject" content="торговый кредит" xml:lang="ru_RU" />
+<meta name="DC.subject" content="Supply chain" xml:lang="en_GB" />
+<meta name="DC.subject" content="coordination" xml:lang="en_GB" />
+<meta name="DC.subject" content="buyback" xml:lang="en_GB" />
+<meta name="DC.subject" content="contract" xml:lang="en_GB" />
+<meta name="DC.subject" content="limited funding" xml:lang="en_GB" />
+<meta name="DC.subject" content="trade credit" xml:lang="en_GB" />
+<meta name="DC.title" content="Coordinating Buyback Contracts with Limited Funding" xml:lang="en_GB" />
+<meta name="DCTERMS.alternative" content="Координирующие контракты с обратным выкупом при ограниченном финансировании" xml:lang="ru_RU" />
+
+<meta name="citation_keywords" content="Цепь поставок; координация; обратный выкуп; контракт; ограниченное финансирование; торговый кредит; Supply chain; coordination; buyback; contract; limited funding; trade credit" />
+<meta name="citation_title" content="Coordinating Buyback Contracts with Limited Funding" />
+<meta name="citation_language" content="ru" />
+<meta name="citation_author" content="Сон Ирина Олеговна" />
+<meta name="citation_author" content="Son Irina Olegovna" />
+<meta name="citation_pdf_url" content="https://dspace.spbu.ru/bitstream/11701/43321/2/MT__Irina_Son.pdf" />
+<meta name="citation_date" content="2023" />
+<meta name="citation_abstract_html_url" content="https://dspace.spbu.ru/handle/11701/43321" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46082349-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VXGFQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5VXGFQ');</script>
+<!-- End Google Tag Manager -->
+
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-inverse navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul class="nav navbar-nav">
+<li class=""><a href="/"> Главная страница</a></li>
+                
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Просмотр <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Разделы и коллекции</a></li>
+				<li class="divider"></li>
+        <li class="dropdown-header">Просмотр ресурсов по:</li>
+				
+				
+				
+				      			<li><a href="/browse?type=dateissued">Даты выпуска</a></li>
+					
+				      			<li><a href="/browse?type=author">Авторы</a></li>
+					
+				      			<li><a href="/browse?type=title">Заголовки</a></li>
+					
+				      			<li><a href="/browse?type=subject">Темы</a></li>
+					
+				    
+				
+
+            </ul>
+          </li>
+<li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/policies/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Политика<\/a>');
+// -->
+</script><noscript><a href="/policies/index_ru.html" target="dspacepopup">Политика</a></noscript></li>
+          <li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/help/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Справка<\/a>');
+// -->
+</script><noscript><a href="/help/index_ru.html" target="dspacepopup">Справка</a></noscript></li>
+       </ul>
+
+ 
+    <div class="nav navbar-nav navbar-right">
+	 <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Язык<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='ru';
+                  document.repost.submit();" href="?locale=ru">
+         русский
+       </a>
+      </li>
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='en';
+                  document.repost.submit();" href="?locale=en">
+         English
+       </a>
+      </li>
+ 
+     </ul>
+    </li>
+    </ul>
+  </div>
+ 
+ 
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+         
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Войти <b class="caret"></b></a>
+	             
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Мой архив ресурсов</a></li>
+               <li><a href="/subscribe">Обновления на e-mail</a></li>
+               <li><a href="/profile">Редактировать профиль</a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+          
+	
+	<form method="get" action="/simple-search" class="navbar-form navbar-right">
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Поиск&nbsp;в&nbsp;архиве" name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form></div>
+    </nav>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+<div class="container banner">
+	<div class="row">
+<div class="col-md-2"><a target="_blank" href="http://spbu.ru/"><img class="pull-right" src="/image/logo.png"></a>
+</div>
+<div class="col-md-10 brand">
+
+		<h1>Архив открытого доступа</br>Санкт-Петербургского государственного университета</h1>
+         
+        </div>
+        </div>
+</div>	
+<br/>
+                
+
+<div class="container">
+                
+
+
+
+  
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">DSpace at Saint Petersburg State University</a></li>
+
+  <li><a href="/handle/11701/2611">GRADUATION PROJECTS</a></li>
+
+  <li><a href="/handle/11701/2692">MANAGEMENT</a></li>
+
+  <li><a href="/handle/11701/2695">MASTER'S STUDIES</a></li>
+
+</ol>
+
+</div>                
+
+
+
+        
+<div class="container">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div class="well">Пожалуйста, используйте этот идентификатор, чтобы цитировать или ссылаться на этот ресурс:
+                <code>http://hdl.handle.net/11701/43321</code></div>
+
+
+
+    
+    <table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel">Название:&nbsp;</td><td class="metadataFieldValue">Coordinating&#x20;Buyback&#x20;Contracts&#x20;with&#x20;Limited&#x20;Funding</td></tr>
+<tr><td class="metadataFieldLabel">Другие названия:&nbsp;</td><td class="metadataFieldValue">Координирующие&#x20;контракты&#x20;с&#x20;обратным&#x20;выкупом&#x20;при&#x20;ограниченном&#x20;финансировании</td></tr>
+<tr><td class="metadataFieldLabel">Авторы:&nbsp;</td><td class="metadataFieldValue"><a class="author"href="/browse?type=author&amp;value=%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D1%8C%D1%87%D0%B5%D0%BD%D0%BA%D0%BE+%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%8C%D1%8F+%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0">Никольченко&#x20;Наталья&#x20;Константиновна</a><br /><a class="author"href="/browse?type=author&amp;value=Nikolcenko+Natala+Konstantinovna">Nikolcenko&#x20;Natala&#x20;Konstantinovna</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%A1%D0%BE%D0%BD+%D0%98%D1%80%D0%B8%D0%BD%D0%B0+%D0%9E%D0%BB%D0%B5%D0%B3%D0%BE%D0%B2%D0%BD%D0%B0">Сон&#x20;Ирина&#x20;Олеговна</a><br /><a class="author"href="/browse?type=author&amp;value=Son+Irina+Olegovna">Son&#x20;Irina&#x20;Olegovna</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%97%D0%B5%D0%BD%D0%BA%D0%B5%D0%B2%D0%B8%D1%87+%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9+%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87">Зенкевич&#x20;Николай&#x20;Анатольевич</a><br /><a class="author"href="/browse?type=author&amp;value=Zenkevic+Nikolaj+Anatolevic">Zenkevic&#x20;Nikolaj&#x20;Anatolevic</a></td></tr>
+<tr><td class="metadataFieldLabel">Дата публикации:&nbsp;</td><td class="metadataFieldValue">2023</td></tr>
+<tr><td class="metadataFieldLabel">URI (Унифицированный идентификатор ресурса):&nbsp;</td><td class="metadataFieldValue"><a href="http://hdl.handle.net/11701/43321">http:&#x2F;&#x2F;hdl.handle.net&#x2F;11701&#x2F;43321</a></td></tr>
+<tr><td class="metadataFieldLabel">Располагается в коллекциях:</td><td class="metadataFieldValue"><a href="/handle/11701/2695">MASTER'S STUDIES</a><br/></td></tr>
+</table><br/>
+<div class="panel panel-info"><div class="panel-heading">Файлы этого ресурса:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Файл</th>
+<th id="t2" class="standard">Описание</th>
+<th id="t3" class="standard">Размер</th><th id="t4" class="standard">Формат</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/43321/2/MT__Irina_Son.pdf">MT__Irina_Son.pdf</a></td><td headers="t2" class="standard">Article</td><td headers="t3" class="standard">2,59 MB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/43321/2/MT__Irina_Son.pdf">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/43321/3/reviewSV_Scientific_Advisor_Son_MCF_2023.pdf">reviewSV_Scientific_Advisor_Son_MCF_2023.pdf</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">140,2 kB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/43321/3/reviewSV_Scientific_Advisor_Son_MCF_2023.pdf">Просмотреть/Открыть</a></td></tr></table>
+</div>
+
+<div class="container row">
+
+
+    <a class="btn btn-default" href="/handle/11701/43321?mode=full">
+        Показать полное описание ресурса
+    </a>
+
+    <a class="statisticsLink  btn btn-primary" href="/handle/11701/43321/statistics">Просмотр статистики</a>
+
+<script type="text/javascript" src="//yandex.st/share/share.js"	charset="utf-8"></script>
+	  	<div class="yashare-auto-init" data-yashareL10n="ru" style="display: inline-block; float: right;" data-yashareType="none" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div> 
+
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p class="submitFormHelp alert alert-info">Все ресурсы в архиве электронных ресурсов защищены авторским правом, все права сохранены.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+<footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+             <div class="row">
+             <div class="col-md-7" style="padding-top: 12px;">
+              Архив открытого доступа. <a target="_blank" href="http://spbu.ru/">Санкт-Петербургский государственный университет.</a>&nbsp;&copy;&nbsp;2019. Поддерживается <a target="_blank" href="https://it.spbu.ru/">УСИТ СПбГУ</a>
+              </div>
+              <div class="col-md-5">
+                        <div id="footer_feedback" class="pull-right">
+                                <p class="text-muted"><a target="_blank" href="http://www.dspace.org/">DSpace Software</a> Copyright&nbsp;&copy;&nbsp;2002-2013&nbsp; &nbsp;-
+                                <a target="_blank" href="/feedback">Обратная связь</a>
+                                <a href="/htmlmap"></a></p>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+    </footer>
+    </body>
+</html>
+

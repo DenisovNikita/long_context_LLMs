@@ -1,0 +1,414 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DSpace at Saint Petersburg State University: The application of machine learning technologies in the modelling of geological systems, forecasting and search for mineral deposits</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 5.10" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Мишулович Павел Михайлович" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Misulovic Pavel Mihajlovic" xml:lang="en_GB" />
+<meta name="DC.creator" content="Жилкова Анна Анатольевна" xml:lang="ru_RU" />
+<meta name="DC.creator" content="Zilkova Anna Anatolevna" xml:lang="en_GB" />
+<meta name="DC.contributor" content="Алексеев Иван Александрович" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Alekseev Ivan Aleksandrovic" xml:lang="en_GB" />
+<meta name="DCTERMS.dateAccepted" content="2023-07-26T12:04:12Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2023-07-26T12:04:12Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2023" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="098212" xml:lang="en_GB" />
+<meta name="DC.identifier" content="http://hdl.handle.net/11701/42473" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="Актуальность.&#xA;В условиях растущей конкуренции и уменьшения количества доступных месторождений, применение технологий машинного обучения может стать важным фактором для оптимизации производственных процессов и повышения эффективности поиска, моделировании и прогнозировании месторождений полезных ископаемых. Использование машинного обучения позволит сократить время, затрачиваемое на анализ и обработку больших объемов данных. Кроме того, применение технологий машинного обучения может помочь выявить неочевидные закономерности в геологических данных. &#xA;Цель. &#xA;Целью магистерской диссертационной работы является создание оптимизированного алгоритма, на основе самоорганизующихся карт Сети Кохонена для обработки геохимических данных.&#xA;Задачи:&#xA;1. Изучить актуальные направления применения технологий обработки больших данных (Big Data), машинного обучения (Machine Learning), глубокого обучения (Deep Learning), а также рассмотреть современные методы хранения больших объемов данных.&#xA;2.Исследовать применение методов машинного обучения в геологии и других отраслях, проанализировать опыт применения этих методов и оценить их эффективность.&#xA;3.Выполнить многомерный статистический анализ и выделить перспективные зоны на участке.&#xA;4.Обработать полученные данные с помощью алгоритма кластеризации - сети Кохонена для выявления особенностей распределения полезных ископаемых и прогнозирования месторождений.&#xA;5.Сравнить результаты, полученные с помощью искусственных нейронных сетей (ИНС), с данными, полученными с помощью статистических методов, и оценить точность прогнозирования месторождений.&#xA;6.Описать алгоритм кластеризации - сети Кохонена, используемый в данной работе, с приведением подробных формул и описаний.&#xA;Объект исследования.&#xA;Объектом исследования является участок Кайэнмываам расположен в пределах Центрально-Чукотского сектора Охотско-Чукотского вулканогенного пояса и имеет размеры 20 на 53 км. Для изучения геохимических характеристик данного участка были собраны и проанализированы геохимические пробы методом индуктивно-связанной плазмы с использованием масс-спектрометрии.&#xA;Фактический материал.&#xA;Фактическим материалом, полученным в ходе исследования, являются данные Масс-спектрометрия с индуктивно-связанной плазмой. Также использовались карты предшественников для получения дополнительных данных об изучаемом участке.&#xA;Методика исследования.&#xA;Методика исследования включает в себя многомерный статистический анализ и машинное обучение на основе алгоритма кластеризации сети Кохонена, которые были применены для обработки и анализа геохимических данных и поиска возможных признаков наличия эпитермальных золото-серебряных месторождений на участке.&#xA;Предмет исследования.&#xA;Являются алгоритмы машинного обучения, в частности, сети Кохонена, которые будут использованы для интерпретации данных и создания точных и геологически значимых прогнозов.&#xA;Выводы:&#xA;1. По результатам исследования актуальных направлений применения технологий обработки больших данных, машинного и глубокого обучения, а также методов хранения больших объемов данных можно сделать вывод о том, что эти технологии имеют широкое применение в различных отраслях, включая науку, медицину, банковское дело, маркетинг, логистику, производство и др. Применение этих технологий позволяет существенно увеличить эффективность бизнеса, оптимизировать процессы и принимать более обоснованные решения.&#xA;2. Изучив применение методов машинного обучения в геологии и других отраслях, можно сделать вывод о том, что эти методы являются эффективными инструментами для анализа данных и построения прогнозов. Машинное обучение позволяет автоматически обрабатывать большие объемы данных, выделять закономерности, которые могут быть незаметны для человеческого восприятия. Однако, для успешного применения методов машинного обучения необходимо правильно выбирать модели и алгоритмы, обучать их на соответствующих данных, и проводить качественную проверку результатов.&#xA;3. Выполнение многомерного статистического анализа и выделение перспективных зон на участке является важной задачей. По результатам анализа были выделены наиболее перспективные участки для дальнейшего изучения и разработки.&#xA;4. Обработка полученных данных с помощью алгоритма кластеризации - сети Кохонена, позволяет выявлять особенности распределения полезных ископаемых и прогнозировать месторождения. Этот алгоритм обеспечивает высокую точность кластеризации и позволяет выделять схожие объекты в данных. На основе данного алгоритма были построенные и проанализированы карты.  &#xA;5. Сравнение результатов, полученных с помощью искусственных нейронных сетей и статистических методов, позволяет оценить точность прогнозирования месторождений и выбрать наиболее эффективный подход для решения задачи. Сеть Кохонена при сравнении с результатами, полученными с помощью статистических методов, демонстрировала высокую точность прогнозирования месторождений и выделения перспективных зон на участке. Благодаря своей способности кластеризации и определению схожих объектов в данных, сеть Кохонена позволяет эффективно анализировать большие объемы данных и находить скрытые закономерности. Поэтому данный метод может быть рекомендован для дальнейшего использования на практике.&#xA;6. Алгоритм кластеризации - сети Кохонена используется в данной работе для выявления особенностей распределения полезных ископаемых и прогнозирования месторождений. Он основан на принципе самоорганизации и представляет собой нейронную сеть, которая обучается на основе входных данных и позволяет выделять схожие объекты в данных. Алгоритм состоит из следующих шагов: инициализация весов, выбор случайного образца, определение ближайшего вектора, обновление весов соседних нейронов, и повторение этих шагов до сходимости. Формулы и подробное описание алгоритма были представлены в данной работе.  " xml:lang="ru_RU" />
+<meta name="DCTERMS.abstract" content="Relevance.&#xA;In the context of growing competition and a decrease in the number of available deposits, the use of machine learning technologies can become an important factor for optimizing production processes and improving the efficiency of prospecting, modeling and forecasting of mineral deposits. Using machine learning will reduce the time spent on analyzing and processing large amounts of data. In addition, the use of machine learning technologies can help to identify non-obvious patterns in geological data. &#xA;Goal. &#xA;The purpose of the master's thesis is to create an optimized algorithm based on self-organizing maps of the Kohonen Network for processing geochemical data.&#xA;Tasks:&#xA;1. To study the current directions of application of big data processing technologies (Big Data), machine learning (Machine Learning), deep learning (Deep Learning), as well as to consider modern methods of storing large amounts of data.&#xA;2. To investigate the application of machine learning methods in geology and other industries, analyze the experience of using these methods and evaluate their effectiveness.&#xA;3. Perform a multidimensional statistical analysis and identify promising areas on the site.&#xA;4.Process the data obtained using the Kohonen network clustering algorithm to identify the features of the distribution of minerals and the prediction of deposits.&#xA;5. Compare the results obtained using artificial neural networks (INS) with the data obtained using statistical methods and evaluate the accuracy of forecasting deposits.&#xA;6. Describe the Kohonen network clustering algorithm used in this paper, with detailed formulas and descriptions.&#xA;The object of the study.&#xA;The object of the study is the Kayenmyvaam site located within the Central Chukchi sector of the Okhotsk-Chukchi volcanic belt and has dimensions of 20 by 53 km. To study the geochemical characteristics of this site, geochemical samples were collected and analyzed by inductively coupled plasma using mass spectrometry.&#xA;The actual material.&#xA;The actual material obtained during the study is inductively coupled plasma mass spectrometry data. The predecessor maps were also used to obtain additional data about the studied area.&#xA;Research methodology.&#xA;The research methodology includes multidimensional statistical analysis and machine learning based on the Kohonen network clustering algorithm, which were used to process and analyze geochemical data and search for possible signs of the presence of epithermal gold and silver deposits at the site.&#xA;The subject of the study.&#xA;There are machine learning algorithms, in particular, Kohonen networks, which will be used to interpret data and create accurate and geologically significant forecasts.&#xA;Conclusions:&#xA;1. Based on the results of the study of current areas of application of big data processing technologies, machine and deep learning, as well as methods of storing large amounts of data, it can be concluded that these technologies are widely used in various industries, including science, medicine, banking, marketing, logistics, manufacturing, etc. The use of these technologies can significantly increase business efficiency, optimize processes and make more informed decisions.&#xA;2. Having studied the application of machine learning methods in geology and other industries, it can be concluded that these methods are effective tools for data analysis and forecasting. Machine learning allows you to automatically process large amounts of data, identify patterns that may be invisible to human perception. However, for the successful application of machine learning methods, it is necessary to choose the right models and algorithms, train them on the appropriate data, and conduct a qualitative verification of the results.&#xA;3. Performing multidimensional statistical analysis and identifying promising areas on the site is an important task. Based on the results of the analysis, the most promising areas were identified for further study and development.&#xA;4. Processing of the data obtained using the clustering algorithm - Kohonen network, allows you to identify the features of the distribution of minerals and predict deposits. This algorithm provides high clustering accuracy and allows you to highlight similar objects in the data. Based on this algorithm, maps were constructed and analyzed.  &#xA;5. Comparison of the results obtained using artificial neural networks and statistical methods allows us to evaluate the accuracy of forecasting deposits and choose the most effective approach to solve the problem. The Kohonen network, when compared with the results obtained using statistical methods, demonstrated high accuracy in predicting deposits and identifying promising areas on the site. Thanks to its ability to cluster and identify similar objects in the data, the Kohonen network allows you to efficiently analyze large amounts of data and find hidden patterns. Therefore, this method can be recommended for further use in practice.&#xA;6. The Kohonen clustering - network algorithm is used in this work to identify the features of the distribution of minerals and the prediction of deposits. It is based on the principle of self-organization and is a neural network that is trained based on input data and allows you to identify similar objects in the data. The algorithm consists of the following steps: initializing the weights, selecting a random sample, determining the nearest vector, updating the weights of neighboring neurons, and repeating these steps until convergence. Formulas and a detailed description of the algorithm were presented in this paper." xml:lang="en_GB" />
+<meta name="DC.language" content="ru" scheme="DCTERMS.RFC1766" />
+<meta name="DC.subject" content="Машинное обучение" xml:lang="ru_RU" />
+<meta name="DC.subject" content="искусственный интеллект" xml:lang="ru_RU" />
+<meta name="DC.subject" content="нейронная сеть" xml:lang="ru_RU" />
+<meta name="DC.subject" content="сеть Кохонена" xml:lang="ru_RU" />
+<meta name="DC.subject" content="самоорганизующиеся карты" xml:lang="ru_RU" />
+<meta name="DC.subject" content="статистические методы" xml:lang="ru_RU" />
+<meta name="DC.subject" content="анализ данных" xml:lang="ru_RU" />
+<meta name="DC.subject" content="золото-серебряные эпитермальные месторождения." xml:lang="ru_RU" />
+<meta name="DC.subject" content="Machine learning" xml:lang="en_GB" />
+<meta name="DC.subject" content="artificial intelligence" xml:lang="en_GB" />
+<meta name="DC.subject" content="neural network" xml:lang="en_GB" />
+<meta name="DC.subject" content="Kohonen network" xml:lang="en_GB" />
+<meta name="DC.subject" content="self-organizing maps" xml:lang="en_GB" />
+<meta name="DC.subject" content="statistical methods" xml:lang="en_GB" />
+<meta name="DC.subject" content="data analysis" xml:lang="en_GB" />
+<meta name="DC.subject" content="gold-silver epithermal deposits." xml:lang="en_GB" />
+<meta name="DC.title" content="The application of machine learning technologies in the modelling of geological systems, forecasting and search for mineral deposits" xml:lang="en_GB" />
+<meta name="DCTERMS.alternative" content="Особенности применения технологий машинного обучения при моделировании геологических систем, прогнозировании и поиске месторождений полезных ископаемых" xml:lang="ru_RU" />
+
+<meta name="citation_keywords" content="Машинное обучение; искусственный интеллект; нейронная сеть; сеть Кохонена; самоорганизующиеся карты; статистические методы; анализ данных; золото-серебряные эпитермальные месторождения.; Machine learning; artificial intelligence; neural network; Kohonen network; self-organizing maps; statistical methods; data analysis; gold-silver epithermal deposits." />
+<meta name="citation_title" content="The application of machine learning technologies in the modelling of geological systems, forecasting and search for mineral deposits" />
+<meta name="citation_language" content="ru" />
+<meta name="citation_author" content="Жилкова Анна Анатольевна" />
+<meta name="citation_author" content="Zilkova Anna Anatolevna" />
+<meta name="citation_pdf_url" content="https://dspace.spbu.ru/bitstream/11701/42473/2/Zilkova_A.A._magisterskaa_dissertacia._pdf.pdf" />
+<meta name="citation_date" content="2023" />
+<meta name="citation_abstract_html_url" content="https://dspace.spbu.ru/handle/11701/42473" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46082349-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VXGFQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5VXGFQ');</script>
+<!-- End Google Tag Manager -->
+
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-inverse navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul class="nav navbar-nav">
+<li class=""><a href="/"> Главная страница</a></li>
+                
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Просмотр <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Разделы и коллекции</a></li>
+				<li class="divider"></li>
+        <li class="dropdown-header">Просмотр ресурсов по:</li>
+				
+				
+				
+				      			<li><a href="/browse?type=dateissued">Даты выпуска</a></li>
+					
+				      			<li><a href="/browse?type=author">Авторы</a></li>
+					
+				      			<li><a href="/browse?type=title">Заголовки</a></li>
+					
+				      			<li><a href="/browse?type=subject">Темы</a></li>
+					
+				    
+				
+
+            </ul>
+          </li>
+<li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/policies/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Политика<\/a>');
+// -->
+</script><noscript><a href="/policies/index_ru.html" target="dspacepopup">Политика</a></noscript></li>
+          <li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/help/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Справка<\/a>');
+// -->
+</script><noscript><a href="/help/index_ru.html" target="dspacepopup">Справка</a></noscript></li>
+       </ul>
+
+ 
+    <div class="nav navbar-nav navbar-right">
+	 <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Язык<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='ru';
+                  document.repost.submit();" href="?locale=ru">
+         русский
+       </a>
+      </li>
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='en';
+                  document.repost.submit();" href="?locale=en">
+         English
+       </a>
+      </li>
+ 
+     </ul>
+    </li>
+    </ul>
+  </div>
+ 
+ 
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+         
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Войти <b class="caret"></b></a>
+	             
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Мой архив ресурсов</a></li>
+               <li><a href="/subscribe">Обновления на e-mail</a></li>
+               <li><a href="/profile">Редактировать профиль</a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+          
+	
+	<form method="get" action="/simple-search" class="navbar-form navbar-right">
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Поиск&nbsp;в&nbsp;архиве" name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form></div>
+    </nav>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+<div class="container banner">
+	<div class="row">
+<div class="col-md-2"><a target="_blank" href="http://spbu.ru/"><img class="pull-right" src="/image/logo.png"></a>
+</div>
+<div class="col-md-10 brand">
+
+		<h1>Архив открытого доступа</br>Санкт-Петербургского государственного университета</h1>
+         
+        </div>
+        </div>
+</div>	
+<br/>
+                
+
+<div class="container">
+                
+
+
+
+  
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">DSpace at Saint Petersburg State University</a></li>
+
+  <li><a href="/handle/11701/2611">GRADUATION PROJECTS</a></li>
+
+  <li><a href="/handle/11701/14462">EARTH SCIENCES</a></li>
+
+  <li><a href="/handle/11701/14466">MASTER'S STUDIES</a></li>
+
+</ol>
+
+</div>                
+
+
+
+        
+<div class="container">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div class="well">Пожалуйста, используйте этот идентификатор, чтобы цитировать или ссылаться на этот ресурс:
+                <code>http://hdl.handle.net/11701/42473</code></div>
+
+
+
+    
+    <table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel">Название:&nbsp;</td><td class="metadataFieldValue">The&#x20;application&#x20;of&#x20;machine&#x20;learning&#x20;technologies&#x20;in&#x20;the&#x20;modelling&#x20;of&#x20;geological&#x20;systems,&#x20;forecasting&#x20;and&#x20;search&#x20;for&#x20;mineral&#x20;deposits</td></tr>
+<tr><td class="metadataFieldLabel">Другие названия:&nbsp;</td><td class="metadataFieldValue">Особенности&#x20;применения&#x20;технологий&#x20;машинного&#x20;обучения&#x20;при&#x20;моделировании&#x20;геологических&#x20;систем,&#x20;прогнозировании&#x20;и&#x20;поиске&#x20;месторождений&#x20;полезных&#x20;ископаемых</td></tr>
+<tr><td class="metadataFieldLabel">Авторы:&nbsp;</td><td class="metadataFieldValue"><a class="author"href="/browse?type=author&amp;value=%D0%9C%D0%B8%D1%88%D1%83%D0%BB%D0%BE%D0%B2%D0%B8%D1%87+%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB+%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87">Мишулович&#x20;Павел&#x20;Михайлович</a><br /><a class="author"href="/browse?type=author&amp;value=Misulovic+Pavel+Mihajlovic">Misulovic&#x20;Pavel&#x20;Mihajlovic</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%96%D0%B8%D0%BB%D0%BA%D0%BE%D0%B2%D0%B0+%D0%90%D0%BD%D0%BD%D0%B0+%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%8C%D0%B5%D0%B2%D0%BD%D0%B0">Жилкова&#x20;Анна&#x20;Анатольевна</a><br /><a class="author"href="/browse?type=author&amp;value=Zilkova+Anna+Anatolevna">Zilkova&#x20;Anna&#x20;Anatolevna</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B5%D0%B2+%D0%98%D0%B2%D0%B0%D0%BD+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87">Алексеев&#x20;Иван&#x20;Александрович</a><br /><a class="author"href="/browse?type=author&amp;value=Alekseev+Ivan+Aleksandrovic">Alekseev&#x20;Ivan&#x20;Aleksandrovic</a></td></tr>
+<tr><td class="metadataFieldLabel">Дата публикации:&nbsp;</td><td class="metadataFieldValue">2023</td></tr>
+<tr><td class="metadataFieldLabel">URI (Унифицированный идентификатор ресурса):&nbsp;</td><td class="metadataFieldValue"><a href="http://hdl.handle.net/11701/42473">http:&#x2F;&#x2F;hdl.handle.net&#x2F;11701&#x2F;42473</a></td></tr>
+<tr><td class="metadataFieldLabel">Располагается в коллекциях:</td><td class="metadataFieldValue"><a href="/handle/11701/14466">MASTER'S STUDIES</a><br/></td></tr>
+</table><br/>
+<div class="panel panel-info"><div class="panel-heading">Файлы этого ресурса:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Файл</th>
+<th id="t2" class="standard">Описание</th>
+<th id="t3" class="standard">Размер</th><th id="t4" class="standard">Формат</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42473/2/Zilkova_A.A._magisterskaa_dissertacia._pdf.pdf">Zilkova_A.A._magisterskaa_dissertacia._pdf.pdf</a></td><td headers="t2" class="standard">Article</td><td headers="t3" class="standard">4,13 MB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42473/2/Zilkova_A.A._magisterskaa_dissertacia._pdf.pdf">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42473/3/reviewSV_Zilkova_otzyv_nauc.ruk.2023.pdf">reviewSV_Zilkova_otzyv_nauc.ruk.2023.pdf</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">189,77 kB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42473/3/reviewSV_Zilkova_otzyv_nauc.ruk.2023.pdf">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42473/4/reviewSV_st098212_Zilkova_Anna_Anatolevna_%28supervisor%29%28Ru%29.txt">reviewSV_st098212_Zilkova_Anna_Anatolevna_(supervisor)(Ru).txt</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">1,9 kB</td><td headers="t4" class="standard">Text</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42473/4/reviewSV_st098212_Zilkova_Anna_Anatolevna_%28supervisor%29%28Ru%29.txt">Просмотреть/Открыть</a></td></tr></table>
+</div>
+
+<div class="container row">
+
+
+    <a class="btn btn-default" href="/handle/11701/42473?mode=full">
+        Показать полное описание ресурса
+    </a>
+
+    <a class="statisticsLink  btn btn-primary" href="/handle/11701/42473/statistics">Просмотр статистики</a>
+
+<script type="text/javascript" src="//yandex.st/share/share.js"	charset="utf-8"></script>
+	  	<div class="yashare-auto-init" data-yashareL10n="ru" style="display: inline-block; float: right;" data-yashareType="none" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div> 
+
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p class="submitFormHelp alert alert-info">Все ресурсы в архиве электронных ресурсов защищены авторским правом, все права сохранены.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+<footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+             <div class="row">
+             <div class="col-md-7" style="padding-top: 12px;">
+              Архив открытого доступа. <a target="_blank" href="http://spbu.ru/">Санкт-Петербургский государственный университет.</a>&nbsp;&copy;&nbsp;2019. Поддерживается <a target="_blank" href="https://it.spbu.ru/">УСИТ СПбГУ</a>
+              </div>
+              <div class="col-md-5">
+                        <div id="footer_feedback" class="pull-right">
+                                <p class="text-muted"><a target="_blank" href="http://www.dspace.org/">DSpace Software</a> Copyright&nbsp;&copy;&nbsp;2002-2013&nbsp; &nbsp;-
+                                <a target="_blank" href="/feedback">Обратная связь</a>
+                                <a href="/htmlmap"></a></p>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+    </footer>
+    </body>
+</html>
+

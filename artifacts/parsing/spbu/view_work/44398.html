@@ -1,0 +1,406 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DSpace at Saint Petersburg State University: Using the rate of change of the pitch frequency to describe the intonation of the utterance</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 5.10" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Кипяткова Ирина Сергеевна" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Kipatkova Irina Sergeevna" xml:lang="en_GB" />
+<meta name="DC.creator" content="Рашевская Анна Юрьевна" xml:lang="ru_RU" />
+<meta name="DC.creator" content="Rasevskaa Anna Urevna" xml:lang="en_GB" />
+<meta name="DC.contributor" content="Скрелин Павел Анатольевич" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Skrelin Pavel Anatolevic" xml:lang="en_GB" />
+<meta name="DCTERMS.dateAccepted" content="2023-07-26T12:44:22Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2023-07-26T12:44:22Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2023" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="034743" xml:lang="en_GB" />
+<meta name="DC.identifier" content="http://hdl.handle.net/11701/42612" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="Целью данного исследования является выявление особенностей скорости изменения частоты основного тона для описания интонационного оформления высказывания в русской речи. В представленной работе объектом исследования является мелодика. Мелодика выполняет одну из ведущих ролей среди других компонентов интонации и является показателем изменения частоты основного тона (ЧОТ) во времени. Поэтому в любом эксперименте надо обязательно учитывать мелодические диапазоны (волновые колебания между низшей и высшей точками показаний изменения ЧОТ; их соотношение (интервалы); крутизна повышения и понижения тона, направление и кульминационная точка, а также его отражение в мелодических моделях).&#xA;Для достижения поставленной цели необходимо решить следующие задачи:&#xA;•&#x9;Рассмотреть подходы к определению понятия «интонация»;&#xA;•&#x9;Рассмотреть подходы к выделению «компонентов интонации» и рассмотреть компоненты интонации вместе с их акустическими коррелятами;&#xA;•&#x9;Рассмотреть особенности мелодики как основного из интонационных компонентов, а также ее частного явления – скорость изменения частоты основного тона;&#xA;•&#x9;Рассмотреть особенности скорости изменения частотны основного тона на предударных, ударных и заударных гласных;&#xA;•&#x9;Рассмотреть особенности скорости изменений частоты основного, характерных для интонационных моделей, разработанных Н.Б. Вольской.&#xA;Предметом данного исследования является – мелодическое оформление высказывания в русской речи.&#xA;Объект – скорость изменения частоты основного тона на гласных.&#xA;Теоретическая часть данного исследования посвящена описанию исследуемых элементов и рассмотрению их современного состояния. &#xA;В качестве материала исследования для модификации сигнала использовались записи из звукового корпуса профессиональных дикторов CORPRES, созданные на кафедре фонетики и методики преподавания иностранный языков [Skrelin et al, 2009]&#xA;В теоретической части рассмотрены основные подходы к определению интонации, принципов выделения компонентов интонации, а также основных понятий мелодического описания интонационного контура.&#xA;В практической части работы представлен анализ особенностей изменения скорости изменения частоты основного тона на ударных, предударных и заударных гласных. В работе также были рассмотрены особенности изменения скорости частоты основного тона, характерные для интонационных моделей, разработанных Н. Б. Вольской (Вольская и Скрелин, 2009).&#xA;Отдельная глава – вторая – посвящена рассмотрению методики проведения практического исследования.&#xA;Результаты исследования можно использовать при автоматической сегментации речевого сигнала на потенциальные интонационные единицы, поэтому тема данного исследования представляется весьма актуальной." xml:lang="ru_RU" />
+<meta name="DCTERMS.abstract" content="The purpose of this study is to identify the features of the rate of change in the frequency of the fundamental tone to describe the intonational design of an utterance in Russian speech. In the presented work, the object of study is melodic. Melodica performs one of the leading roles among other components of intonation and is an indicator of the change in the frequency of the main tone (PFC) over time. Therefore, in any experiment, it is necessary to take into account melodic ranges (wave oscillations between the lowest and highest points of the indications of the change in the frequency response; their ratio (intervals); the steepness of the rise and fall of the tone, the direction and culmination point, as well as its reflection in melodic models).&#xA;To achieve this goal, it is necessary to solve the following tasks:&#xA;• Consider approaches to the definition of the concept of &quot;intonation&quot;;&#xA;• Consider approaches to isolating &quot;intonation components&quot; and consider intonation components together with their acoustic correlates;&#xA;• Consider the features of melody as the main of the intonation components, as well as its particular phenomenon - the rate of change in the fundamental tone frequency;&#xA;• Consider the features of the rate of change in the frequency of the main tone on pre-stressed, stressed and post-stressed vowels;&#xA;• Consider the features of the rate of change in the frequency of the main, characteristic of intonation patterns developed by N.B. Volskaya.&#xA;The subject of this study is the melodic arrangement of the utterance in Russian speech.&#xA;Object - the rate of change in the frequency of the fundamental tone on vowels.&#xA;The theoretical part of this study is devoted to the description of the studied elements and consideration of their current state.&#xA;Recordings from the sound corpus of professional speakers CORPRES, created at the Department of Phonetics and Methods of Teaching Foreign Languages [Skrelin et al, 2009]&#xA;In the theoretical part, the main approaches to the definition of intonation, the principles of highlighting the components of intonation, as well as the basic concepts of melodic description of the intonation contour are considered.&#xA;In the practical part of the work, an analysis of the features of the change in the rate of change in the frequency of the fundamental tone on stressed, pre-stressed and post-stressed vowels is presented. The paper also considered the features of the change in the speed of the fundamental tone frequency, characteristic of the intonation models developed by N. B. Volskaya (Volskaya and Skrelin, 2009).&#xA;A separate chapter - the second - is devoted to the consideration of the methodology for conducting practical research.&#xA;The results of the study can be used in the automatic segmentation of a speech signal into potential intonational units, so the topic of this study seems to be very relevant." xml:lang="en_GB" />
+<meta name="DC.language" content="ru" scheme="DCTERMS.RFC1766" />
+<meta name="DC.subject" content="интонация" xml:lang="ru_RU" />
+<meta name="DC.subject" content="мелодический контур" xml:lang="ru_RU" />
+<meta name="DC.subject" content="интонационное оформление высказывания" xml:lang="ru_RU" />
+<meta name="DC.subject" content="скорость изменения частоты основного тона" xml:lang="ru_RU" />
+<meta name="DC.subject" content="intonation" xml:lang="en_GB" />
+<meta name="DC.subject" content="melodic contour" xml:lang="en_GB" />
+<meta name="DC.subject" content="intonation design of the utterance" xml:lang="en_GB" />
+<meta name="DC.subject" content="rate of change of the fundamental tone frequency" xml:lang="en_GB" />
+<meta name="DC.title" content="Using the rate of change of the pitch frequency to describe the intonation of the utterance" xml:lang="en_GB" />
+<meta name="DCTERMS.alternative" content="Использование скорости изменения частоты основного тона для описания интонационного оформления высказывания" xml:lang="ru_RU" />
+
+<meta name="citation_keywords" content="интонация; мелодический контур; интонационное оформление высказывания; скорость изменения частоты основного тона; intonation; melodic contour; intonation design of the utterance; rate of change of the fundamental tone frequency" />
+<meta name="citation_title" content="Using the rate of change of the pitch frequency to describe the intonation of the utterance" />
+<meta name="citation_language" content="ru" />
+<meta name="citation_author" content="Рашевская Анна Юрьевна" />
+<meta name="citation_author" content="Rasevskaa Anna Urevna" />
+<meta name="citation_pdf_url" content="https://dspace.spbu.ru/bitstream/11701/42612/2/Rasevskaa_Ispolzovanie_skorosti_izmenenia_castoty_osnovnogo_tona_dla_opisania_intonacionnogo_oformlenia_vyskazyvania.docx" />
+<meta name="citation_date" content="2023" />
+<meta name="citation_abstract_html_url" content="https://dspace.spbu.ru/handle/11701/42612" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46082349-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VXGFQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5VXGFQ');</script>
+<!-- End Google Tag Manager -->
+
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-inverse navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul class="nav navbar-nav">
+<li class=""><a href="/"> Главная страница</a></li>
+                
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Просмотр <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Разделы и коллекции</a></li>
+				<li class="divider"></li>
+        <li class="dropdown-header">Просмотр ресурсов по:</li>
+				
+				
+				
+				      			<li><a href="/browse?type=dateissued">Даты выпуска</a></li>
+					
+				      			<li><a href="/browse?type=author">Авторы</a></li>
+					
+				      			<li><a href="/browse?type=title">Заголовки</a></li>
+					
+				      			<li><a href="/browse?type=subject">Темы</a></li>
+					
+				    
+				
+
+            </ul>
+          </li>
+<li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/policies/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Политика<\/a>');
+// -->
+</script><noscript><a href="/policies/index_ru.html" target="dspacepopup">Политика</a></noscript></li>
+          <li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/help/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Справка<\/a>');
+// -->
+</script><noscript><a href="/help/index_ru.html" target="dspacepopup">Справка</a></noscript></li>
+       </ul>
+
+ 
+    <div class="nav navbar-nav navbar-right">
+	 <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Язык<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='ru';
+                  document.repost.submit();" href="?locale=ru">
+         русский
+       </a>
+      </li>
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='en';
+                  document.repost.submit();" href="?locale=en">
+         English
+       </a>
+      </li>
+ 
+     </ul>
+    </li>
+    </ul>
+  </div>
+ 
+ 
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+         
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Войти <b class="caret"></b></a>
+	             
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Мой архив ресурсов</a></li>
+               <li><a href="/subscribe">Обновления на e-mail</a></li>
+               <li><a href="/profile">Редактировать профиль</a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+          
+	
+	<form method="get" action="/simple-search" class="navbar-form navbar-right">
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Поиск&nbsp;в&nbsp;архиве" name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form></div>
+    </nav>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+<div class="container banner">
+	<div class="row">
+<div class="col-md-2"><a target="_blank" href="http://spbu.ru/"><img class="pull-right" src="/image/logo.png"></a>
+</div>
+<div class="col-md-10 brand">
+
+		<h1>Архив открытого доступа</br>Санкт-Петербургского государственного университета</h1>
+         
+        </div>
+        </div>
+</div>	
+<br/>
+                
+
+<div class="container">
+                
+
+
+
+  
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">DSpace at Saint Petersburg State University</a></li>
+
+  <li><a href="/handle/11701/2611">GRADUATION PROJECTS</a></li>
+
+  <li><a href="/handle/11701/2707">PHILOLOGY</a></li>
+
+  <li><a href="/handle/11701/2710">MASTER'S STUDIES</a></li>
+
+</ol>
+
+</div>                
+
+
+
+        
+<div class="container">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div class="well">Пожалуйста, используйте этот идентификатор, чтобы цитировать или ссылаться на этот ресурс:
+                <code>http://hdl.handle.net/11701/42612</code></div>
+
+
+
+    
+    <table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel">Название:&nbsp;</td><td class="metadataFieldValue">Using&#x20;the&#x20;rate&#x20;of&#x20;change&#x20;of&#x20;the&#x20;pitch&#x20;frequency&#x20;to&#x20;describe&#x20;the&#x20;intonation&#x20;of&#x20;the&#x20;utterance</td></tr>
+<tr><td class="metadataFieldLabel">Другие названия:&nbsp;</td><td class="metadataFieldValue">Использование&#x20;скорости&#x20;изменения&#x20;частоты&#x20;основного&#x20;тона&#x20;для&#x20;описания&#x20;интонационного&#x20;оформления&#x20;высказывания</td></tr>
+<tr><td class="metadataFieldLabel">Авторы:&nbsp;</td><td class="metadataFieldValue"><a class="author"href="/browse?type=author&amp;value=%D0%9A%D0%B8%D0%BF%D1%8F%D1%82%D0%BA%D0%BE%D0%B2%D0%B0+%D0%98%D1%80%D0%B8%D0%BD%D0%B0+%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%BD%D0%B0">Кипяткова&#x20;Ирина&#x20;Сергеевна</a><br /><a class="author"href="/browse?type=author&amp;value=Kipatkova+Irina+Sergeevna">Kipatkova&#x20;Irina&#x20;Sergeevna</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%A0%D0%B0%D1%88%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%90%D0%BD%D0%BD%D0%B0+%D0%AE%D1%80%D1%8C%D0%B5%D0%B2%D0%BD%D0%B0">Рашевская&#x20;Анна&#x20;Юрьевна</a><br /><a class="author"href="/browse?type=author&amp;value=Rasevskaa+Anna+Urevna">Rasevskaa&#x20;Anna&#x20;Urevna</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%A1%D0%BA%D1%80%D0%B5%D0%BB%D0%B8%D0%BD+%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB+%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87">Скрелин&#x20;Павел&#x20;Анатольевич</a><br /><a class="author"href="/browse?type=author&amp;value=Skrelin+Pavel+Anatolevic">Skrelin&#x20;Pavel&#x20;Anatolevic</a></td></tr>
+<tr><td class="metadataFieldLabel">Дата публикации:&nbsp;</td><td class="metadataFieldValue">2023</td></tr>
+<tr><td class="metadataFieldLabel">URI (Унифицированный идентификатор ресурса):&nbsp;</td><td class="metadataFieldValue"><a href="http://hdl.handle.net/11701/42612">http:&#x2F;&#x2F;hdl.handle.net&#x2F;11701&#x2F;42612</a></td></tr>
+<tr><td class="metadataFieldLabel">Располагается в коллекциях:</td><td class="metadataFieldValue"><a href="/handle/11701/2710">MASTER'S STUDIES</a><br/></td></tr>
+</table><br/>
+<div class="panel panel-info"><div class="panel-heading">Файлы этого ресурса:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Файл</th>
+<th id="t2" class="standard">Описание</th>
+<th id="t3" class="standard">Размер</th><th id="t4" class="standard">Формат</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42612/2/Rasevskaa_Ispolzovanie_skorosti_izmenenia_castoty_osnovnogo_tona_dla_opisania_intonacionnogo_oformlenia_vyskazyvania.docx">Rasevskaa_Ispolzovanie_skorosti_izmenenia_castoty_osnovnogo_tona_dla_opisania_intonacionnogo_oformlenia_vyskazyvania.docx</a></td><td headers="t2" class="standard">Article</td><td headers="t3" class="standard">2,19 MB</td><td headers="t4" class="standard">Microsoft Word XML</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42612/2/Rasevskaa_Ispolzovanie_skorosti_izmenenia_castoty_osnovnogo_tona_dla_opisania_intonacionnogo_oformlenia_vyskazyvania.docx">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42612/3/reviewSV_otzyv_rasevskaa.pdf">reviewSV_otzyv_rasevskaa.pdf</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">155,23 kB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42612/3/reviewSV_otzyv_rasevskaa.pdf">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42612/4/reviewSV_soglasie_dannye.pdf">reviewSV_soglasie_dannye.pdf</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">169,1 kB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42612/4/reviewSV_soglasie_dannye.pdf">Просмотреть/Открыть</a></td></tr></table>
+</div>
+
+<div class="container row">
+
+
+    <a class="btn btn-default" href="/handle/11701/42612?mode=full">
+        Показать полное описание ресурса
+    </a>
+
+    <a class="statisticsLink  btn btn-primary" href="/handle/11701/42612/statistics">Просмотр статистики</a>
+
+<script type="text/javascript" src="//yandex.st/share/share.js"	charset="utf-8"></script>
+	  	<div class="yashare-auto-init" data-yashareL10n="ru" style="display: inline-block; float: right;" data-yashareType="none" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div> 
+
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p class="submitFormHelp alert alert-info">Все ресурсы в архиве электронных ресурсов защищены авторским правом, все права сохранены.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+<footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+             <div class="row">
+             <div class="col-md-7" style="padding-top: 12px;">
+              Архив открытого доступа. <a target="_blank" href="http://spbu.ru/">Санкт-Петербургский государственный университет.</a>&nbsp;&copy;&nbsp;2019. Поддерживается <a target="_blank" href="https://it.spbu.ru/">УСИТ СПбГУ</a>
+              </div>
+              <div class="col-md-5">
+                        <div id="footer_feedback" class="pull-right">
+                                <p class="text-muted"><a target="_blank" href="http://www.dspace.org/">DSpace Software</a> Copyright&nbsp;&copy;&nbsp;2002-2013&nbsp; &nbsp;-
+                                <a target="_blank" href="/feedback">Обратная связь</a>
+                                <a href="/htmlmap"></a></p>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+    </footer>
+    </body>
+</html>
+

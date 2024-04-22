@@ -1,0 +1,408 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DSpace at Saint Petersburg State University: Developing framework for predictive analysis in esports (project work)</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 5.10" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Семенов Александр Владимирович" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Semenov Aleksandr Vladimirovic" xml:lang="en_GB" />
+<meta name="DC.creator" content="Жариков Даниил Сергеевич" xml:lang="ru_RU" />
+<meta name="DC.creator" content="Zarikov Daniil Sergeevic" xml:lang="en_GB" />
+<meta name="DC.contributor" content="Григорьев Дмитрий Алексеевич" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Grigorev Dmitrij Alekseevic" xml:lang="en_GB" />
+<meta name="DCTERMS.dateAccepted" content="2023-07-26T12:44:56Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2023-07-26T12:44:56Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2023" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="076580" xml:lang="en_GB" />
+<meta name="DC.identifier" content="http://hdl.handle.net/11701/42809" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="Работа посвящена созданию платформы для предсказания побед команд в киберспортивных состязаниях  на основе предматчевых данных, а также для выбора внутриигровых персонажей для подготовки команды к матчу. В результате анализа научных статей на тему предсказаний побед в игре “Dota 2” сделан вывод, что киберспортивные события могут быть предсказаны с определенной вероятностью при использовании различных моделей машинного обучения. Сравнение программных интерфейсов по получению информации о матчах игры “Dota 2” показал, что необходимо использовать OpenDota API, так как интерфейс предоставляет большую детальность матчей, а детальность матчей критически важна для обучения модели, прогнозирующей победу команды в матче.&#xA;В результате работы были получены следующие результаты. &#xA;Были проанализированы 11 научных статей по анализу футбольных матчей и применению различных математических моделей, построенных на внутриигровых данных, а также 5 статей по игре &quot;Dota 2&quot; на применение различных моделей машинного обучения к предсказанию матчей. Результаты исследования показали, что использование моделей машинного обучения может дать положительные результаты в предсказании победы одной из команд.&#xA;Производен сравнительный анализ программных интерфейсов OpenDota API и Steam Web API, который показал необходимость использования OpenDota API из-за детальности получаемых данных о послематчевой статистики.&#xA;Выполнена реализация платформы предиктивной аналитики в режиме реального времени для Dota2 на базе микросервисов:&#xA;сервис для автоматизированного сбора данных сыгранных матчей, реализованный на языке C# с использованием ASP.NET;&#xA;сервис для дообучения модели на новых результатах матчей, реализованный на языке Python и использующий pickle как библиотеку сериализации;&#xA;cервис для предсказания победы по предматчевым данным и для генерации предложений при выборе героев  с возможностью дообучения при поступлении новых данных в ежедневном формате, реализованный на языке Python с использованием Fast API фреймворка, а также pickle как библиотеки десериализации;&#xA;клиентское веб-приложение, получающее от пользователей предматчевые данные и демонстрирующее ответ предиктивной модели в понятном человеку формате, реализованное на языке JavaScript с использованием библиотеки React.&#xA;Разработана архитектура и спецификация для внешних предиктивных моделей машинного обучения по подключению в платформу.&#xA;Разработанная платформа была опубликована в облачной инфраструктуре, а также было настроено непрерывное развертывание с помощью сервиса Github Actions на Linux сервер.&#xA;Апробация платформы была проведена на фокус-группе, состоящей из 40 человек из четырех стран: России, Марокко, Аргентины, Франции. Результаты обратной связи от участников фокус-группы подтвердили высокую эффективность платформы.&#xA;Платформа была применена на ежедневной основе для предсказания побед по предматчевой статистике на турнирах Lima Major 2023 и ESL One Berlin Major 2023. Платформа ежедневно проводит дообучение моделей на новых данных, что улучшает их предиктивные свойства." xml:lang="ru_RU" />
+<meta name="DCTERMS.abstract" content="The work is dedicated to creating a platform for predicting teams' victories in esports competitions based on pre-match data, as well as for selecting in-game characters to prepare the team for the match. The analysis of scientific articles on the topic of predicting victories in the game &quot;Dota 2&quot; led to the conclusion that esports events can be predicted with a certain probability using various machine learning models. Comparison of software interfaces for obtaining information about &quot;Dota 2&quot; game matches showed that it is necessary to use the OpenDota API, as the interface provides greater match detail, which is critically important for training a model that predicts a team's victory in the match.&#xA;The following results were obtained as a result of the study.&#xA;Eleven scientific articles analyzing football matches and the application of various mathematical models built on in-game data, as well as five articles on the game &quot;Dota 2&quot; using various machine learning models to predict matches, were analyzed. The research showed that the use of machine learning models can yield positive results in predicting the victory of one of the teams. &#xA;A comparative analysis of the OpenDota API and Steam Web API software interfaces was conducted, which showed the need to use OpenDota API due to the detail of the post-match statistics data obtained.&#xA;Implementation of a predictive analytics platform for Dota 2 has been carried out using microservices, consisting of:&#xA;A service built on C# and ASP.NET, for the automated collection of data from played matches.&#xA;A service built on Python and using pickle as a serialization library, for retraining the model with new match results.&#xA;A service for predicting victory using pre-match data and generating hero suggestions, built on Python and using Fast API framework and pickle for deserialization.&#xA;A client web application that receives pre-match data from users and presents the predictive model output in a human-friendly format. The application is built using JavaScript and React library.&#xA;An architecture and specification have been developed for external predictive machine learning models to be integrated into the platform. &#xA;The developed platform has been published in cloud infrastructure, and continuous deployment has been set up using Github Actions on a Linux server. &#xA;The platform was tested on a focus group of 40 people from four countries: Russia, Morocco, Argentina, and France. Feedback from the focus group confirmed the platform's high effectiveness.&#xA;The platform has been used on a daily basis to predict match outcomes based on pre-match statistics at the Lima Major 2023 and ESL One Berlin Major 2023 tournaments. The platform conducts daily retraining of the models on new data to enhance their predictive abilities." xml:lang="en_GB" />
+<meta name="DC.language" content="ru" scheme="DCTERMS.RFC1766" />
+<meta name="DC.subject" content="дота2" xml:lang="ru_RU" />
+<meta name="DC.subject" content="прогнозирование" xml:lang="ru_RU" />
+<meta name="DC.subject" content="платформа" xml:lang="ru_RU" />
+<meta name="DC.subject" content="киберспорт" xml:lang="ru_RU" />
+<meta name="DC.subject" content="машинное обучение" xml:lang="ru_RU" />
+<meta name="DC.subject" content="dota2" xml:lang="en_GB" />
+<meta name="DC.subject" content="prediction" xml:lang="en_GB" />
+<meta name="DC.subject" content="framework" xml:lang="en_GB" />
+<meta name="DC.subject" content="cybersport" xml:lang="en_GB" />
+<meta name="DC.subject" content="machinelearning" xml:lang="en_GB" />
+<meta name="DC.title" content="Developing framework for predictive analysis in esports (project work)" xml:lang="en_GB" />
+<meta name="DCTERMS.alternative" content="Разработка платформы для предиктивного анализа в киберспорте (проектная работа)" xml:lang="ru_RU" />
+
+<meta name="citation_keywords" content="дота2; прогнозирование; платформа; киберспорт; машинное обучение; dota2; prediction; framework; cybersport; machinelearning" />
+<meta name="citation_title" content="Developing framework for predictive analysis in esports (project work)" />
+<meta name="citation_language" content="ru" />
+<meta name="citation_author" content="Жариков Даниил Сергеевич" />
+<meta name="citation_author" content="Zarikov Daniil Sergeevic" />
+<meta name="citation_pdf_url" content="https://dspace.spbu.ru/bitstream/11701/42809/2/Diplom_Zarikov_Daniil_19.B07_mm.pdf" />
+<meta name="citation_date" content="2023" />
+<meta name="citation_abstract_html_url" content="https://dspace.spbu.ru/handle/11701/42809" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46082349-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VXGFQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5VXGFQ');</script>
+<!-- End Google Tag Manager -->
+
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-inverse navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul class="nav navbar-nav">
+<li class=""><a href="/"> Главная страница</a></li>
+                
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Просмотр <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Разделы и коллекции</a></li>
+				<li class="divider"></li>
+        <li class="dropdown-header">Просмотр ресурсов по:</li>
+				
+				
+				
+				      			<li><a href="/browse?type=dateissued">Даты выпуска</a></li>
+					
+				      			<li><a href="/browse?type=author">Авторы</a></li>
+					
+				      			<li><a href="/browse?type=title">Заголовки</a></li>
+					
+				      			<li><a href="/browse?type=subject">Темы</a></li>
+					
+				    
+				
+
+            </ul>
+          </li>
+<li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/policies/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Политика<\/a>');
+// -->
+</script><noscript><a href="/policies/index_ru.html" target="dspacepopup">Политика</a></noscript></li>
+          <li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/help/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Справка<\/a>');
+// -->
+</script><noscript><a href="/help/index_ru.html" target="dspacepopup">Справка</a></noscript></li>
+       </ul>
+
+ 
+    <div class="nav navbar-nav navbar-right">
+	 <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Язык<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='ru';
+                  document.repost.submit();" href="?locale=ru">
+         русский
+       </a>
+      </li>
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='en';
+                  document.repost.submit();" href="?locale=en">
+         English
+       </a>
+      </li>
+ 
+     </ul>
+    </li>
+    </ul>
+  </div>
+ 
+ 
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+         
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Войти <b class="caret"></b></a>
+	             
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Мой архив ресурсов</a></li>
+               <li><a href="/subscribe">Обновления на e-mail</a></li>
+               <li><a href="/profile">Редактировать профиль</a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+          
+	
+	<form method="get" action="/simple-search" class="navbar-form navbar-right">
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Поиск&nbsp;в&nbsp;архиве" name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form></div>
+    </nav>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+<div class="container banner">
+	<div class="row">
+<div class="col-md-2"><a target="_blank" href="http://spbu.ru/"><img class="pull-right" src="/image/logo.png"></a>
+</div>
+<div class="col-md-10 brand">
+
+		<h1>Архив открытого доступа</br>Санкт-Петербургского государственного университета</h1>
+         
+        </div>
+        </div>
+</div>	
+<br/>
+                
+
+<div class="container">
+                
+
+
+
+  
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">DSpace at Saint Petersburg State University</a></li>
+
+  <li><a href="/handle/11701/2611">GRADUATION PROJECTS</a></li>
+
+  <li><a href="/handle/11701/2697">MATHEMATICS AND MECHANICS</a></li>
+
+  <li><a href="/handle/11701/2698">BACHELOR STUDIES</a></li>
+
+</ol>
+
+</div>                
+
+
+
+        
+<div class="container">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div class="well">Пожалуйста, используйте этот идентификатор, чтобы цитировать или ссылаться на этот ресурс:
+                <code>http://hdl.handle.net/11701/42809</code></div>
+
+
+
+    
+    <table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel">Название:&nbsp;</td><td class="metadataFieldValue">Developing&#x20;framework&#x20;for&#x20;predictive&#x20;analysis&#x20;in&#x20;esports&#x20;(project&#x20;work)</td></tr>
+<tr><td class="metadataFieldLabel">Другие названия:&nbsp;</td><td class="metadataFieldValue">Разработка&#x20;платформы&#x20;для&#x20;предиктивного&#x20;анализа&#x20;в&#x20;киберспорте&#x20;(проектная&#x20;работа)</td></tr>
+<tr><td class="metadataFieldLabel">Авторы:&nbsp;</td><td class="metadataFieldValue"><a class="author"href="/browse?type=author&amp;value=%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87">Семенов&#x20;Александр&#x20;Владимирович</a><br /><a class="author"href="/browse?type=author&amp;value=Semenov+Aleksandr+Vladimirovic">Semenov&#x20;Aleksandr&#x20;Vladimirovic</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%96%D0%B0%D1%80%D0%B8%D0%BA%D0%BE%D0%B2+%D0%94%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB+%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87">Жариков&#x20;Даниил&#x20;Сергеевич</a><br /><a class="author"href="/browse?type=author&amp;value=Zarikov+Daniil+Sergeevic">Zarikov&#x20;Daniil&#x20;Sergeevic</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2+%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B5%D0%B2%D0%B8%D1%87">Григорьев&#x20;Дмитрий&#x20;Алексеевич</a><br /><a class="author"href="/browse?type=author&amp;value=Grigorev+Dmitrij+Alekseevic">Grigorev&#x20;Dmitrij&#x20;Alekseevic</a></td></tr>
+<tr><td class="metadataFieldLabel">Дата публикации:&nbsp;</td><td class="metadataFieldValue">2023</td></tr>
+<tr><td class="metadataFieldLabel">URI (Унифицированный идентификатор ресурса):&nbsp;</td><td class="metadataFieldValue"><a href="http://hdl.handle.net/11701/42809">http:&#x2F;&#x2F;hdl.handle.net&#x2F;11701&#x2F;42809</a></td></tr>
+<tr><td class="metadataFieldLabel">Располагается в коллекциях:</td><td class="metadataFieldValue"><a href="/handle/11701/2698">BACHELOR STUDIES</a><br/></td></tr>
+</table><br/>
+<div class="panel panel-info"><div class="panel-heading">Файлы этого ресурса:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Файл</th>
+<th id="t2" class="standard">Описание</th>
+<th id="t3" class="standard">Размер</th><th id="t4" class="standard">Формат</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42809/2/Diplom_Zarikov_Daniil_19.B07_mm.pdf">Diplom_Zarikov_Daniil_19.B07_mm.pdf</a></td><td headers="t2" class="standard">Article</td><td headers="t3" class="standard">764,62 kB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42809/2/Diplom_Zarikov_Daniil_19.B07_mm.pdf">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42809/3/reviewSV_st076580_Zarikov_Daniil_Sergeevic_%28supervisor%29%28Ru%29.txt">reviewSV_st076580_Zarikov_Daniil_Sergeevic_(supervisor)(Ru).txt</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">2,93 kB</td><td headers="t4" class="standard">Text</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42809/3/reviewSV_st076580_Zarikov_Daniil_Sergeevic_%28supervisor%29%28Ru%29.txt">Просмотреть/Открыть</a></td></tr></table>
+</div>
+
+<div class="container row">
+
+
+    <a class="btn btn-default" href="/handle/11701/42809?mode=full">
+        Показать полное описание ресурса
+    </a>
+
+    <a class="statisticsLink  btn btn-primary" href="/handle/11701/42809/statistics">Просмотр статистики</a>
+
+<script type="text/javascript" src="//yandex.st/share/share.js"	charset="utf-8"></script>
+	  	<div class="yashare-auto-init" data-yashareL10n="ru" style="display: inline-block; float: right;" data-yashareType="none" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div> 
+
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p class="submitFormHelp alert alert-info">Все ресурсы в архиве электронных ресурсов защищены авторским правом, все права сохранены.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+<footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+             <div class="row">
+             <div class="col-md-7" style="padding-top: 12px;">
+              Архив открытого доступа. <a target="_blank" href="http://spbu.ru/">Санкт-Петербургский государственный университет.</a>&nbsp;&copy;&nbsp;2019. Поддерживается <a target="_blank" href="https://it.spbu.ru/">УСИТ СПбГУ</a>
+              </div>
+              <div class="col-md-5">
+                        <div id="footer_feedback" class="pull-right">
+                                <p class="text-muted"><a target="_blank" href="http://www.dspace.org/">DSpace Software</a> Copyright&nbsp;&copy;&nbsp;2002-2013&nbsp; &nbsp;-
+                                <a target="_blank" href="/feedback">Обратная связь</a>
+                                <a href="/htmlmap"></a></p>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+    </footer>
+    </body>
+</html>
+

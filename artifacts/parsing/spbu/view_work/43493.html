@@ -1,0 +1,407 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DSpace at Saint Petersburg State University: Development and implementation of legislation on zones with special conditions of use of territories</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 5.10" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Андреева Елизавета Сергеевна" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Andreeva Elizaveta Sergeevna" xml:lang="en_GB" />
+<meta name="DC.creator" content="Кисиль Александра Александровна" xml:lang="ru_RU" />
+<meta name="DC.creator" content="Kisil Aleksandra Aleksandrovna" xml:lang="en_GB" />
+<meta name="DC.contributor" content="Жаркова Ольга Александровна" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Zarkova Olga Aleksandrovna" xml:lang="en_GB" />
+<meta name="DCTERMS.dateAccepted" content="2023-07-26T12:02:22Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2023-07-26T12:02:22Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2023" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="064779" xml:lang="en_GB" />
+<meta name="DC.identifier" content="http://hdl.handle.net/11701/41959" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="Цели и задачи исследования:&#xA;- изучение юридической доктрины, судебной практики и правовой базы по регулированию ЗОУИТ, выявление правовой природы данного явления;&#xA;- выявление основных проблем и правовых пробелов, а также определение эффективности и корректности новых норм в сфере законодательства о ЗОУИТ;&#xA;- исследование проблем, возникающих в процесс выкупа объектов недвижимости, возмещении убытков в связи с особенностями правового регулирования ЗОУИТ, выдвижение предложений по решению имеющихся проблем.&#xA;&#xA;Выводы, сделанные по итогам заключения: &#xA;- законодательство в сфере регулирования ЗОУИТ претерпело огромные изменения, сами изменения еще находятся в процессе внедрения, огромное количество правовых пробелов еще необходимо устранить;&#xA;- на практике по-прежнему существует большое количество ранее установленных ЗОУИТ, которые не получается отнести ни к одному из видов зон, поименованных в ЗК РФ;&#xA;- в законодательстве долгое время отсутствовал унифицированный механизм придания процедуре установления ЗОУИТ публичности, что препятствовало установлению стабильности гражданского оборота;&#xA;- действие переходных положений о ЗОУИТ превысило разумные сроки. На сегодняшний день эти нормы все еще не работают, сроки вступления в силу нововведений постоянно переносятся, не позволяя в должной мере защитить права лиц, чьи права ограничены в связи с установлением ЗОУИТ;&#xA;- выкуп объектов недвижимости и возмещение убытков в связи с ограничением прав в случае установления, изменения ЗОУИТ регламентированы лишь частично, в законодательстве остается открытым вопрос о том, должно ли лицо быть правообладателем объекта недвижимого имущества в момент установления (изменения) ЗОУИТ для того, чтобы ему могли быть возмещены убытки." xml:lang="ru_RU" />
+<meta name="DCTERMS.abstract" content="Aims and objectives of the study:&#xA;- To study the legal doctrine, judicial practice and legal framework on the regulation of zones with special conditions of use of territories, to identify the legal nature of this phenomenon;&#xA;- To identify key problems and legal gaps, as well as determine the effectiveness and appropriateness of new regulations in the area of legislation on zones with special conditions of use of territories;&#xA;- To investigate the problems arising in the process of real estate buy-out and indemnification in connection with the peculiarities of the legal regulation of zones with special conditions of use of territories, and to propose solutions to the existing problems.&#xA;&#xA;Conclusions: &#xA;- the legislation on the regulation of zones with special conditions of use of territories has undergone tremendous changes, the changes themselves are still in the process of implementation, a huge number of legal gaps still need to be filled;&#xA;- in practice, there are still a large number of previously established zones with special conditions of use of territories, which cannot be attributed to any of the types of zones named in the Land Code of the Russian Federation;&#xA;- the legislation has long lacked a unified mechanism to make public the procedure for establishing zones with special conditions of use of territories, which has hindered the establishment of stability in civil turnover;&#xA;- the transitional provisions on ZOIT have exceeded a reasonable timeframe. As of today, these provisions are still inoperative, the time limits for entry into force of the innovations are constantly postponed, which makes it impossible to adequately protect the rights of persons whose rights are restricted in connection with the establishment of zones with special conditions of use of territories;&#xA;- redemption of real estate objects and compensation of damages in connection with the restriction of rights in the case of establishment, change of zones with special conditions of use of territories are regulated only partially, the legislation leaves open the question of whether the person must be the right holder of the real estate object at the time of establishment (change) of zones with special conditions of use of territories in order to be entitled to compensation for losses." xml:lang="en_GB" />
+<meta name="DC.language" content="ru" scheme="DCTERMS.RFC1766" />
+<meta name="DC.subject" content="Зоны с особыми условиями использования территорий" xml:lang="ru_RU" />
+<meta name="DC.subject" content="гражданское право" xml:lang="ru_RU" />
+<meta name="DC.subject" content="земельное право" xml:lang="ru_RU" />
+<meta name="DC.subject" content="ограничение прав на землю" xml:lang="ru_RU" />
+<meta name="DC.subject" content="Zones with special conditions of use of territories" xml:lang="en_GB" />
+<meta name="DC.subject" content="civil law" xml:lang="en_GB" />
+<meta name="DC.subject" content="land law" xml:lang="en_GB" />
+<meta name="DC.subject" content="restriction of rights to land" xml:lang="en_GB" />
+<meta name="DC.subject" content="security zones." xml:lang="en_GB" />
+<meta name="DC.title" content="Development and implementation of legislation on zones with special conditions of use of territories" xml:lang="en_GB" />
+<meta name="DCTERMS.alternative" content="Развитие и реализация законодательства о зонах с особыми условиями использования территорий" xml:lang="ru_RU" />
+
+<meta name="citation_keywords" content="Зоны с особыми условиями использования территорий; гражданское право; земельное право; ограничение прав на землю; Zones with special conditions of use of territories; civil law; land law; restriction of rights to land; security zones." />
+<meta name="citation_title" content="Development and implementation of legislation on zones with special conditions of use of territories" />
+<meta name="citation_language" content="ru" />
+<meta name="citation_author" content="Кисиль Александра Александровна" />
+<meta name="citation_author" content="Kisil Aleksandra Aleksandrovna" />
+<meta name="citation_pdf_url" content="https://dspace.spbu.ru/bitstream/11701/41959/2/Kisil_A.A._Razvitie_i_realizacia_zakonodatelstva_o_zonah_s_osobymi_usloviami_ispolzovania_territorij.docx" />
+<meta name="citation_date" content="2023" />
+<meta name="citation_abstract_html_url" content="https://dspace.spbu.ru/handle/11701/41959" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46082349-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VXGFQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5VXGFQ');</script>
+<!-- End Google Tag Manager -->
+
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-inverse navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul class="nav navbar-nav">
+<li class=""><a href="/"> Главная страница</a></li>
+                
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Просмотр <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Разделы и коллекции</a></li>
+				<li class="divider"></li>
+        <li class="dropdown-header">Просмотр ресурсов по:</li>
+				
+				
+				
+				      			<li><a href="/browse?type=dateissued">Даты выпуска</a></li>
+					
+				      			<li><a href="/browse?type=author">Авторы</a></li>
+					
+				      			<li><a href="/browse?type=title">Заголовки</a></li>
+					
+				      			<li><a href="/browse?type=subject">Темы</a></li>
+					
+				    
+				
+
+            </ul>
+          </li>
+<li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/policies/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Политика<\/a>');
+// -->
+</script><noscript><a href="/policies/index_ru.html" target="dspacepopup">Политика</a></noscript></li>
+          <li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/help/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Справка<\/a>');
+// -->
+</script><noscript><a href="/help/index_ru.html" target="dspacepopup">Справка</a></noscript></li>
+       </ul>
+
+ 
+    <div class="nav navbar-nav navbar-right">
+	 <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Язык<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='ru';
+                  document.repost.submit();" href="?locale=ru">
+         русский
+       </a>
+      </li>
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='en';
+                  document.repost.submit();" href="?locale=en">
+         English
+       </a>
+      </li>
+ 
+     </ul>
+    </li>
+    </ul>
+  </div>
+ 
+ 
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+         
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Войти <b class="caret"></b></a>
+	             
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Мой архив ресурсов</a></li>
+               <li><a href="/subscribe">Обновления на e-mail</a></li>
+               <li><a href="/profile">Редактировать профиль</a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+          
+	
+	<form method="get" action="/simple-search" class="navbar-form navbar-right">
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Поиск&nbsp;в&nbsp;архиве" name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form></div>
+    </nav>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+<div class="container banner">
+	<div class="row">
+<div class="col-md-2"><a target="_blank" href="http://spbu.ru/"><img class="pull-right" src="/image/logo.png"></a>
+</div>
+<div class="col-md-10 brand">
+
+		<h1>Архив открытого доступа</br>Санкт-Петербургского государственного университета</h1>
+         
+        </div>
+        </div>
+</div>	
+<br/>
+                
+
+<div class="container">
+                
+
+
+
+  
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">DSpace at Saint Petersburg State University</a></li>
+
+  <li><a href="/handle/11701/2611">GRADUATION PROJECTS</a></li>
+
+  <li><a href="/handle/11701/2682">LAW</a></li>
+
+  <li><a href="/handle/11701/2685">MASTER'S STUDIES</a></li>
+
+</ol>
+
+</div>                
+
+
+
+        
+<div class="container">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div class="well">Пожалуйста, используйте этот идентификатор, чтобы цитировать или ссылаться на этот ресурс:
+                <code>http://hdl.handle.net/11701/41959</code></div>
+
+
+
+    
+    <table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel">Название:&nbsp;</td><td class="metadataFieldValue">Development&#x20;and&#x20;implementation&#x20;of&#x20;legislation&#x20;on&#x20;zones&#x20;with&#x20;special&#x20;conditions&#x20;of&#x20;use&#x20;of&#x20;territories</td></tr>
+<tr><td class="metadataFieldLabel">Другие названия:&nbsp;</td><td class="metadataFieldValue">Развитие&#x20;и&#x20;реализация&#x20;законодательства&#x20;о&#x20;зонах&#x20;с&#x20;особыми&#x20;условиями&#x20;использования&#x20;территорий</td></tr>
+<tr><td class="metadataFieldLabel">Авторы:&nbsp;</td><td class="metadataFieldValue"><a class="author"href="/browse?type=author&amp;value=%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B5%D0%B2%D0%B0+%D0%95%D0%BB%D0%B8%D0%B7%D0%B0%D0%B2%D0%B5%D1%82%D0%B0+%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%BD%D0%B0">Андреева&#x20;Елизавета&#x20;Сергеевна</a><br /><a class="author"href="/browse?type=author&amp;value=Andreeva+Elizaveta+Sergeevna">Andreeva&#x20;Elizaveta&#x20;Sergeevna</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%9A%D0%B8%D1%81%D0%B8%D0%BB%D1%8C+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0">Кисиль&#x20;Александра&#x20;Александровна</a><br /><a class="author"href="/browse?type=author&amp;value=Kisil+Aleksandra+Aleksandrovna">Kisil&#x20;Aleksandra&#x20;Aleksandrovna</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%96%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D0%B0+%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0">Жаркова&#x20;Ольга&#x20;Александровна</a><br /><a class="author"href="/browse?type=author&amp;value=Zarkova+Olga+Aleksandrovna">Zarkova&#x20;Olga&#x20;Aleksandrovna</a></td></tr>
+<tr><td class="metadataFieldLabel">Дата публикации:&nbsp;</td><td class="metadataFieldValue">2023</td></tr>
+<tr><td class="metadataFieldLabel">URI (Унифицированный идентификатор ресурса):&nbsp;</td><td class="metadataFieldValue"><a href="http://hdl.handle.net/11701/41959">http:&#x2F;&#x2F;hdl.handle.net&#x2F;11701&#x2F;41959</a></td></tr>
+<tr><td class="metadataFieldLabel">Располагается в коллекциях:</td><td class="metadataFieldValue"><a href="/handle/11701/2685">MASTER'S STUDIES</a><br/></td></tr>
+</table><br/>
+<div class="panel panel-info"><div class="panel-heading">Файлы этого ресурса:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Файл</th>
+<th id="t2" class="standard">Описание</th>
+<th id="t3" class="standard">Размер</th><th id="t4" class="standard">Формат</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/41959/2/Kisil_A.A._Razvitie_i_realizacia_zakonodatelstva_o_zonah_s_osobymi_usloviami_ispolzovania_territorij.docx">Kisil_A.A._Razvitie_i_realizacia_zakonodatelstva_o_zonah_s_osobymi_usloviami_ispolzovania_territorij.docx</a></td><td headers="t2" class="standard">Article</td><td headers="t3" class="standard">101,18 kB</td><td headers="t4" class="standard">Microsoft Word XML</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/41959/2/Kisil_A.A._Razvitie_i_realizacia_zakonodatelstva_o_zonah_s_osobymi_usloviami_ispolzovania_territorij.docx">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/41959/3/reviewSV_Otzyv_na_VKR_Kisil_A.A..docx">reviewSV_Otzyv_na_VKR_Kisil_A.A..docx</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">14,44 kB</td><td headers="t4" class="standard">Microsoft Word XML</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/41959/3/reviewSV_Otzyv_na_VKR_Kisil_A.A..docx">Просмотреть/Открыть</a></td></tr></table>
+</div>
+
+<div class="container row">
+
+
+    <a class="btn btn-default" href="/handle/11701/41959?mode=full">
+        Показать полное описание ресурса
+    </a>
+
+    <a class="statisticsLink  btn btn-primary" href="/handle/11701/41959/statistics">Просмотр статистики</a>
+
+<script type="text/javascript" src="//yandex.st/share/share.js"	charset="utf-8"></script>
+	  	<div class="yashare-auto-init" data-yashareL10n="ru" style="display: inline-block; float: right;" data-yashareType="none" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div> 
+
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p class="submitFormHelp alert alert-info">Все ресурсы в архиве электронных ресурсов защищены авторским правом, все права сохранены.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+<footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+             <div class="row">
+             <div class="col-md-7" style="padding-top: 12px;">
+              Архив открытого доступа. <a target="_blank" href="http://spbu.ru/">Санкт-Петербургский государственный университет.</a>&nbsp;&copy;&nbsp;2019. Поддерживается <a target="_blank" href="https://it.spbu.ru/">УСИТ СПбГУ</a>
+              </div>
+              <div class="col-md-5">
+                        <div id="footer_feedback" class="pull-right">
+                                <p class="text-muted"><a target="_blank" href="http://www.dspace.org/">DSpace Software</a> Copyright&nbsp;&copy;&nbsp;2002-2013&nbsp; &nbsp;-
+                                <a target="_blank" href="/feedback">Обратная связь</a>
+                                <a href="/htmlmap"></a></p>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+    </footer>
+    </body>
+</html>
+

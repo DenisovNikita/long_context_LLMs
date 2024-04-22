@@ -1,0 +1,410 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DSpace at Saint Petersburg State University: Development and implementation of cluster policy (the case study of St Petersburg)</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 5.10" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Миэринь Лариса Александровна" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Mierin Larisa Aleksandrovna" xml:lang="en_GB" />
+<meta name="DC.creator" content="Рединская Мария Вадимовна" xml:lang="ru_RU" />
+<meta name="DC.creator" content="Redinskaa Maria Vadimovna" xml:lang="en_GB" />
+<meta name="DC.contributor" content="Коростышевская Елена Михайловна" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Korostysevskaa Elena Mihajlovna" xml:lang="en_GB" />
+<meta name="DCTERMS.dateAccepted" content="2023-07-26T12:46:01Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2023-07-26T12:46:01Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2023" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="098172" xml:lang="en_GB" />
+<meta name="DC.identifier" content="http://hdl.handle.net/11701/43256" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="Все большую актуальность приобретает использование мер кластерной политики, основанных на создании на основе кластеров «полюсов роста» в экономике региона и повышении на этой основе эффективности государственной экономической политики. Регионы, на территории которых кластеры складываются и развиваются активизируют свое экономическое развитие. Кластеризация приводит к значительному росту деловой активности предприятий, улучшению инвестиционного климата в регионе страны, развитию социальных, экономических, информационных и интеграционных систем и, как следствие экономического подъему.&#xA;Цель выпускной квалификационной работы: разработка и реализация кластерной политики (на примере Санкт-Петербурга). Для достижения цели необходимо решение следующих задач.&#xA;Задачи выпускной квалификационной работы:&#xA;– выработать собственное определение понятия «кластер»;&#xA;– обобщить имеющиеся подходы к определению сущности кластерной политики;&#xA;– обобщить методики расчета результативности кластерной политики;&#xA;– выявить особенности реализуемой кластерной политики в Санкт-Петербурге;&#xA;– проанализировать деятельность центра кластерного развития в системе кластерной политики Санкт-Петербурга;&#xA;– охарактеризовать портал «Инновационный Санкт-Петербург»;&#xA;– провести технический аудит сайта инновационных решений Санкт-Петербурга;&#xA;– систематизировать проблемы, выявленные в ходе анализа портала «Инновационный Санкт-Петербург»;&#xA;– сформировать направления совершенствования кластерной политики Санкт-Петербурга.&#xA;Основные результаты:&#xA;– выработано собственное определение понятия «кластер».&#xA;– выявлена результативность реализуемой кластерной политики в Санкт-Петербурге, найдены узкие места, которые необходимо устранить;&#xA;– разработаны рекомендации для совершенствования кластерной политики с помощью совершенствования сайта инновационных решений Санкт-Петребурга.&#xA;Предложения по внедрению разработанных теоретико-методологических рекомендаций в практическую деятельность в дальнейшем планируется использовать для повышения результативности деятельности центра кластерного развития. Результаты исследования могут быть применены на практике в кластерной политике других регионов. &#xA;Предполагаемая практическая значимость исследования и апробация исследования. Ожидаемым результатом реализации предлагаемых мероприятий является: повышение конкурентоспособности экономики региона за счет роста объемов производства, доли инновационной продукции в валовом региональном продукте и производительности труда на предприятиях–участниках кластеров.&#xA;Материалы исследования прошли апробацию на различных этапах, были представлены в виде тезисов «Кластеры как инструмент антикризисной политики» на Всероссийской научно-практической конференции Мир после Сovid-19. Также исследование апробировано в универсиаде МГУ Ломоносова по секции государственного управление и по направлению экономики и финансов в олимпиаде СПБГУ Petropolitan Science (Re) Search.&#xA;Ключевые слова: кластер, кластерная политика Санкт-Петербурга, экономическое развитие, инновации, промышленный кластер, региональный кластер." xml:lang="ru_RU" />
+<meta name="DCTERMS.abstract" content="The use of cluster policy measures based on the creation of &quot;poles of growth&quot; in the regional economy on the basis of clusters and increasing the effectiveness of state economic policy on this basis is becoming increasingly relevant. The regions where clusters are formed and developing are activating their economic development. Clustering leads to a significant increase in business activity of enterprises, improvement of the investment climate in the country's region, development of social, economic, information and integration systems and, as a consequence, economic recovery.&#xA;The goal of the graduate qualification work: development and implementation of cluster policy (on the example of St. Petersburg). To achieve the goal, it is necessary to solve the following tasks.&#xA;Tasks of the final qualifying work:&#xA;– to develop their own definition of the concept of &quot;cluster&quot;;&#xA;– to summarize the existing approaches to determining the essence of cluster policy;&#xA;– to summarize the methods of calculating the effectiveness of cluster policy;&#xA;– to identify the features of the implemented cluster policy in St. Petersburg;&#xA;– analyze the activities of the cluster development center in the cluster policy system of St. Petersburg;&#xA;– to characterize the portal &quot;Innovative St. Petersburg&quot;;&#xA;– to conduct a technical audit of the website of innovative solutions of St. Petersburg;&#xA;– to systematize the problems identified during the analysis of the Innovative St. Petersburg portal;&#xA;- to form directions for improving the cluster policy of St. Petersburg.&#xA;Main results:&#xA;– to develop its own definition of the concept of &quot;cluster&quot;.&#xA;– the effectiveness of the implemented cluster policy in St. Petersburg has been revealed, bottlenecks that need to be eliminated have been found;&#xA;– recommendations have been developed for improving cluster policy by improving the website of innovative solutions of St. Petreburg.&#xA;Proposals for the implementation of the developed theoretical and methodological recommendations in practical activities in the future are planned to be used to improve the effectiveness of the cluster development center. The results of the study can be applied in practice in the cluster policy of other regions.&#xA;The intended practical significance of the study and the approbation of the study. The expected result of the implementation of the proposed measures is: improving the competitiveness of the regional economy due to the growth of production volumes, the share of innovative products in the gross regional product and labor productivity at enterprises participating in clusters.&#xA;The research materials were tested at various stages, were presented in the form of theses &quot;Clusters as an anti-crisis policy tool&quot; at the All-Russian Scientific and Practical Conference The World after Covid-19. The study was also tested at the Lomonosov Moscow State University Universiade in the public administration section and in the direction of economics and finance in the St. Petersburg State University Metropolitan Science (Re) Search Olympiad.&#xA;Keywords: cluster, cluster policy of St. Petersburg, economic development, innovation, industrial cluster, regional cluster." xml:lang="en_GB" />
+<meta name="DC.language" content="ru" scheme="DCTERMS.RFC1766" />
+<meta name="DC.subject" content="кластер" xml:lang="ru_RU" />
+<meta name="DC.subject" content="кластерная политика Санкт-Петербурга" xml:lang="ru_RU" />
+<meta name="DC.subject" content="экономическое развитие" xml:lang="ru_RU" />
+<meta name="DC.subject" content="инновации" xml:lang="ru_RU" />
+<meta name="DC.subject" content="промышленный кластер" xml:lang="ru_RU" />
+<meta name="DC.subject" content="региональный кластер." xml:lang="ru_RU" />
+<meta name="DC.subject" content="cluster" xml:lang="en_GB" />
+<meta name="DC.subject" content="cluster policy of St. Petersburg" xml:lang="en_GB" />
+<meta name="DC.subject" content="economic development" xml:lang="en_GB" />
+<meta name="DC.subject" content="innovation" xml:lang="en_GB" />
+<meta name="DC.subject" content="industrial cluster" xml:lang="en_GB" />
+<meta name="DC.subject" content="regional cluster." xml:lang="en_GB" />
+<meta name="DC.title" content="Development and implementation of cluster policy (the case study of St Petersburg)" xml:lang="en_GB" />
+<meta name="DCTERMS.alternative" content="Разработка и реализация кластерной политики (на примере Санкт-Петербурга)" xml:lang="ru_RU" />
+
+<meta name="citation_keywords" content="кластер; кластерная политика Санкт-Петербурга; экономическое развитие; инновации; промышленный кластер; региональный кластер.; cluster; cluster policy of St. Petersburg; economic development; innovation; industrial cluster; regional cluster." />
+<meta name="citation_title" content="Development and implementation of cluster policy (the case study of St Petersburg)" />
+<meta name="citation_language" content="ru" />
+<meta name="citation_author" content="Рединская Мария Вадимовна" />
+<meta name="citation_author" content="Redinskaa Maria Vadimovna" />
+<meta name="citation_pdf_url" content="https://dspace.spbu.ru/bitstream/11701/43256/2/Redinskaa_VKR__1__ok___kopia___kopia.pdf" />
+<meta name="citation_date" content="2023" />
+<meta name="citation_abstract_html_url" content="https://dspace.spbu.ru/handle/11701/43256" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46082349-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VXGFQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5VXGFQ');</script>
+<!-- End Google Tag Manager -->
+
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-inverse navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul class="nav navbar-nav">
+<li class=""><a href="/"> Главная страница</a></li>
+                
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Просмотр <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Разделы и коллекции</a></li>
+				<li class="divider"></li>
+        <li class="dropdown-header">Просмотр ресурсов по:</li>
+				
+				
+				
+				      			<li><a href="/browse?type=dateissued">Даты выпуска</a></li>
+					
+				      			<li><a href="/browse?type=author">Авторы</a></li>
+					
+				      			<li><a href="/browse?type=title">Заголовки</a></li>
+					
+				      			<li><a href="/browse?type=subject">Темы</a></li>
+					
+				    
+				
+
+            </ul>
+          </li>
+<li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/policies/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Политика<\/a>');
+// -->
+</script><noscript><a href="/policies/index_ru.html" target="dspacepopup">Политика</a></noscript></li>
+          <li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/help/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Справка<\/a>');
+// -->
+</script><noscript><a href="/help/index_ru.html" target="dspacepopup">Справка</a></noscript></li>
+       </ul>
+
+ 
+    <div class="nav navbar-nav navbar-right">
+	 <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Язык<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='ru';
+                  document.repost.submit();" href="?locale=ru">
+         русский
+       </a>
+      </li>
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='en';
+                  document.repost.submit();" href="?locale=en">
+         English
+       </a>
+      </li>
+ 
+     </ul>
+    </li>
+    </ul>
+  </div>
+ 
+ 
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+         
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Войти <b class="caret"></b></a>
+	             
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Мой архив ресурсов</a></li>
+               <li><a href="/subscribe">Обновления на e-mail</a></li>
+               <li><a href="/profile">Редактировать профиль</a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+          
+	
+	<form method="get" action="/simple-search" class="navbar-form navbar-right">
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Поиск&nbsp;в&nbsp;архиве" name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form></div>
+    </nav>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+<div class="container banner">
+	<div class="row">
+<div class="col-md-2"><a target="_blank" href="http://spbu.ru/"><img class="pull-right" src="/image/logo.png"></a>
+</div>
+<div class="col-md-10 brand">
+
+		<h1>Архив открытого доступа</br>Санкт-Петербургского государственного университета</h1>
+         
+        </div>
+        </div>
+</div>	
+<br/>
+                
+
+<div class="container">
+                
+
+
+
+  
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">DSpace at Saint Petersburg State University</a></li>
+
+  <li><a href="/handle/11701/2611">GRADUATION PROJECTS</a></li>
+
+  <li><a href="/handle/11701/2642">ECONOMICS</a></li>
+
+  <li><a href="/handle/11701/2645">MASTER'S STUDIES</a></li>
+
+</ol>
+
+</div>                
+
+
+
+        
+<div class="container">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div class="well">Пожалуйста, используйте этот идентификатор, чтобы цитировать или ссылаться на этот ресурс:
+                <code>http://hdl.handle.net/11701/43256</code></div>
+
+
+
+    
+    <table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel">Название:&nbsp;</td><td class="metadataFieldValue">Development&#x20;and&#x20;implementation&#x20;of&#x20;cluster&#x20;policy&#x20;(the&#x20;case&#x20;study&#x20;of&#x20;St&#x20;Petersburg)</td></tr>
+<tr><td class="metadataFieldLabel">Другие названия:&nbsp;</td><td class="metadataFieldValue">Разработка&#x20;и&#x20;реализация&#x20;кластерной&#x20;политики&#x20;(на&#x20;примере&#x20;Санкт-Петербурга)</td></tr>
+<tr><td class="metadataFieldLabel">Авторы:&nbsp;</td><td class="metadataFieldValue"><a class="author"href="/browse?type=author&amp;value=%D0%9C%D0%B8%D1%8D%D1%80%D0%B8%D0%BD%D1%8C+%D0%9B%D0%B0%D1%80%D0%B8%D1%81%D0%B0+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0">Миэринь&#x20;Лариса&#x20;Александровна</a><br /><a class="author"href="/browse?type=author&amp;value=Mierin+Larisa+Aleksandrovna">Mierin&#x20;Larisa&#x20;Aleksandrovna</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%A0%D0%B5%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%9C%D0%B0%D1%80%D0%B8%D1%8F+%D0%92%D0%B0%D0%B4%D0%B8%D0%BC%D0%BE%D0%B2%D0%BD%D0%B0">Рединская&#x20;Мария&#x20;Вадимовна</a><br /><a class="author"href="/browse?type=author&amp;value=Redinskaa+Maria+Vadimovna">Redinskaa&#x20;Maria&#x20;Vadimovna</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%9A%D0%BE%D1%80%D0%BE%D1%81%D1%82%D1%8B%D1%88%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%95%D0%BB%D0%B5%D0%BD%D0%B0+%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0">Коростышевская&#x20;Елена&#x20;Михайловна</a><br /><a class="author"href="/browse?type=author&amp;value=Korostysevskaa+Elena+Mihajlovna">Korostysevskaa&#x20;Elena&#x20;Mihajlovna</a></td></tr>
+<tr><td class="metadataFieldLabel">Дата публикации:&nbsp;</td><td class="metadataFieldValue">2023</td></tr>
+<tr><td class="metadataFieldLabel">URI (Унифицированный идентификатор ресурса):&nbsp;</td><td class="metadataFieldValue"><a href="http://hdl.handle.net/11701/43256">http:&#x2F;&#x2F;hdl.handle.net&#x2F;11701&#x2F;43256</a></td></tr>
+<tr><td class="metadataFieldLabel">Располагается в коллекциях:</td><td class="metadataFieldValue"><a href="/handle/11701/2645">MASTER'S STUDIES</a><br/></td></tr>
+</table><br/>
+<div class="panel panel-info"><div class="panel-heading">Файлы этого ресурса:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Файл</th>
+<th id="t2" class="standard">Описание</th>
+<th id="t3" class="standard">Размер</th><th id="t4" class="standard">Формат</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/43256/2/Redinskaa_VKR__1__ok___kopia___kopia.pdf">Redinskaa_VKR__1__ok___kopia___kopia.pdf</a></td><td headers="t2" class="standard">Article</td><td headers="t3" class="standard">1,4 MB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/43256/2/Redinskaa_VKR__1__ok___kopia___kopia.pdf">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/43256/3/reviewSV_Otzyv_naucnogo_rukovoditela_Magistratura_EF_2023_Redinskaa.doc">reviewSV_Otzyv_naucnogo_rukovoditela_Magistratura_EF_2023_Redinskaa.doc</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">2,62 MB</td><td headers="t4" class="standard">Microsoft Word</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/43256/3/reviewSV_Otzyv_naucnogo_rukovoditela_Magistratura_EF_2023_Redinskaa.doc">Просмотреть/Открыть</a></td></tr></table>
+</div>
+
+<div class="container row">
+
+
+    <a class="btn btn-default" href="/handle/11701/43256?mode=full">
+        Показать полное описание ресурса
+    </a>
+
+    <a class="statisticsLink  btn btn-primary" href="/handle/11701/43256/statistics">Просмотр статистики</a>
+
+<script type="text/javascript" src="//yandex.st/share/share.js"	charset="utf-8"></script>
+	  	<div class="yashare-auto-init" data-yashareL10n="ru" style="display: inline-block; float: right;" data-yashareType="none" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div> 
+
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p class="submitFormHelp alert alert-info">Все ресурсы в архиве электронных ресурсов защищены авторским правом, все права сохранены.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+<footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+             <div class="row">
+             <div class="col-md-7" style="padding-top: 12px;">
+              Архив открытого доступа. <a target="_blank" href="http://spbu.ru/">Санкт-Петербургский государственный университет.</a>&nbsp;&copy;&nbsp;2019. Поддерживается <a target="_blank" href="https://it.spbu.ru/">УСИТ СПбГУ</a>
+              </div>
+              <div class="col-md-5">
+                        <div id="footer_feedback" class="pull-right">
+                                <p class="text-muted"><a target="_blank" href="http://www.dspace.org/">DSpace Software</a> Copyright&nbsp;&copy;&nbsp;2002-2013&nbsp; &nbsp;-
+                                <a target="_blank" href="/feedback">Обратная связь</a>
+                                <a href="/htmlmap"></a></p>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+    </footer>
+    </body>
+</html>
+

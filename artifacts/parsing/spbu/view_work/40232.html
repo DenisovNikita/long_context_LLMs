@@ -1,0 +1,410 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DSpace at Saint Petersburg State University: Research of RUB/CNY Exchange Rate Volatility</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 5.10" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Бухвалов Александр Васильевич" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Buhvalov Aleksandr Vasilevic" xml:lang="en_GB" />
+<meta name="DC.creator" content="Демкович Андриан Богданович" xml:lang="ru_RU" />
+<meta name="DC.creator" content="Demkovic Andrian Bogdanovic" xml:lang="en_GB" />
+<meta name="DC.contributor" content="Окулов Виталий Леонидович" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Okulov Vitalij Leonidovic" xml:lang="en_GB" />
+<meta name="DCTERMS.dateAccepted" content="2023-07-26T12:58:52Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2023-07-26T12:58:52Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2023" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="078178" xml:lang="en_GB" />
+<meta name="DC.identifier" content="http://hdl.handle.net/11701/43448" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="Цель работы: модифицировать модель прогнозирования точек изменения волатильности и проверить, применима ли модель для прогнозирования валютной пары RUB/CNY.&#xA;Основные задачи: проанализировать теоретические и эмпирические исследования волатильности на валютных рынках; проанализировать научные работы, в которых изучалась взаимосвязь волатильности и ликвидности; найти подходящую для работы модель, изучить методологию исследования; модифицировать модель; осуществить поиск данных; провести эконометрический анализ данных; проанализировать полученные результаты; сформулировать выводы по работе.&#xA;Основные результаты:&#xA;1.&#x9;Определены факторы, влияющие на волатильность валютных курсов: уровень цен (инфляция), процентные ставки и торговый баланс. &#xA;2.&#x9;Доказано, что волатильность может быть использована в качестве косвенного показателя ликвидности.&#xA;3.&#x9;Произведена модификация модели, предложенной в статье «Применение Logit-модели для прогнозирования волатильности валютного курса». Были введены новые объясняющие переменные.&#xA;4.&#x9;Результаты прогнозирования показали, что предложенная модель не является «хорошей» для осуществления прогнозирования волатильности обменного курса RUB/CNY.&#xA;5.&#x9;Возможные причины получения такого результата: специфика валютной пары RUB/CNY (частое вмешательство со стороны Центральных Банков в обеих странах); асимметричность информации на финансовых рынках." xml:lang="ru_RU" />
+<meta name="DCTERMS.abstract" content="Goal: to modify the model for predicting volatility change points and to check whether the model is applicable for predicting the currency pair RUB/CNY.&#xA;Main objectives: to analyze theoretical and empirical studies of volatility in currency markets; to analyze scientific papers that have studied the relationship between volatility and liquidity; to find a suitable model for the work, to study the research methodology; to modify the model; to conduct data search; to conduct econometric analysis of data; to analyze the results; to draw conclusions on the work.&#xA;Main results:&#xA;1.      Factors affecting the volatility of exchange rates were identified: price level (inflation), interest rates and trade balance. &#xA;2.&#x9;It is proved that volatility can be used as indirect indicator of liquidity.&#xA;3.&#x9;The model proposed in the article &quot;Application of Logit-model for forecasting exchange rate volatility&quot; has been modified. New explanatory variables have been introduced.&#xA;4.&#x9;Forecasting results show that the proposed model is not &quot;good&quot; for forecasting exchange rate volatility of RUB/CNY.&#xA;5.&#x9;Possible reasons for this result: the specifics of the currency pair RUB/CNY (frequent intervention by the Central Banks in both countries); asymmetric information in the financial markets." xml:lang="en_GB" />
+<meta name="DC.language" content="ru" scheme="DCTERMS.RFC1766" />
+<meta name="DC.subject" content="Волатильность" xml:lang="ru_RU" />
+<meta name="DC.subject" content="Валютные курсы" xml:lang="ru_RU" />
+<meta name="DC.subject" content="Ликвидность" xml:lang="ru_RU" />
+<meta name="DC.subject" content="Модели Прогнозирования" xml:lang="ru_RU" />
+<meta name="DC.subject" content="Микроструктура рынка" xml:lang="ru_RU" />
+<meta name="DC.subject" content="Внебиржевые рынки" xml:lang="ru_RU" />
+<meta name="DC.subject" content="Volatility" xml:lang="en_GB" />
+<meta name="DC.subject" content="Currency Rates" xml:lang="en_GB" />
+<meta name="DC.subject" content="Liquidity" xml:lang="en_GB" />
+<meta name="DC.subject" content="Forecasting Models" xml:lang="en_GB" />
+<meta name="DC.subject" content="Market Microstructure" xml:lang="en_GB" />
+<meta name="DC.subject" content="OTC Markets" xml:lang="en_GB" />
+<meta name="DC.title" content="Research of RUB/CNY Exchange Rate Volatility" xml:lang="en_GB" />
+<meta name="DCTERMS.alternative" content="Исследование Волатильности Обменного Курса RUB/CNY" xml:lang="ru_RU" />
+
+<meta name="citation_keywords" content="Волатильность; Валютные курсы; Ликвидность; Модели Прогнозирования; Микроструктура рынка; Внебиржевые рынки; Volatility; Currency Rates; Liquidity; Forecasting Models; Market Microstructure; OTC Markets" />
+<meta name="citation_title" content="Research of RUB/CNY Exchange Rate Volatility" />
+<meta name="citation_language" content="ru" />
+<meta name="citation_author" content="Демкович Андриан Богданович" />
+<meta name="citation_author" content="Demkovic Andrian Bogdanovic" />
+<meta name="citation_pdf_url" content="https://dspace.spbu.ru/bitstream/11701/43448/2/Demkovic_A.B._VKR.docx" />
+<meta name="citation_date" content="2023" />
+<meta name="citation_abstract_html_url" content="https://dspace.spbu.ru/handle/11701/43448" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46082349-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VXGFQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5VXGFQ');</script>
+<!-- End Google Tag Manager -->
+
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-inverse navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul class="nav navbar-nav">
+<li class=""><a href="/"> Главная страница</a></li>
+                
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Просмотр <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Разделы и коллекции</a></li>
+				<li class="divider"></li>
+        <li class="dropdown-header">Просмотр ресурсов по:</li>
+				
+				
+				
+				      			<li><a href="/browse?type=dateissued">Даты выпуска</a></li>
+					
+				      			<li><a href="/browse?type=author">Авторы</a></li>
+					
+				      			<li><a href="/browse?type=title">Заголовки</a></li>
+					
+				      			<li><a href="/browse?type=subject">Темы</a></li>
+					
+				    
+				
+
+            </ul>
+          </li>
+<li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/policies/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Политика<\/a>');
+// -->
+</script><noscript><a href="/policies/index_ru.html" target="dspacepopup">Политика</a></noscript></li>
+          <li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/help/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Справка<\/a>');
+// -->
+</script><noscript><a href="/help/index_ru.html" target="dspacepopup">Справка</a></noscript></li>
+       </ul>
+
+ 
+    <div class="nav navbar-nav navbar-right">
+	 <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Язык<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='ru';
+                  document.repost.submit();" href="?locale=ru">
+         русский
+       </a>
+      </li>
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='en';
+                  document.repost.submit();" href="?locale=en">
+         English
+       </a>
+      </li>
+ 
+     </ul>
+    </li>
+    </ul>
+  </div>
+ 
+ 
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+         
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Войти <b class="caret"></b></a>
+	             
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Мой архив ресурсов</a></li>
+               <li><a href="/subscribe">Обновления на e-mail</a></li>
+               <li><a href="/profile">Редактировать профиль</a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+          
+	
+	<form method="get" action="/simple-search" class="navbar-form navbar-right">
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Поиск&nbsp;в&nbsp;архиве" name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form></div>
+    </nav>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+<div class="container banner">
+	<div class="row">
+<div class="col-md-2"><a target="_blank" href="http://spbu.ru/"><img class="pull-right" src="/image/logo.png"></a>
+</div>
+<div class="col-md-10 brand">
+
+		<h1>Архив открытого доступа</br>Санкт-Петербургского государственного университета</h1>
+         
+        </div>
+        </div>
+</div>	
+<br/>
+                
+
+<div class="container">
+                
+
+
+
+  
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">DSpace at Saint Petersburg State University</a></li>
+
+  <li><a href="/handle/11701/2611">GRADUATION PROJECTS</a></li>
+
+  <li><a href="/handle/11701/2692">MANAGEMENT</a></li>
+
+  <li><a href="/handle/11701/2693">BACHELOR STUDIES</a></li>
+
+</ol>
+
+</div>                
+
+
+
+        
+<div class="container">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div class="well">Пожалуйста, используйте этот идентификатор, чтобы цитировать или ссылаться на этот ресурс:
+                <code>http://hdl.handle.net/11701/43448</code></div>
+
+
+
+    
+    <table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel">Название:&nbsp;</td><td class="metadataFieldValue">Research&#x20;of&#x20;RUB&#x2F;CNY&#x20;Exchange&#x20;Rate&#x20;Volatility</td></tr>
+<tr><td class="metadataFieldLabel">Другие названия:&nbsp;</td><td class="metadataFieldValue">Исследование&#x20;Волатильности&#x20;Обменного&#x20;Курса&#x20;RUB&#x2F;CNY</td></tr>
+<tr><td class="metadataFieldLabel">Авторы:&nbsp;</td><td class="metadataFieldValue"><a class="author"href="/browse?type=author&amp;value=%D0%91%D1%83%D1%85%D0%B2%D0%B0%D0%BB%D0%BE%D0%B2+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87">Бухвалов&#x20;Александр&#x20;Васильевич</a><br /><a class="author"href="/browse?type=author&amp;value=Buhvalov+Aleksandr+Vasilevic">Buhvalov&#x20;Aleksandr&#x20;Vasilevic</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%94%D0%B5%D0%BC%D0%BA%D0%BE%D0%B2%D0%B8%D1%87+%D0%90%D0%BD%D0%B4%D1%80%D0%B8%D0%B0%D0%BD+%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87">Демкович&#x20;Андриан&#x20;Богданович</a><br /><a class="author"href="/browse?type=author&amp;value=Demkovic+Andrian+Bogdanovic">Demkovic&#x20;Andrian&#x20;Bogdanovic</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%9E%D0%BA%D1%83%D0%BB%D0%BE%D0%B2+%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B9+%D0%9B%D0%B5%D0%BE%D0%BD%D0%B8%D0%B4%D0%BE%D0%B2%D0%B8%D1%87">Окулов&#x20;Виталий&#x20;Леонидович</a><br /><a class="author"href="/browse?type=author&amp;value=Okulov+Vitalij+Leonidovic">Okulov&#x20;Vitalij&#x20;Leonidovic</a></td></tr>
+<tr><td class="metadataFieldLabel">Дата публикации:&nbsp;</td><td class="metadataFieldValue">2023</td></tr>
+<tr><td class="metadataFieldLabel">URI (Унифицированный идентификатор ресурса):&nbsp;</td><td class="metadataFieldValue"><a href="http://hdl.handle.net/11701/43448">http:&#x2F;&#x2F;hdl.handle.net&#x2F;11701&#x2F;43448</a></td></tr>
+<tr><td class="metadataFieldLabel">Располагается в коллекциях:</td><td class="metadataFieldValue"><a href="/handle/11701/2693">BACHELOR STUDIES</a><br/></td></tr>
+</table><br/>
+<div class="panel panel-info"><div class="panel-heading">Файлы этого ресурса:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Файл</th>
+<th id="t2" class="standard">Описание</th>
+<th id="t3" class="standard">Размер</th><th id="t4" class="standard">Формат</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/43448/2/Demkovic_A.B._VKR.docx">Demkovic_A.B._VKR.docx</a></td><td headers="t2" class="standard">Article</td><td headers="t3" class="standard">761,46 kB</td><td headers="t4" class="standard">Microsoft Word XML</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/43448/2/Demkovic_A.B._VKR.docx">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/43448/3/reviewSV_Otzyv_Demkovic.pdf">reviewSV_Otzyv_Demkovic.pdf</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">160,39 kB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/43448/3/reviewSV_Otzyv_Demkovic.pdf">Просмотреть/Открыть</a></td></tr></table>
+</div>
+
+<div class="container row">
+
+
+    <a class="btn btn-default" href="/handle/11701/43448?mode=full">
+        Показать полное описание ресурса
+    </a>
+
+    <a class="statisticsLink  btn btn-primary" href="/handle/11701/43448/statistics">Просмотр статистики</a>
+
+<script type="text/javascript" src="//yandex.st/share/share.js"	charset="utf-8"></script>
+	  	<div class="yashare-auto-init" data-yashareL10n="ru" style="display: inline-block; float: right;" data-yashareType="none" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div> 
+
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p class="submitFormHelp alert alert-info">Все ресурсы в архиве электронных ресурсов защищены авторским правом, все права сохранены.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+<footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+             <div class="row">
+             <div class="col-md-7" style="padding-top: 12px;">
+              Архив открытого доступа. <a target="_blank" href="http://spbu.ru/">Санкт-Петербургский государственный университет.</a>&nbsp;&copy;&nbsp;2019. Поддерживается <a target="_blank" href="https://it.spbu.ru/">УСИТ СПбГУ</a>
+              </div>
+              <div class="col-md-5">
+                        <div id="footer_feedback" class="pull-right">
+                                <p class="text-muted"><a target="_blank" href="http://www.dspace.org/">DSpace Software</a> Copyright&nbsp;&copy;&nbsp;2002-2013&nbsp; &nbsp;-
+                                <a target="_blank" href="/feedback">Обратная связь</a>
+                                <a href="/htmlmap"></a></p>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+    </footer>
+    </body>
+</html>
+

@@ -1,0 +1,408 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DSpace at Saint Petersburg State University: Calorimetry based on pixel detectors for proton tomography</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 5.10" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Феофилов Григорий Александрович" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Feofilov Grigorij Aleksandrovic" xml:lang="en_GB" />
+<meta name="DC.creator" content="Ерыгин Илья Игоревич" xml:lang="ru_RU" />
+<meta name="DC.creator" content="Erygin Ila Igorevic" xml:lang="en_GB" />
+<meta name="DC.contributor" content="Жеребчевский Владимир Иосифович" xml:lang="ru_RU" />
+<meta name="DC.contributor" content="Zerebcevskij Vladimir Iosifovic" xml:lang="en_GB" />
+<meta name="DCTERMS.dateAccepted" content="2023-07-26T12:35:23Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2023-07-26T12:35:23Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2023" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="077428" xml:lang="en_GB" />
+<meta name="DC.identifier" content="http://hdl.handle.net/11701/42601" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="Рак - одна из самых опасных и распространенных болезней в мире, требующая эффективных методов диагностики и лечения. В медицине существуют различные методы лечения рака, однако протонная терапия, позволяет достичь локализации практически всей терапевтической дозы на опухоли, минимизируя воздействие на здоровые ткани. &#xA;Для снижения неопределенности в адаптивном лечении перед проведением сеанса протонной терапии заранее рассчитывается и составляется план дозовых нагрузок для каждого пациента на основе данных о тормозной способности протонов в соответствующих тканях. В настоящее время это достигается за счет рентгеновской компьютерной томографии при преобразовании карт поглощения рентгеновского излучения в тканях, в карты тормозной способности протонов в этих же тканях. Такое преобразование является одним из основных источников неопределенности в оценке положения пика Брэгга. Поэтому при планировании лечения с использованием протонов необходимо использовать протонную компьютерную томографию, которая напрямую восстанавливает трехмерную карту тормозной способности протонов, что позволяет достичь высокой точности при диагностике пациента.&#xA;Идея протонной визуализации основана на измерении остаточной энергии каждого протона, что позволяет определить тормозную способность ткани вдоль его пути. Для этой цели используется цифровой калориметр, состоящий из слоев Монолитных Активных Пиксельных Сенсоров (МАПС), которые чередуются со слоями поглотителя. Такие пиксельные детекторы отличаются высокой гранулярностью и быстродействием, что делает их лучшим вариантом для применения в протонной томографии.&#xA;В представленной работе исследовалось идентификационная способность цифрового калориметра, построенного на основе МАПС, для регистрации протонов различных энергий. Для этого проводилось моделирование установки, состоящей из кремниевых пиксельных детекторов и свинцовых поглотителей, через которую проходит пучок протонов. В результате моделирования была дана оценка количеству образующихся вторичных частиц, при прохождении пучка протонов различной энергии через детекторы, свинцовые поглотители и коллиматор. Затем проводилось моделирование экспериментальной установки, после чего результаты сравнивались с данными, полученными в ходе экспериментальных исследований. &#xA;В итоге было сделано заключение о возможности определения первоначальной энергии пучка по изменению интенсивности частиц пучка в каждом чувствительном слое пиксельных детекторов." xml:lang="ru_RU" />
+<meta name="DCTERMS.abstract" content="Cancer remains one of the most dangerous and prevalent diseases worldwide, necessitating effective diagnostic and treatment methods. While various cancer treatment approaches exist in the field of medicine, proton therapy has emerged as a promising modality that enables precise targeting of therapeutic doses to tumors while minimizing damage to healthy tissues.&#xA;To reduce uncertainties in adaptive treatment, a pre-calculated and customized dose plan for each patient is formulated based on proton relative stopping power data in relevant tissues. Currently, this is accomplished by converting X-ray computed tomography images of tissue attenuation into maps of proton relative stopping power, with this conversion being a major source of uncertainty in assessing the position of the Bragg peak. Therefore, proton computed tomography, which directly reconstructs three-dimensional maps of proton stopping power, is crucial in achieving high precision in patient diagnosis and treatment planning.&#xA;The concept of proton visualization relies on measuring the residual energy of each proton, which allows determination of tissue stopping power along its path. For this purpose, a digital calorimeter consisting of Monolithic Active Pixel Sensors (MAPS) interleaved with absorber layers is employed. Such pixelated detectors offer high granularity and fast response, making them an optimal choice for proton tomography applications.&#xA;In this study, the identification capability of a digital calorimeter based on MAPS for detecting protons of different energies was investigated. A simulation setup was developed, comprising silicon pixel detectors, lead absorbers, and a beam of protons. The simulation provided an estimate of the number of secondary particles generated when the proton beam of varying energies passed through the detectors, lead absorbers, and collimator. Subsequently, an experimental setup was modeled, and the results were compared with data obtained from experimental investigations.&#xA;The findings indicated the potential to determine the initial energy of the proton beam by analyzing the intensity variations of beam particles in each sensitive layer of the pixel detectors." xml:lang="en_GB" />
+<meta name="DC.language" content="ru" scheme="DCTERMS.RFC1766" />
+<meta name="DC.subject" content="Детекторы ядерных излучений" xml:lang="ru_RU" />
+<meta name="DC.subject" content="Протонная терапия" xml:lang="ru_RU" />
+<meta name="DC.subject" content="протонная томография" xml:lang="ru_RU" />
+<meta name="DC.subject" content="калориметр" xml:lang="ru_RU" />
+<meta name="DC.subject" content="пиксельный детектор" xml:lang="ru_RU" />
+<meta name="DC.subject" content="Nuclear radiation detectors" xml:lang="en_GB" />
+<meta name="DC.subject" content="Proton therapy" xml:lang="en_GB" />
+<meta name="DC.subject" content="proton tomography" xml:lang="en_GB" />
+<meta name="DC.subject" content="calorimeter" xml:lang="en_GB" />
+<meta name="DC.subject" content="pixel detector" xml:lang="en_GB" />
+<meta name="DC.title" content="Calorimetry based on pixel detectors for proton tomography" xml:lang="en_GB" />
+<meta name="DCTERMS.alternative" content="Калориметрия с использованием пиксельных детекторов для протонной томографии" xml:lang="ru_RU" />
+
+<meta name="citation_keywords" content="Детекторы ядерных излучений; Протонная терапия; протонная томография; калориметр; пиксельный детектор; Nuclear radiation detectors; Proton therapy; proton tomography; calorimeter; pixel detector" />
+<meta name="citation_title" content="Calorimetry based on pixel detectors for proton tomography" />
+<meta name="citation_language" content="ru" />
+<meta name="citation_author" content="Ерыгин Илья Игоревич" />
+<meta name="citation_author" content="Erygin Ila Igorevic" />
+<meta name="citation_pdf_url" content="https://dspace.spbu.ru/bitstream/11701/42601/2/VKR_Erygin_Ilya_Igorevich.pdf" />
+<meta name="citation_date" content="2023" />
+<meta name="citation_abstract_html_url" content="https://dspace.spbu.ru/handle/11701/42601" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46082349-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VXGFQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5VXGFQ');</script>
+<!-- End Google Tag Manager -->
+
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-inverse navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul class="nav navbar-nav">
+<li class=""><a href="/"> Главная страница</a></li>
+                
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Просмотр <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Разделы и коллекции</a></li>
+				<li class="divider"></li>
+        <li class="dropdown-header">Просмотр ресурсов по:</li>
+				
+				
+				
+				      			<li><a href="/browse?type=dateissued">Даты выпуска</a></li>
+					
+				      			<li><a href="/browse?type=author">Авторы</a></li>
+					
+				      			<li><a href="/browse?type=title">Заголовки</a></li>
+					
+				      			<li><a href="/browse?type=subject">Темы</a></li>
+					
+				    
+				
+
+            </ul>
+          </li>
+<li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/policies/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Политика<\/a>');
+// -->
+</script><noscript><a href="/policies/index_ru.html" target="dspacepopup">Политика</a></noscript></li>
+          <li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/help/index_ru.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Справка<\/a>');
+// -->
+</script><noscript><a href="/help/index_ru.html" target="dspacepopup">Справка</a></noscript></li>
+       </ul>
+
+ 
+    <div class="nav navbar-nav navbar-right">
+	 <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Язык<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='ru';
+                  document.repost.submit();" href="?locale=ru">
+         русский
+       </a>
+      </li>
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='en';
+                  document.repost.submit();" href="?locale=en">
+         English
+       </a>
+      </li>
+ 
+     </ul>
+    </li>
+    </ul>
+  </div>
+ 
+ 
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+         
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Войти <b class="caret"></b></a>
+	             
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Мой архив ресурсов</a></li>
+               <li><a href="/subscribe">Обновления на e-mail</a></li>
+               <li><a href="/profile">Редактировать профиль</a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+          
+	
+	<form method="get" action="/simple-search" class="navbar-form navbar-right">
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Поиск&nbsp;в&nbsp;архиве" name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form></div>
+    </nav>
+
+            </div>
+
+</header>
+
+<main id="content" role="main">
+<div class="container banner">
+	<div class="row">
+<div class="col-md-2"><a target="_blank" href="http://spbu.ru/"><img class="pull-right" src="/image/logo.png"></a>
+</div>
+<div class="col-md-10 brand">
+
+		<h1>Архив открытого доступа</br>Санкт-Петербургского государственного университета</h1>
+         
+        </div>
+        </div>
+</div>	
+<br/>
+                
+
+<div class="container">
+                
+
+
+
+  
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">DSpace at Saint Petersburg State University</a></li>
+
+  <li><a href="/handle/11701/2611">GRADUATION PROJECTS</a></li>
+
+  <li><a href="/handle/11701/2722">PHYSICS</a></li>
+
+  <li><a href="/handle/11701/2723">BACHELOR STUDIES</a></li>
+
+</ol>
+
+</div>                
+
+
+
+        
+<div class="container">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div class="well">Пожалуйста, используйте этот идентификатор, чтобы цитировать или ссылаться на этот ресурс:
+                <code>http://hdl.handle.net/11701/42601</code></div>
+
+
+
+    
+    <table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel">Название:&nbsp;</td><td class="metadataFieldValue">Calorimetry&#x20;based&#x20;on&#x20;pixel&#x20;detectors&#x20;for&#x20;proton&#x20;tomography</td></tr>
+<tr><td class="metadataFieldLabel">Другие названия:&nbsp;</td><td class="metadataFieldValue">Калориметрия&#x20;с&#x20;использованием&#x20;пиксельных&#x20;детекторов&#x20;для&#x20;протонной&#x20;томографии</td></tr>
+<tr><td class="metadataFieldLabel">Авторы:&nbsp;</td><td class="metadataFieldValue"><a class="author"href="/browse?type=author&amp;value=%D0%A4%D0%B5%D0%BE%D1%84%D0%B8%D0%BB%D0%BE%D0%B2+%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9+%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87">Феофилов&#x20;Григорий&#x20;Александрович</a><br /><a class="author"href="/browse?type=author&amp;value=Feofilov+Grigorij+Aleksandrovic">Feofilov&#x20;Grigorij&#x20;Aleksandrovic</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%95%D1%80%D1%8B%D0%B3%D0%B8%D0%BD+%D0%98%D0%BB%D1%8C%D1%8F+%D0%98%D0%B3%D0%BE%D1%80%D0%B5%D0%B2%D0%B8%D1%87">Ерыгин&#x20;Илья&#x20;Игоревич</a><br /><a class="author"href="/browse?type=author&amp;value=Erygin+Ila+Igorevic">Erygin&#x20;Ila&#x20;Igorevic</a><br /><a class="author"href="/browse?type=author&amp;value=%D0%96%D0%B5%D1%80%D0%B5%D0%B1%D1%87%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80+%D0%98%D0%BE%D1%81%D0%B8%D1%84%D0%BE%D0%B2%D0%B8%D1%87">Жеребчевский&#x20;Владимир&#x20;Иосифович</a><br /><a class="author"href="/browse?type=author&amp;value=Zerebcevskij+Vladimir+Iosifovic">Zerebcevskij&#x20;Vladimir&#x20;Iosifovic</a></td></tr>
+<tr><td class="metadataFieldLabel">Дата публикации:&nbsp;</td><td class="metadataFieldValue">2023</td></tr>
+<tr><td class="metadataFieldLabel">URI (Унифицированный идентификатор ресурса):&nbsp;</td><td class="metadataFieldValue"><a href="http://hdl.handle.net/11701/42601">http:&#x2F;&#x2F;hdl.handle.net&#x2F;11701&#x2F;42601</a></td></tr>
+<tr><td class="metadataFieldLabel">Располагается в коллекциях:</td><td class="metadataFieldValue"><a href="/handle/11701/2723">BACHELOR STUDIES</a><br/></td></tr>
+</table><br/>
+<div class="panel panel-info"><div class="panel-heading">Файлы этого ресурса:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Файл</th>
+<th id="t2" class="standard">Описание</th>
+<th id="t3" class="standard">Размер</th><th id="t4" class="standard">Формат</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42601/2/VKR_Erygin_Ilya_Igorevich.pdf">VKR_Erygin_Ilya_Igorevich.pdf</a></td><td headers="t2" class="standard">Article</td><td headers="t3" class="standard">1,57 MB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42601/2/VKR_Erygin_Ilya_Igorevich.pdf">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42601/3/reviewSV_Otzyv_Naucnyj_Rukovoditel.pdf">reviewSV_Otzyv_Naucnyj_Rukovoditel.pdf</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">66,56 kB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42601/3/reviewSV_Otzyv_Naucnyj_Rukovoditel.pdf">Просмотреть/Открыть</a></td></tr><tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/11701/42601/4/reviewSV_st077428_Erygin_Ila_Igorevic_%28supervisor%29%28Ru%29.txt">reviewSV_st077428_Erygin_Ila_Igorevic_(supervisor)(Ru).txt</a></td><td headers="t2" class="standard">ReviewSV</td><td headers="t3" class="standard">10,97 kB</td><td headers="t4" class="standard">Text</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/11701/42601/4/reviewSV_st077428_Erygin_Ila_Igorevic_%28supervisor%29%28Ru%29.txt">Просмотреть/Открыть</a></td></tr></table>
+</div>
+
+<div class="container row">
+
+
+    <a class="btn btn-default" href="/handle/11701/42601?mode=full">
+        Показать полное описание ресурса
+    </a>
+
+    <a class="statisticsLink  btn btn-primary" href="/handle/11701/42601/statistics">Просмотр статистики</a>
+
+<script type="text/javascript" src="//yandex.st/share/share.js"	charset="utf-8"></script>
+	  	<div class="yashare-auto-init" data-yashareL10n="ru" style="display: inline-block; float: right;" data-yashareType="none" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"></div> 
+
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p class="submitFormHelp alert alert-info">Все ресурсы в архиве электронных ресурсов защищены авторским правом, все права сохранены.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+<footer class="navbar navbar-inverse navbar-bottom">
+             <div id="designedby" class="container text-muted">
+             <div class="row">
+             <div class="col-md-7" style="padding-top: 12px;">
+              Архив открытого доступа. <a target="_blank" href="http://spbu.ru/">Санкт-Петербургский государственный университет.</a>&nbsp;&copy;&nbsp;2019. Поддерживается <a target="_blank" href="https://it.spbu.ru/">УСИТ СПбГУ</a>
+              </div>
+              <div class="col-md-5">
+                        <div id="footer_feedback" class="pull-right">
+                                <p class="text-muted"><a target="_blank" href="http://www.dspace.org/">DSpace Software</a> Copyright&nbsp;&copy;&nbsp;2002-2013&nbsp; &nbsp;-
+                                <a target="_blank" href="/feedback">Обратная связь</a>
+                                <a href="/htmlmap"></a></p>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+    </footer>
+    </body>
+</html>
+
