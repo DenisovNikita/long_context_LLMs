@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple_touch_icon.png">
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="Mn-o5i4bnPBytvndIIoLFqm1MRNFRiRUS1yVp2PXwhMEHpiqTHLTnRTgkJ9h8E51xIEIfzUKdR4kaMP0Epz7XQ==">
+    <title>Романова Диана Родионовна</title>
+    <link href="/assets/a19f98e6/css/font-awesome.min.css" rel="stylesheet">
+<link href="/assets/34415720/css/flag-icon.min.css" rel="stylesheet">
+<link href="/css/site.css" rel="stylesheet">
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/animate.css" rel="stylesheet">
+<link href="/css/theme.css" rel="stylesheet"></head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2MM2Z"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrap">
+    <div class="header">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row headerbar hidden-xs">
+                    <div class="col-sm-6 nopadding">
+                        <div class="logo">
+                            <img src="/images/logo/logo_ru.svgz" alt="Диплом СПбГУ" onerror="this.onerror=null; this.src=&#039;/images/logo/logo_ru.png&#039;">                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 nopadding">
+                        <div class="social pull-right">
+                            <a href="https://vk.com/spb1724" target="_blank" rel="noopener noreferrer"
+                               class="fa-icon-button fa-icon-vk"></a>
+                            <a href="https://t.me/spbuniversity" target="_blank" rel="noopener noreferrer"
+                               class="fa-icon-button fa-telegram"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <nav id="w1" class="navbar-default navbar"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w1-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="visible-xs navbar-brand" href="/"><img src="/images/logo/logo_ru.svgz" alt="Диплом СПбГУ" onerror="this.onerror=null; this.src=&#039;/images/logo/logoru.png&#039;"></a></div><div id="w1-collapse" class="collapse navbar-collapse"><ul id="w2" class="navbar-nav nav"><li><a href="/">Главная</a></li>
+<li><a href="/gp">Выпускные квалификационные работы</a></li>
+
+
+</ul><ul class="nav navbar-nav navbar-right"><li>
+<a href="/en/gp/view?id=41714"><i class="flag-icon flag-icon-gb"></i></a>    </li></ul>
+</div></div></nav>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <!-- Сообщение об ошибке -->
+        <!--        <div class="alert alert-danger">-->
+        <!--            <!-- Кнопка для закрытия сообщения, созданная с помощью элемента a -->
+        <!--            <a href="#" class="close" data-dismiss="alert">×</a>-->
+        <!--            <strong>На сайте ведутся технические работы. Приносим свои извинения за неудобства.</strong>-->
+        <!--        </div>-->
+
+        <ul class="breadcrumb"><li><a href="/">Главная</a></li>
+<li><a href="/gp/index">Выпускные квалификационные работы</a></li>
+<li class="active">Романова Диана Родионовна</li>
+</ul>                <div class="gp-view">
+
+    <h1>Романова Диана Родионовна</h1>
+
+    <table id="w0" class="table table-striped table-bordered detail-view"><tr><th>ФИО выпускника</th><td>Романова Диана Родионовна</td></tr>
+<tr><th>Направление подготовки (специальность)</th><td>41.03.05 Международные отношения</td></tr>
+<tr><th>Квалификация</th><td>Бакалавр</td></tr>
+<tr><th>Наименование ВКР</th><td><a href="http://hdl.handle.net/11701/42942" target="_blank">Проблемы военно-политического соперничества России и НАТО на современном этапе</a></td></tr>
+<tr><th>Статус</th><td style="color:green">Опубликована</td></tr>
+<tr><th>ФИО научного руководителя</th><td>кандидат политических наук Ю.К.Богуславская</td></tr>
+<tr><th>Год</th><td>2023</td></tr></table>    </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p>Диплом СПбГУ. <a title="Санкт-Петербургский государственный университет" href="http://spbu.ru/"
+                                                 target="blank">Санкт-Петербургский государственный университет</a> ©&nbsp;2024            .</p>
+    </div>
+</footer>
+
+
+<script src="/assets/21ff533a/jquery.js"></script>
+<script src="/assets/40d0db07/yii.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/viewportchecker.min.js"></script>
+<script src="/js/gtm.js"></script>
+<script src="/assets/58056c1e/js/bootstrap.js"></script></body>
+</html>
