@@ -9,6 +9,7 @@ import time
 from IPython.display import clear_output
 from pathlib import Path
 from tqdm import tqdm, trange
+import sys
 
 BOOKS = [
     "and_quiet_flows_the_don",
