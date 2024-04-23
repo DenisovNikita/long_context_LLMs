@@ -1,0 +1,60 @@
+SCIENTIFIC ADVISOR’S REFERENCE
+
+Program:
+Master in Corporate Finance
+Student:
+Artem Evgenievich Sviridov
+Title of thesis:
+Dividend policy and corporate innovation activity: case of Russian market
+	
+Justification of the topic choice. Accuracy in defining the aim and objectives of the thesis. Justification of the topic choice; accuracy in defining the aim and tasks of the thesis; originality of the topic and the extent to which it was covered; alignment of the thesis’ topic, aim and objectives.
+The student does not pose the aim and the task of the thesis explicitly; however, it can be justified through the research question and research hypotheses, which, in their turn, are justified through literature review. The topic aligns with research question. The topic is relevant considering the changes in Russian economy, the development of the financial market and the need to sustain competitiveness through innovation activities.
+
+Structure and logic of the text flow. Logic of research; full scope of the thesis; alignment of thesis’ structural parts, i.e. theoretical and empirical parts.
+The logic of the text is not broken. The literature review is the basis for hypotheses development; then the author discusses the design of the study, describes the process of data collection, and introduces the models. The next chapter discusses the results of the empirical testing of hypotheses. Theoretical contribution, implications, limitations are clearly stated.
+The structure of the study is imperfect. The Introduction section is very brief. In addition, the author devotes the large part of the text to technical issues, which are important but do not contribute to the thesis development and could be placed in Appendices. 
+
+Quality of analytical approach and quality of offered solution to the research objectives. Adequacy of objectives coverage; ability to formulate and convey the research problem; ability to offer options for its solution; application of the latest trends in relevant research are for the set objectives.
+The quality of analytical approach is high. The author chooses appropriate analytical tools and formulates clearly the results that are in line with the research question. Artem uses the up-to-date literature and is able to create regression models and interpret results correctly. He demonstrates good knowledge of econometric modelling and independent mindset and is able to cope with technical issues.  
+
+Quality of data gathering and description. Quality of selecting research tools and methods; data validity adequacy; adequacy of used data for chosen research tools and methods; completeness and relevance of the list of references.
+The quality is high. Artem uses panel data model based on GMM estimation which shows the best results for the tasks of the study.
+
+Scientific aspect of the thesis. Independent scientific thinking in solving the set problem/objectives; the extent to which the student contributed to selecting and justifying the research model (conceptual and/or quantitative), developing methodology/approach to set objectives.
+Artem worked independently. He used appropriate literature to set hypotheses, chose methodological approach, and completed the research. His findings contribute to the literature by disclosing the relationship between dividend payouts and innovation activities of Russian  companies.
+
+Practical/applied nature of research. Extent to which the theoretical background is related to the international or Russian managerial practice; development of applied recommendations; justification and interpretation of the empirical/applied results.
+
+The paper is in the format of empirical study; it contains recommendations for managers and investors that are adjusted to Russian realities. 
+
+Quality of thesis layout. Layout fulfils the requirements of the Regulations for master thesis preparation and defence, correct layout of tables, figures, references.
+The layout meets the requirements; however, there are numerous typos, and the language somewhere needs in improvement.
+
+Originality of the text. All sources of match identified by the Safe Assign system follow the allowed cases, the paper does not contain any elements of plagiarism.
+I did not detect any problems with the originality of the text.
+
+
+The Master thesis of STUDENT meets the requirements for master thesis of MCF program thus the author of the thesis can be awarded the required degree.
+
+
+Date:  
+June 6, 2023	
+
+Scientific Advisor: 
+
+		
+Elena Rogova, Dr of Economic Sciences, Professor		
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+

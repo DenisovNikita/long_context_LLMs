@@ -1,0 +1,14 @@
+Review of the supervisor for the final qualifying work
+Siavichay Mendoza Maria Jose
+"Investigation of the absorption spectrum of hexafluoroisopropanol
+in the region of overtones of the stretching vibration of the OH group.
+
+	The purpose of the graduate work of the master's student Maria José Siavichay Mendoza was to study the absorption spectrum of a molecule belonging to the class of fluorinated alcohols: hexafluoroisopropanol ((CF3)2-CH-OH, HFIP). This substance is interesting in that it is a metabolic product of one of the popular volatile anesthetics, sevoflurane, and one of the precursors in its synthesis; therefore, HFIP is used in an important branch of modern science - peptide biochemistry. At the same time, the spectroscopy of this compound has not yet been sufficiently studied; in particular, there are no data in the literature on the characteristics of overtones of the OH stretching vibration. Thus, the topic proposed for the master's final qualification work is quite relevant.
+	In the course of the work, the master student learned how to register infrared spectra of gaseous samples using the Fourier spectrometer NICOLET6700, mastered the technique of processing spectra, learned how to determine the positions and integral intensities of absorption bands. In parallel with the experimental work, she was engaged in quantum chemical calculations using the Gaussian software package.
+	In general, while working on her dissertation, the master student did not show much interest in the proposed topic and did not devote enough time to studying. Unfortunately, the results could not be brought to publication in a peer-reviewed journal. They were presented only as a poster presentation at the All-Russian conference "Science of St. Petersburg State University 2022".
+
+May 26, 2023
+Scientific supervisor
+docent, department of Molecular spectroscopy,
+docent, PhD
+Melikova Sona

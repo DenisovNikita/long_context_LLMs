@@ -1,0 +1,52 @@
+SCIENTIFIC ADVISOR’S REFERENCE
+
+Program:
+Master in Corporate Finance (Корпоративные финансы)
+Student:
+﻿Jesus Eduardo Elizondo Hernandez
+Title of thesis:
+﻿Central Bank Digital Currencies
+	
+Justification of the topic choice. Accuracy in defining the aim and objectives of the thesis. Justification of the topic choice; accuracy in defining the aim and tasks of the thesis; originality of the topic and the extent to which it was covered; alignment of the thesis’ topic, aim and objectives.
+The thesis analyzes a new topic and justifies why this topic is relevant.
+Structure and logic of the text flow. Logic of research; full scope of the thesis; alignment of thesis’ structural parts, i.e. theoretical and empirical parts.
+The thesis has two research questions. One is which factors central banks should consider when designing a central-bank digital currency (CBDC). The section “Central Bank Digital Currencies” includes information regarding this issue. But the other is which lessons can be learned from China’s implementation of a CBDC. The section “China and the Digital Yuan” seems not to discuss how China’s implementation of a CBDC could be applied to other countries – instead, this section seems to focus only on a description of China’s implementation of a CBDC. Hence, it’s not clear which lessons could be learned from this implementation of a CBDC by China. As a result, it’s not clear which analyses correspond to the second research question.
+Quality of analytical approach and quality of offered solution to the research objectives. Adequacy of objectives coverage; ability to formulate and convey the research problem; ability to offer options for its solution; application of the latest trends in relevant research are for the set objectives.
+In certain respects, the analytical approach could have been a little more structured. For example, the thesis could have discussed the outcomes that central banks might want to use a CBDC to achieve, the challenges involved in using a CBDC to achieve these outcomes, and measures that central banks have taken or could take to overcome these challenges. With this approach, it might have been easier to identify the main results or implications of the thesis – at present, it’s a little difficult to identify the main results of the thesis.
+Quality of data gathering and description. Quality of selecting research tools and methods; data validity adequacy; adequacy of used data for chosen research tools and methods; completeness and relevance of the list of references.
+To address the second research question, the thesis focuses on China. I understand why the thesis focuses on China. But in terms of learning lessons, the economic system and political system in China differ from the economic system and the political system of most other countries. Hence, it’s a little unclear to what extent analyses of the implementation of a CBDC in China could be relevant for other countries.
+Scientific aspect of the thesis. Independent scientific thinking in solving the set problem/objectives; the extent to which the student contributed to selecting and justifying the research model (conceptual and/or quantitative), developing methodology/approach to set objectives.
+The thesis uses an approach that is appropriate for the research questions. As discussed under other points in this review, I have some concerns about how this approach was applied. But in and of itself, this approach was fine.  
+Practical/applied nature of research. Extent to which the theoretical background is related to the international or Russian managerial practice; development of applied recommendations; justification and interpretation of the empirical/applied results.
+
+To me, for this topic, the primary practical implication for a central bank is to determine whether and how to implement a digital currency. The thesis has two research questions. The first is which factors central banks should consider when designing a CBDC. The second is which lessons can be learned from China’s implementation of a CBDC. These research questions relate to but are not equivalent to whether and how a central bank should implement a digital currency. Hence, the practical implications are not as strong as they could have been.
+Quality of thesis layout. Layout fulfils the requirements of the Regulations for master thesis preparation and defence, correct layout of tables, figures, references.
+(1) On page 1, the title of the thesis is given as “﻿Central Bank Digital Currencies.” But on page 2, for the statement of independent character, the title is given as “﻿A Simple Options Trading Approach to Beat Index Mutual Funds Returns in India.”
+
+(2) The sections are not numbered. Hence, it was a little difficult to identify where one section ended and the next section began.
+
+Originality of the text. All sources of match identified by the Safe Assign system follow the allowed cases, the paper does not contain any elements of plagiarism.
+
+I am not aware of any problems with plagiarism 
+
+The Master thesis of ﻿Jesus Eduardo Elizondo Hernandez meets the requirements for master thesis of MCF, thus the author of the thesis can be awarded the required degree.
+
+
+Date:  June 5, 2023	
+Scientific Advisor: Jeff Downing
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+

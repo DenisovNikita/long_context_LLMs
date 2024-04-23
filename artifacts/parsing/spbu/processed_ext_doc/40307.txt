@@ -1,0 +1,54 @@
+SCIENTIFIC ADVISOR’S REFERENCE
+
+Program:
+Master in Business Analytics and Big Data
+Student:
+D.A. Doroshkova, M.O. Ryleeva, A.D. Lisitsyna
+Title of thesis:
+Estimating the effect of social networks on the development of masters’ programs
+	
+Justification of the topic choice. Accuracy in defining the aim and objectives of the thesis. Justification of the topic choice; accuracy in defining the aim and tasks of the thesis; originality of the topic and the extent to which it was covered; alignment of the thesis’ topic, aim and objectives.
+In recent years, social media has become an increasingly important tool for promoting higher education programs. As more and more students turn to social media to research colleges and universities, it has become essential for institutions to have a solid social media presence. Social media is being chosen as a marketing tool by higher education institutions more and more often because the younger generation actively uses it. In fact, students use several social media apps at once on a daily basis. The most popular are Twitter, Instagram, and Facebook. In Russia, the most popular social media is VKontakte (or VK). The research is devoted to the study of data from groups of Graduate School of Management (GSOM) applicants in the social media VK with the help of Machine Learning algorithms. 
+The goals of the master thesis are as follows – managerial problem of how to increase engagement rate in VK for GSOM bachelor and master enrollees and research problem that is to find out the followers' preferences and what content engages them the most. 
+Taking into account the above, the master thesis topic seems to be justified. The title, research problem, and research questions are clearly declared and specified. The goals are feasible, accurately expressed and aligned with the thesis’ topic and content, the tasks are also well defined.
+Structure and logic of the text flow. Logic of research; full scope of the thesis; alignment of thesis’ structural parts, i.e. theoretical and empirical parts.
+The work consists of the following parts: first chapter covers the history and trends of education marketing and describes the GSOM marketing strategy, particularly in the Russian social media network – VK. Second chapter describes the methodology to be chosen for the research and VK API (Application Programming Interface) data used for data analysis. The second chapter also covers the developing of the dashboard design and its managerial use. Third chapter discusses the models for social network posts with the followers’ analysis and its main results. 
+Data-driven recommendations to the marketing department and discuss areas for further research are provided within the conclusion.
+Logic of research is clear from the structure and logic of the text flow within the paper.
+Quality of analytical approach and quality of offered solution to the research objectives. Adequacy of objectives coverage; ability to formulate and convey the research problem; ability to offer options for its solution; application of the latest trends in relevant research are for the set objectives.
+The following data analysis methods were used: natural language processing, sentiment analysis, regression and binary classification models, and cluster analysis. Additionally, a dashboard in Yandex.DataLens was built to visualise and monitor subscriber data. For example, the analysis revealed that, compared to the other factors, the most important for engagement was the content of the posts.
+Through the paper, authors demonstrate ability to formulate and convey the research problem and to offer approaches to apply for the problem solving with respect to the latest trends in relevant research.
+Quality of data gathering and description. Quality of selecting research tools and methods; data validity adequacy; adequacy of used data for chosen research tools and methods; completeness and relevance of the list of references.
+The data source for the analysis is publicly available data that was downloaded from the VK API. It is an application programming interface that allows developers to access data and functionality from the VK social network. The information posted in three groups (undergraduate applicants, graduate applicants and the official GSOM group) and on subscribers' pages was downloaded and processed. The gathered data was properly described and analysed with an adequate methods.
+Scientific aspect of the thesis. Independent scientific thinking in solving the set problem/objectives; the extent to which the student contributed to selecting and justifying the research model (conceptual and/or quantitative), developing methodology/approach to set objectives.
+The main scientific contribution of the thesis is the development of a machine learning approach to explain social media user’s profiling and behaviour in order to affect target audience of GSOM via VK social platform. The offered approach was selected based on up-to-date relevant scientific papers as well as on study of experience with modern industry solutions.
+Overall, the scientific contribution of the thesis is not outstanding but sufficient for the authors to be awarded the required degree.
+Practical/applied nature of research. Extent to which the theoretical background is related to the international or Russian managerial practice; development of applied recommendations; justification and interpretation of the empirical/applied results.
+The findings made during this research can help set up the target GSOM advertisement campaign more efficiently. The marketing department can use the information derived from cluster analysis to tailor targeting ads content to the interests of the specific cluster of users. All the recommendations in a paper should help the marketing departments achieve their goals and attract prospective enrolees to VK groups.
+Additionally, a dashboard in Yandex.DataLens was built to visualize and monitor subscriber data.
+Quality of thesis layout. Layout fulfils the requirements of the Regulations for master thesis preparation and defence, correct layout of tables, figures, references.
+Layout fulfils the requirements of the Regulations for master thesis preparation and defence. All the tables and figures are properly edited and represented.
+Originality of the text. All sources of match identified by the Safe Assign system follow the allowed cases, the paper does not contain any elements of plagiarism.
+All sources of match identified by the Safe Assign system follow the allowed cases, the paper does not contain any elements of plagiarism.
+
+The Master thesis of D.A. Doroshkova, M.O. Ryleeva, A.D. Lisitsyna meets the requirements for master thesis of MiBA program thus the author of the thesis can be awarded the required degree.
+
+
+Date:  07.06.2023	
+
+Scientific Advisor:  Vladimir A. Gorovoy
+				
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
