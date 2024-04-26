@@ -28,3 +28,4 @@ BOOKS = [
     "the_white_guard",
     "war_and_peace",
 ]
+ARTIFACTS_DIR_PATH = Path(__file__).parent.joinpath("../artifacts").resolve()
