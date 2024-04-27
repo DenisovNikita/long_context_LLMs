@@ -1,1 +1,2 @@
-artifacts/parsing/diplomas/spbu/work_doc.tgz filter=lfs diff=lfs merge=lfs -text
+artifacts/parsing/diplomas/spbu/work_doc_1.tgz filter=lfs diff=lfs merge=lfs -text
+artifacts/parsing/diplomas/spbu/work_doc_2.tgz filter=lfs diff=lfs merge=lfs -text
