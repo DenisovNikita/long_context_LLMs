@@ -10,9 +10,14 @@ from IPython.display import clear_output
 from pathlib import Path
 from tqdm import tqdm, trange
 import sys
-from transformers import AutoTokenizer, LlamaTokenizer
+import transformers
+from transformers import AutoConfig, AutoModel, AutoTokenizer # , LlamaTokenizer
+import typing as tp
 from typing import Any, Dict, List
 import matplotlib.pyplot as plt
+import peft
+import torch
+import subprocess
 
 
 BOOKS = [
@@ -36,21 +41,64 @@ DIPLOMA_DIR_PATH = Path(__file__).parent.joinpath("../..").resolve()
 REPOSITOTY_DIR_PATH = DIPLOMA_DIR_PATH.joinpath("long_context_LLMs")
 ARTIFACTS_DIR_PATH = REPOSITOTY_DIR_PATH.joinpath("artifacts")
 
-HUGGINGFACE_MODEL_TO_REPO = {
-    "llama-2-7b": "meta-llama/Llama-2-7b",
-    # "llama-3-8b": "meta-llama/Meta-Llama-3-8B", # banned for me personal
-    "falcon-7b": "tiiuae/falcon-7b",
-    "bloom": "bigscience/bloom",
-    "flan-t5-xxl": "google/flan-t5-xxl",
-    "fred-t5-1.7b": "ai-forever/FRED-T5-1.7B",
-    "phi": "microsoft/phi-2",
-    "dolly-v2-7b": "databricks/dolly-v2-7b",
-    "DeciLM-7b": "Deci/DeciLM-7B",
-    "saiga_mistral_7b_lora": "IlyaGusev/saiga_mistral_7b_lora",
-    "vicuna-7b": "lmsys/vicuna-7b-v1.5",
-    "vikhr-7b": "Vikhrmodels/Vikhr-7b-0.1",
-    "ru-longformer-large-4096": "kazzand/ru-longformer-large-4096",
-    "mistral-7b": "mistralai/Mistral-7B-v0.1",
-    "mixtral-8x7b": "mistralai/Mixtral-8x7B-v0.1",
-    "gemma-7b": "google/gemma-7b",
+LLAMA_2_7B = "llama-2-7b"
+LLAMA_3_8B = "llama-3-8b"
+FALCON_7B = "falcon-7b"
+BLOOM = "bloom"
+FLAN_T5_XLL = "flan-t5-xxl"
+FRED_T5_1_7B = "fred-t5-1.7b"
+PHI_2 = "phi"
+DOLLY_V2_7B = "dolly-v2-7b"
+DECI_LM_7B = "DeciLM-7b"
+SAIGA_MISTRAL_7B_LORA = "saiga_mistral_7b_lora"
+VICUNA_7B = "vicuna-7b"
+VIKHR_7B = "vikhr-7b"
+RU_LONGFORMER_LARGE_4096 = "ru-longformer-large-4096"
+MISTRAL_7B = "mistral-7b"
+MIXTRAL_8X7B = "mixtral-8x7b"
+GEMMA_7B = "gemma-7b"
+
+MODELS = {
+    LLAMA_2_7B,
+    LLAMA_3_8B,
+    FALCON_7B,
+    BLOOM,
+    FLAN_T5_XLL,
+    FRED_T5_1_7B,
+    PHI_2,
+    DOLLY_V2_7B,
+    DECI_LM_7B,
+    SAIGA_MISTRAL_7B_LORA,
+    VICUNA_7B,
+    VIKHR_7B,
+    RU_LONGFORMER_LARGE_4096,
+    MISTRAL_7B,
+    MIXTRAL_8X7B,
+    GEMMA_7B,
 }
+
+HUGGINGFACE_MODEL_TO_REPO = {
+    LLAMA_2_7B: "meta-llama/Llama-2-7b-hf",
+    # LLAMA_3_8B: "meta-llama/Meta-Llama-3-8B", # banned for me personal
+    FALCON_7B: "tiiuae/falcon-7b",
+    BLOOM: "bigscience/bloom",
+    FLAN_T5_XLL: "google/flan-t5-xxl",
+    FRED_T5_1_7B: "ai-forever/FRED-T5-1.7B",
+    PHI_2: "microsoft/phi-2",
+    DOLLY_V2_7B: "databricks/dolly-v2-7b",
+    DECI_LM_7B: "Deci/DeciLM-7B",
+    SAIGA_MISTRAL_7B_LORA: "IlyaGusev/saiga_mistral_7b_lora",
+    VICUNA_7B: "lmsys/vicuna-7b-v1.5",
+    VIKHR_7B: "Vikhrmodels/Vikhr-7b-0.1",
+    RU_LONGFORMER_LARGE_4096: "kazzand/ru-longformer-large-4096",
+    MISTRAL_7B: "mistralai/Mistral-7B-v0.1",
+    MIXTRAL_8X7B: "mistralai/Mixtral-8x7B-v0.1",
+    GEMMA_7B: "google/gemma-7b",
+}
+
+# there are quantized models
+# OLLAMA_MODEL_TO_NAME = {
+#     LLAMA_2_7B: "llama2:latest",
+#     LLAMA_3_8B: "llama3:latest",
+#     VICUNA_7B: "vicuna"
+# }

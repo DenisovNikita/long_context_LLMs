@@ -4,9 +4,12 @@ from definitions import *
 
 
 def get_tokenizer(model: str, repo: str):
-    if model == "llama-2-7b" or model == "llama-3-8b":
-        return LlamaTokenizer.from_pretrained(repo)
     return AutoTokenizer.from_pretrained(repo)
+
+
+def get_model(model: str, repo: str):
+    config = AutoConfig.from_pretrained(repo)
+    return AutoModel.from_config(config)
 
 
 def get_num_tokens(tokenizer, text: str):
