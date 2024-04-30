@@ -1,5 +1,7 @@
 ,model,subset,split,accuracy_score
-0,mistral-7b,rummlu,public_test,0.4232034286853384
-1,mistral-7b,ruopenbookqa,train,0.5256629597946963
-2,llama-2-7b,rummlu,public_test,0.30110634904814115
-3,llama-2-7b,ruopenbookqa,train,0.262617621899059
+0,vikhr-7b,rummlu,public_test,0.309279378052427
+1,vikhr-7b,ruopenbookqa,train,0.3361847733105218
+2,mistral-7b,rummlu,public_test,0.4232034286853384
+3,mistral-7b,ruopenbookqa,train,0.5256629597946963
+4,llama-2-7b,rummlu,public_test,0.30110634904814115
+5,llama-2-7b,ruopenbookqa,train,0.262617621899059
