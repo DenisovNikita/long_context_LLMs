@@ -21,6 +21,7 @@ import torch
 import subprocess
 from datasets import load_from_disk, load_dataset
 from huggingface_hub import login
+from sklearn.metrics import accuracy_score
 
 
 BOOKS = [
