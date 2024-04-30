@@ -8,8 +8,9 @@ def get_tokenizer(model: str, repo: str):
 
 
 def get_model(model: str, repo: str):
-    config = AutoConfig.from_pretrained(repo)
-    return AutoModel.from_config(config)
+    return AutoModelForCausalLM.from_pretrained(repo)
+    # config = AutoConfig.from_pretrained(repo)
+    # return AutoModel.from_config(config)
 
 
 def get_num_tokens(tokenizer, text: str):

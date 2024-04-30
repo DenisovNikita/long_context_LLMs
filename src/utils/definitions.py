@@ -12,7 +12,7 @@ from tqdm import tqdm, trange
 import sys
 import os
 import transformers
-from transformers import AutoConfig, AutoModel, AutoTokenizer # , LlamaTokenizer
+from transformers import AutoConfig, AutoModel, AutoTokenizer, AutoModelForCausalLM # , LlamaTokenizer
 import typing as tp
 from typing import Any, Dict, List
 import matplotlib.pyplot as plt
@@ -78,6 +78,18 @@ MODELS = {
     MISTRAL_7B,
     MIXTRAL_8X7B,
     GEMMA_7B,
+}
+
+HUGGINFACE_BASELINE_MODELS = {
+    LLAMA_2_7B,
+    MISTRAL_7B,
+}
+
+HUGGINFACE_RUSSIAN_MODELS = {
+    SAIGA_MISTRAL_7B_LORA,
+    VIKHR_7B,
+    FRED_T5_1_7B,
+    RU_LONGFORMER_LARGE_4096,
 }
 
 HUGGINGFACE_MODEL_TO_REPO = {
