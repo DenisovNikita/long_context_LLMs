@@ -1,0 +1,80 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "ruopenbookqa",
+  "dataset_name": "mera",
+  "dataset_size": 1513762,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/ai-forever/MERA@72cba65a2eec275beae3ec40e51d99f85b72ea8c/data/ruopenbookqa/train.jsonl": {
+      "num_bytes": 1571070,
+      "checksum": null
+    },
+    "hf://datasets/ai-forever/MERA@72cba65a2eec275beae3ec40e51d99f85b72ea8c/data/ruopenbookqa/test.jsonl": {
+      "num_bytes": 277572,
+      "checksum": null
+    }
+  },
+  "download_size": 1848642,
+  "features": {
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "inputs": {
+      "question": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "option_a": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "option_b": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "option_c": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "option_d": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "outputs": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "meta": {
+      "id": {
+        "dtype": "int32",
+        "_type": "Value"
+      }
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 3362404,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1284840,
+      "num_examples": 2338,
+      "dataset_name": "mera"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 228922,
+      "num_examples": 400,
+      "dataset_name": "mera"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

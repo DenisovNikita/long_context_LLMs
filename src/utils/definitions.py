@@ -10,6 +10,7 @@ from IPython.display import clear_output
 from pathlib import Path
 from tqdm import tqdm, trange
 import sys
+import os
 import transformers
 from transformers import AutoConfig, AutoModel, AutoTokenizer # , LlamaTokenizer
 import typing as tp
@@ -18,6 +19,7 @@ import matplotlib.pyplot as plt
 import peft
 import torch
 import subprocess
+from datasets import load_from_disk, load_dataset
 
 
 BOOKS = [
@@ -37,9 +39,10 @@ BOOKS = [
     "the_white_guard",
     "war_and_peace",
 ]
-DIPLOMA_DIR_PATH = Path(__file__).parent.joinpath("../..").resolve()
+DIPLOMA_DIR_PATH = Path(__file__).parent.joinpath("../../..").resolve()
 REPOSITOTY_DIR_PATH = DIPLOMA_DIR_PATH.joinpath("long_context_LLMs")
 ARTIFACTS_DIR_PATH = REPOSITOTY_DIR_PATH.joinpath("artifacts")
+DATASETS_DIR_PATH = ARTIFACTS_DIR_PATH.joinpath("datasets")
 
 LLAMA_2_7B = "llama-2-7b"
 LLAMA_3_8B = "llama-3-8b"
@@ -94,6 +97,14 @@ HUGGINGFACE_MODEL_TO_REPO = {
     MISTRAL_7B: "mistralai/Mistral-7B-v0.1",
     MIXTRAL_8X7B: "mistralai/Mixtral-8x7B-v0.1",
     GEMMA_7B: "google/gemma-7b",
+}
+
+HUGGINGFACE_NAME_TO_DATASET = {
+    "mera": {
+        "repo": "ai-forever/MERA",
+        "subsets": ["rummlu", "ruopenbookqa"],
+        "splits": ["public_test", "train"],
+    }
 }
 
 # there are quantized models
