@@ -63,6 +63,14 @@ RU_LONGFORMER_LARGE_4096 = "ru-longformer-large-4096"
 MISTRAL_7B = "mistral-7b"
 MIXTRAL_8X7B = "mixtral-8x7b"
 GEMMA_7B = "gemma-7b"
+YALM_100B = "YaLM-100b"
+RU_T5_LARGE = "ruT5-large"
+RUBERT = "ruBert-large"
+RUROBERTA = "ruRoberta-large"
+RUELECTRA = "ruElectra-large"
+RUGPT3_XL = "rugpt3xl"
+MT5_XXL = "mt5-xxl"
+RU_E5_BASE = "ru-e5-base"
 
 MODELS = {
     LLAMA_2_7B,
@@ -81,6 +89,14 @@ MODELS = {
     MISTRAL_7B,
     MIXTRAL_8X7B,
     GEMMA_7B,
+    YALM_100B,
+    RU_T5_LARGE,
+    RUBERT,
+    RUROBERTA,
+    RUELECTRA,
+    RUGPT3_XL,
+    MT5_XXL,
+    RU_E5_BASE,
 }
 
 HUGGINFACE_BASELINE_MODELS = {
@@ -93,6 +109,14 @@ HUGGINFACE_RUSSIAN_MODELS = {
     VIKHR_7B,
     FRED_T5_1_7B,
     RU_LONGFORMER_LARGE_4096,
+    YALM_100B,
+    RU_T5_LARGE,
+    RUBERT,
+    RUROBERTA,
+    RUELECTRA,
+    RUGPT3_XL,
+    MT5_XXL,
+    RU_E5_BASE,
 }
 
 HUGGINGFACE_MODEL_TO_REPO = {
@@ -112,6 +136,14 @@ HUGGINGFACE_MODEL_TO_REPO = {
     MISTRAL_7B: "mistralai/Mistral-7B-v0.1",
     MIXTRAL_8X7B: "mistralai/Mixtral-8x7B-v0.1",
     GEMMA_7B: "google/gemma-7b",
+    YALM_100B: "yandex/yalm-100b",
+    RU_T5_LARGE: "ai-forever/ruT5-large",
+    RUBERT: "ai-forever/ruBert-large",
+    RUROBERTA: "ai-forever/ruRoberta-large",
+    RUELECTRA: "ai-forever/ruElectra-large",
+    RUGPT3_XL: "ai-forever/rugpt3xl",
+    MT5_XXL: "google/mt5-xxl",
+    RU_E5_BASE: "hivaze/ru-e5-base",
 }
 
 HUGGINGFACE_NAME_TO_DATASET = {
