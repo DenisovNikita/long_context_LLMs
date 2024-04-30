@@ -41,13 +41,3 @@ def get_answer(probs: Dict[str, float]):
             max_prob = v
             answer = k
     return answer
-
-
-def calculate_probs_and_get_answer(
-    input_prompt: str,
-    tokenizer: transformers.PreTrainedTokenizerBase,
-    model: tp.Union[transformers.PreTrainedModel, peft.peft_model.PeftModelForCausalLM]
-) -> str:
-    probs = calculate_token_interest_probs(input_prompt, tokenizer, model)
-    answer = get_answer(probs)
-    return answer

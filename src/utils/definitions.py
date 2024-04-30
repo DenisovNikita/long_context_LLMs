@@ -20,6 +20,7 @@ import peft
 import torch
 import subprocess
 from datasets import load_from_disk, load_dataset
+from huggingface_hub import login
 
 
 BOOKS = [
@@ -42,6 +43,7 @@ BOOKS = [
 DIPLOMA_DIR_PATH = Path(__file__).parent.joinpath("../../..").resolve()
 REPOSITOTY_DIR_PATH = DIPLOMA_DIR_PATH.joinpath("long_context_LLMs")
 ARTIFACTS_DIR_PATH = REPOSITOTY_DIR_PATH.joinpath("artifacts")
+METRICS_DIR_PATH = ARTIFACTS_DIR_PATH.joinpath("metrics")
 DATASETS_DIR_PATH = ARTIFACTS_DIR_PATH.joinpath("datasets")
 
 LLAMA_2_7B = "llama-2-7b"
