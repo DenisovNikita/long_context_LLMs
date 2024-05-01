@@ -18,11 +18,16 @@ import os
 import random
 import re
 import requests
+from tqdm import tqdm, trange
+import json
+from collections import defaultdict
+import sys
 
 
-llama_weights_7b_base = "/llama_weights/7B_hf/"
+llama_weights_7b_base = "meta-llama/Llama-2-7b-hf"
+# llama_weights_7b_base = "/llama_weights/7B_hf/"
 llama_weights_7b_tuned = "/llama-redpajama-mem-15000-with-mem/"
-cache_path = "/hf-cache/"
+cache_path = "./hf-cache/"
 use_flash = False # using flash for inference is only implemented for when offloading kv to cpu
 top_k = 5
 dtype = torch.bfloat16
@@ -86,11 +91,13 @@ def make_llama_mem_pipe():
     return llama_mem_pipe
 
 
-llama_mem_pipe = make_llama_mem_pipe()
+# llama_mem_pipe = make_llama_mem_pipe()
 
 
 
-pipes = {"base": llama_base_pipe, "mem": llama_mem_pipe}
+
+pipes = {"base": llama_base_pipe}
+# pipes = {"base": llama_base_pipe, "mem": llama_mem_pipe}
 
 
 def generate_prompt(n_garbage):
@@ -130,19 +137,23 @@ def test_model(prompt_text, pass_key, model_name):
     return pass_key
 
 
+# n_values = [12000, 14000, 18000, 20000, 25000, 38000]
 n_values = [0, 100, 500, 1000, 5000, 8000, 10000, 12000, 14000, 18000, 20000, 25000, 38000]
 num_tests = 50
-models = ["base", "mem"]
+models = ["base"]
+# models = ["base", "mem"]
 accuracies = {x: [] for x in models}
 individual_results = {x: [] for x in models}
 
-for n in n_values:
+num_tokens_in_prompt = defaultdict(list)
+
+for n in tqdm(n_values, desc="n_values..."):
     
     correct_count = {x: 0 for x in models}
     
     n_results = {x: [] for x in models}
-    for i in range(num_tests):
-        print(f"\nRunning test {i + 1}/{num_tests} for n = {n}...")
+    for i in trange(num_tests, desc="Tests..."):
+        # print(f"\nRunning test {i + 1}/{num_tests} for n = {n}...")
         prompt_text, pass_key = generate_prompt(n)
         
         
@@ -151,21 +162,28 @@ for n in n_values:
             if pipes[model_name] is None:
                 continue
             num_tokens = len(pipes[model_name].tokenizer.encode(prompt_text))
+            num_tokens_in_prompt[n].append(num_tokens)
+            continue
 
-            print("Number of tokens in this prompt: ", num_tokens)
+            # print("Number of tokens in this prompt: ", num_tokens)
             model_output = test_model(prompt_text, pass_key, model_name)
-            print(f"Expected number in the prompt: {pass_key}, {model_name} output: {model_output}")
+            # print(f"Expected number in the prompt: {pass_key}, {model_name} output: {model_output}")
 
             if pass_key == model_output:
                 correct_count[model_name] += 1
                 n_results[model_name].append(1)
-                print("Success!")
+                # print("Success!")
             else:
                 n_results[model_name].append(0)
-                print("Fail.")
+                # print("Fail.")
     
     for model in models:
         accuracy = (correct_count[model] / num_tests) * 100
+        # with open(f"./llama-2-7b/{n}.json", "w") as f:
+        #     json.dump({"accuracy": accuracy}, f, ensure_ascii=False, indent=2)
         print(f"Accuracy {model} for n = {n}: {accuracy}%")
         accuracies[model].append(accuracy)
         individual_results[model].append(n_results)
+
+print("???")
+print(num_tokens_in_prompt, file=sys.stderr)
