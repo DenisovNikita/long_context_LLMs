@@ -31,6 +31,10 @@ def plot_tokens_distributions(tokens_dir_path: Path):
 def plot_tokens_distributions_by_attempt(tokens_path: Path):
     with open(tokens_path, "r") as f:
         tokens = json.load(f)["tokens"]
+    plot_tokens_distributions_by_attempt_without_path(tokens)
+
+
+def plot_tokens_distributions_by_attempt_without_path(tokens):
     n_values = list(tokens.keys())
     values = []
     for n in n_values:
@@ -46,10 +50,8 @@ def plot_tokens_distributions_by_attempt(tokens_path: Path):
     ax.set_yticks(range(position+1))
     ax.set_yticklabels(labels[perm])
     ax.vlines([4096], ymin=-1, ymax=len(labels), alpha=0.2, color='blue')
-    # ax.vlines([128000], ymin=-1, ymax=len(labels), alpha=0.8, color='red')
     plt.xlabel("Количество токенов")
     plt.ylabel("n")
     plt.title(f"Распределения токенов по {len(values[0])} попыткам для разных n")
 
     plt.show()
-        
