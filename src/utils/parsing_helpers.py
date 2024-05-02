@@ -28,8 +28,9 @@ def parse_spbu_with_year_safe(year):
         parse_spbu_with_year(year)
     except Exception as e:
         with open(ARTIFACTS_DIR_PATH.joinpath("junk/parsing_diplomas_spbu_exceptions.txt"), "a") as f:
+            f.write(f'year = {year}\n')
             f.write(str(e))
-            f.write('_________________________________________________\n')
+            f.write('\n_________________________________________________\n')
 
 
 def add_skip(id, reason, base_artifacts_path):
