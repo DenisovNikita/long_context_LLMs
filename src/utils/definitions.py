@@ -8,7 +8,7 @@ from soup2dict import convert
 import time
 from IPython.display import clear_output
 from pathlib import Path
-from tqdm import tqdm, trange
+from tqdm.notebook import tqdm, trange
 import sys
 import os
 import transformers
@@ -23,6 +23,7 @@ from datasets import load_from_disk, load_dataset
 from huggingface_hub import login
 from sklearn.metrics import accuracy_score
 from collections import defaultdict
+import copy
 
 
 BOOKS = [

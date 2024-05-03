@@ -3,7 +3,11 @@ sys.path.append("..")
 from definitions import *
 
 
-def plot_tokens_distributions(tokens_dir_path: Path):
+def plot_tokens_distributions(tokens_dir_path: Path, vlines_blue=None, vlines_red=None):
+    if vlines_blue is None:
+        vlines_blue = np.array([0, 0.5, 1]) * 1e6
+    if vlines_red is None:
+        vlines_red = [128000]
     values = []
     labels = []
     for file in tokens_dir_path.glob("*"):
@@ -20,8 +24,8 @@ def plot_tokens_distributions(tokens_dir_path: Path):
         ax.boxplot(values[column], positions=[position], vert=False, widths=0.5)
     ax.set_yticks(range(position+1))
     ax.set_yticklabels(labels[perm])
-    ax.vlines(np.array([0, 0.5, 1]) * 1e6, ymin=-1, ymax=len(labels), alpha=0.2, color='blue')
-    ax.vlines([128000], ymin=-1, ymax=len(labels), alpha=0.8, color='red')
+    ax.vlines(vlines_blue, ymin=-1, ymax=len(labels), alpha=0.2, color='blue')
+    ax.vlines(vlines_red, ymin=-1, ymax=len(labels), alpha=0.8, color='red')
     plt.xlabel("Количество токенов")
     plt.title(f"Распределения токенов по {len(values[0])} {tokens_dir_path.stem} для разных моделей")
 
