@@ -13,14 +13,18 @@ def make_request_and_save_result(url, path, overwrite=False):
         subprocess.run(["wget", "-q", "-O", path, url])
 
 
-def get_pages(year):
+def get_num_diplomas(year):
     url = f"https://diploma.spbu.ru/gp/index?GpSearch%5Bname_ru%5D=&GpSearch%5Btitle_ru%5D=&GpSearch%5Beditor_ru%5D=&GpSearch%5Bdp_id%5D=&GpSearch%5Bstatus%5D=1&GpSearch%5Byear%5D={year}"
     path = ARTIFACTS_DIR_PATH.joinpath("junk/search_pages.html")
     make_request_and_save_result(url, path, overwrite=True)
     with open(path, "r") as f:
         soup = BeautifulSoup(f.read(), "html.parser")
     dict_soup = convert(soup)
-    return (int(dict_soup["html"][0]["body"][0]["div"][0]["div"][1]["div"][0]["div"][0]["div"][1]["div"][0]["div"][1]["div"][0]["b"][1]["#text"].replace(u'\xa0', '')) + 19) // 20
+    return int(dict_soup["html"][0]["body"][0]["div"][0]["div"][1]["div"][0]["div"][0]["div"][1]["div"][0]["div"][1]["div"][0]["b"][1]["#text"].replace(u'\xa0', ''))
+
+
+def get_num_pages(year):
+    return (get_num_diplomas(year) + 19) // 20
 
 
 def parse_spbu_with_year_safe(year):
@@ -44,7 +48,7 @@ def add_skip(id, reason, base_artifacts_path):
 
 
 def parse_spbu_with_year(year):
-    pages = get_pages(year)
+    pages = get_num_pages(year)
 
     print("Requesting search_pages...")
     base_search_url = "https://diploma.spbu.ru/gp/index?GpSearch%5Bname_ru%5D=&GpSearch%5Btitle_ru%5D=&GpSearch%5Beditor_ru%5D=&GpSearch%5Bdp_id%5D=&GpSearch%5Bstatus%5D=1&GpSearch%5Byear%5D={year}&page={page}"
@@ -103,6 +107,7 @@ def parse_spbu_with_year(year):
     base_work_doc_url = "https://dspace.spbu.ru/{}"
     new_dir_path = base_artifacts_path.joinpath("work/")
     new_dir_path.mkdir(exist_ok=True, parents=True)
+    base_artifacts_path.joinpath("skipped_ids.jsons").unlink()
     for id in tqdm(ids, desc="Ids..."):
         path = base_artifacts_path.joinpath(f"view/{id}.html")
         try:

@@ -5,16 +5,5 @@
 **/.ipynb_checkpoints
 
 # large artifacts
-artifacts/parsing/diplomas/spbu/work_doc/*
-artifacts/parsing/diplomas/spbu/work_doc.tgz
-artifacts/parsing/diplomas/spbu/work_doc_1/*
-artifacts/parsing/diplomas/spbu/work_doc_2/*
+artifacts/parsing/diplomas/spbu/*
 artifacts/junk/search_pages.html
-artifacts/parsing/diplomas/spbu/2023/work/*
-artifacts/parsing/diplomas/spbu/2022/work/*
-artifacts/parsing/diplomas/spbu/2021/work/*
-artifacts/parsing/diplomas/spbu/2020/work/*
-artifacts/parsing/diplomas/spbu/2019/work/*
-artifacts/parsing/diplomas/spbu/2018/work/*
-artifacts/parsing/diplomas/spbu/2017/work/*
-artifacts/parsing/diplomas/spbu/2016/work/*
