@@ -46,7 +46,7 @@ def make_llama_base_pipe():
         cache_dir=cache_path,
     )
 
-    llama_base = llama_base.to('cuda:0')
+    llama_base = llama_base.to('cuda')
 
     import transformers
     
@@ -62,8 +62,6 @@ def make_llama_base_pipe():
     return llama_base_pipe
 
 
-
-llama_base_pipe = make_llama_base_pipe()
 
 def make_casual_llm_base_pipe(repo):
 
@@ -90,7 +88,6 @@ def make_casual_llm_base_pipe(repo):
 
 
 
-mistral_base_pipe = make_casual_llm_base_pipe(mistral_7b)
 
 # def make_llama_mem_pipe():
 #     from llama_mem import LlamaForCausalLM
@@ -124,8 +121,17 @@ mistral_base_pipe = make_casual_llm_base_pipe(mistral_7b)
 # llama_mem_pipe = make_llama_mem_pipe()
 
 
+def load_pipes(models):
+    pipes = dict()
+    for model in models:
+        if model == LLAMA_2_7B:
+            pipe = make_llama_base_pipe()
+        elif model == MISTRAL_7B:
+            pipe = make_casual_llm_base_pipe(mistral_7b)
+        pipes[model] = pipe
+    return pipes
 
-pipes = {MISTRAL_7B: mistral_base_pipe}
+
 # pipes = {"base": llama_base_pipe}
 # pipes = {"base": llama_base_pipe, "mem": llama_mem_pipe}
 
@@ -155,7 +161,7 @@ def generate_prompt(n_garbage):
             
 
 
-def test_model(prompt_text, pass_key, model_name):
+def test_model(prompt_text, pass_key, model_name, pipes):
     response = pipes[model_name](prompt_text,num_return_sequences=1, max_new_tokens=10)[0]["generated_text"][len(prompt_text):]
     assert f"The pass key is {pass_key}" in prompt_text
 
@@ -163,16 +169,11 @@ def test_model(prompt_text, pass_key, model_name):
         pass_key = int(re.search(r'\d+', response).group())
     except:
         pass_key = response[:20]
-        
-    del response
-    torch.cuda.empty_cache()
-    import gc
-    gc.collect()
     
     return pass_key
 
 
-def test_passkey_full(models, n_values=None):
+def test_passkey_full(pipes, models, n_values=None):
     print(f"models = {models}")
     if n_values is None:
         n_values = [0, 100, 500, 1000, 5000, 8000, 10000, 12000, 14000, 18000, 20000, 25000, 38000]
@@ -204,7 +205,7 @@ def test_passkey_full(models, n_values=None):
                 num_tokens_in_prompt[f"{model_name}_{n}"].append(num_tokens)
 
                 # print("Number of tokens in this prompt: ", num_tokens)
-                model_output = test_model(prompt_text, pass_key, model_name)
+                model_output = test_model(prompt_text, pass_key, model_name, pipes)
                 # print(f"Expected number in the prompt: {pass_key}, {model_name} output: {model_output}")
 
                 if pass_key == model_output:
@@ -216,7 +217,7 @@ def test_passkey_full(models, n_values=None):
                     # print("Fail.")
 
         for model in models:
-            accuracy = (correct_count[model] / num_tests) * 100
+            accuracy = (correct_count[model] / num_tests)
             with open(out_dir.joinpath(f"{model}_{n}.json"), "w") as f:
                 json.dump({"accuracy": accuracy}, f, ensure_ascii=False, indent=2)
             print(f"Accuracy {model} for n = {n}: {accuracy}%")
