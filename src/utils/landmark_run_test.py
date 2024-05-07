@@ -27,6 +27,7 @@ from definitions import *
 
 
 llama_weights_7b_base = "meta-llama/Llama-2-7b-hf"
+llama_longLoRA_weights_7b = "nvdenisov2002/llama-longLoRA-v0"
 mistral_7b = "mistralai/Mistral-7B-v0.1"
 # llama_weights_7b_base = "/llama_weights/7B_hf/"
 llama_weights_7b_tuned = "/llama-redpajama-mem-15000-with-mem/"
@@ -60,6 +61,33 @@ def make_llama_base_pipe():
 
     llama_base_pipe = pipeline("text-generation", model=llama_base, tokenizer=tokenizer, device=llama_base.device)
     return llama_base_pipe
+
+
+def make_llama_longLoRA_pipe():
+
+    from transformers import pipeline
+
+    from transformers.models.llama import LlamaForCausalLM
+
+    llama_longLoRA = LlamaForCausalLM.from_pretrained(
+        llama_longLoRA_weights_7b,
+        cache_dir=cache_path,
+    )
+
+    llama_longLoRA = llama_longLoRA.to('cuda')
+
+    import transformers
+    
+    tokenizer = transformers.AutoTokenizer.from_pretrained(
+        llama_weights_7b_base,
+        cache_dir=cache_path,
+        model_max_length=2048,
+        padding_side="right",
+        use_fast=True,
+    )
+
+    llama_longLoRA_pipe = pipeline("text-generation", model=llama_longLoRA, tokenizer=tokenizer, device=llama_longLoRA.device)
+    return llama_longLoRA_pipe
 
 
 
@@ -128,6 +156,8 @@ def load_pipes(models):
             pipe = make_llama_base_pipe()
         elif model == MISTRAL_7B:
             pipe = make_casual_llm_base_pipe(mistral_7b)
+        elif model == LLAMA_2_7B_LONGLORA:
+            pipe = make_llama_longLoRA_pipe()
         pipes[model] = pipe
     return pipes
 

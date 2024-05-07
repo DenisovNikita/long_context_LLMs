@@ -49,6 +49,7 @@ ARTIFACTS_DIR_PATH = REPOSITOTY_DIR_PATH.joinpath("artifacts")
 METRICS_DIR_PATH = ARTIFACTS_DIR_PATH.joinpath("metrics")
 DATASETS_DIR_PATH = ARTIFACTS_DIR_PATH.joinpath("datasets")
 
+LLAMA_2_7B_LONGLORA = "nvdenisov2002/llama-longLoRA-v0"
 LLAMA_2_7B = "llama-2-7b"
 LLAMA_3_8B = "llama-3-8b"
 FALCON_7B = "falcon-7b"
