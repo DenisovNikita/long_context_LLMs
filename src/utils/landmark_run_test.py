@@ -65,12 +65,13 @@ def make_llama_base_pipe():
 
 def make_llama_longLoRA_pipe():
 
+    import peft
     from transformers import pipeline
 
     from transformers.models.llama import LlamaForCausalLM
 
-    llama_longLoRA = LlamaForCausalLM.from_pretrained(
-        llama_longLoRA_weights_7b,
+    llama_longLoRA = peft.AutoPeftModelForCausalLM.from_pretrained(
+        llama_longLoRA_weights_7b
         cache_dir=cache_path,
     )
 
