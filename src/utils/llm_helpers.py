@@ -41,3 +41,101 @@ def get_answer(probs: Dict[str, float]):
             max_prob = v
             answer = k
     return answer
+
+
+PROMPT_DICT = {
+    "prompt_input": (
+        "Below is an instruction that describes a task, paired with an input that provides further context. "
+        "Write a response that appropriately completes the request.\n\n"
+        "### Instruction:\n{instruction}\n\n### Input:\n{input}\n\n### Response:"
+    ),
+    "prompt_no_input": (
+        "Below is an instruction that describes a task. "
+        "Write a response that appropriately completes the request.\n\n"
+        "### Instruction:\n{instruction}\n\n### Response:"
+    ),
+    "prompt_no_input_llama2":(
+        "[INST] <<SYS>>\n"
+        "You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe.  Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.\n\n"
+        "If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.\n"
+        "<</SYS>> \n\n {instruction} [/INST]"
+    ),
+    "prompt_input_llama2": (
+        "[INST] <<SYS>>\n"
+        "You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe.  Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.\n\n"
+        "If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.\n"
+        "<</SYS>> \n\n {instruction} \n{input} [/INST]"
+    ),
+    "prompt_llama2": "[INST]{instruction}[/INST]",
+    "prompt_input_diploma_special":(
+        "Below is an instruction that describes a task, paired with an input that provides further context. "
+        "Write a response that appropriately completes the request.\n\n"
+        "### Instruction:\nBelow is a diploma text. Your task is to generate abstract of this diploma.\n\n### Input:\n{input}\n\n### Response:"
+    ),
+}
+
+
+from typing import Dict, Optional, Sequence
+
+def _tokenize_fn(strings: Sequence[str], tokenizer: transformers.PreTrainedTokenizer) -> Dict:
+    """Tokenize a list of strings."""
+    tokenized_list = [
+        tokenizer(
+            text,
+            return_tensors="pt",
+            padding="longest",
+            max_length=tokenizer.model_max_length,
+            truncation=True,
+        )
+        for text in strings
+    ]
+    input_ids = labels = [tokenized.input_ids[0] for tokenized in tokenized_list]
+    input_ids_lens = labels_lens = [
+        tokenized.input_ids.ne(tokenizer.pad_token_id).sum().item() for tokenized in tokenized_list
+    ]
+    return dict(
+        input_ids=input_ids,
+        labels=labels,
+        input_ids_lens=input_ids_lens,
+        labels_lens=labels_lens,
+    )
+
+
+IGNORE_INDEX = -100
+
+
+def preprocess(
+    sources: Sequence[str],
+    targets: Sequence[str],
+    tokenizer: transformers.PreTrainedTokenizer,
+) -> Dict:
+    """Preprocess the data by tokenizing."""
+    examples = [s + t for s, t in zip(sources, targets)]
+    examples_tokenized, sources_tokenized = [_tokenize_fn(strings, tokenizer) for strings in (examples, sources)]
+    input_ids = examples_tokenized["input_ids"]
+    labels = copy.deepcopy(input_ids)
+    for label, source_len in zip(labels, sources_tokenized["input_ids_lens"]):
+        label[:source_len] = IGNORE_INDEX
+    return dict(input_ids=input_ids, labels=labels)
+
+
+def get_prefix_len_and_tokens(tokenizer, row, diploma_prefix_len):
+    prompt_input_diploma = PROMPT_DICT["prompt_input_diploma_special"]
+    source = prompt_input_diploma.format(input=row["diploma"][:diploma_prefix_len])
+
+    target = f"{row['abstract']}{tokenizer.eos_token}"
+
+    data_dict = preprocess([source], [target], tokenizer)
+    
+    prefix_len = np.sum(np.array(data_dict["labels"][0]) == IGNORE_INDEX)
+    prefix_tokens = data_dict["input_ids"][0][:prefix_len]
+
+    return prefix_len, prefix_tokens
+
+
+def get_some_model_result(some_model, tokenizer, row, device, diploma_prefix_len):
+    prefix_len, prefix_tokens = get_prefix_len_and_tokens(tokenizer, row, diploma_prefix_len)
+    some_model.eval()
+    generated = some_model.generate(prefix_tokens.reshape((1, -1)).to(device))
+    generated_continue = tokenizer.decode(generated.to('cpu').flatten()[prefix_len:])
+    return generated_continue
