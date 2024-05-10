@@ -1,0 +1,10 @@
+,model,subset,split,accuracy_score
+0,llama-2-7b,asessors_questions,abstract,0.2857142857142857
+1,llama-2-7b,asessors_questions,empty,0.22857142857142856
+2,llama-2-7b,asessors_questions,diploma_8000,0.2
+3,llama-2-7b,asessors_questions,learnt,0.22857142857142856
+4,llama-2-7b,asessors_questions,learnt_8k,0.2714285714285714
+5,llama-2-7b,asessors_questions,learnt_8k_retest,0.18571428571428572
+6,mistral-7b,asessors_questions,abstract,0.2857142857142857
+7,mistral-7b,asessors_questions,empty,0.18571428571428572
+8,mistral-7b,asessors_questions,diploma_8000,0.2571428571428571
