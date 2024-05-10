@@ -136,6 +136,6 @@ def get_prefix_len_and_tokens(tokenizer, row, diploma_prefix_len):
 def get_some_model_result(some_model, tokenizer, row, device, diploma_prefix_len):
     prefix_len, prefix_tokens = get_prefix_len_and_tokens(tokenizer, row, diploma_prefix_len)
     some_model.eval()
-    generated = some_model.generate(prefix_tokens.reshape((1, -1)).to(device))
+    generated = some_model.generate(input_ids=prefix_tokens.reshape((1, -1)).to(device), do_sample=False, num_beams=1)
     generated_continue = tokenizer.decode(generated.to('cpu').flatten()[prefix_len:])
     return generated_continue
