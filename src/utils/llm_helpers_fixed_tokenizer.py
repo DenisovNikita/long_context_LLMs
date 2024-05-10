@@ -70,7 +70,7 @@ PROMPT_DICT = {
     "prompt_input_diploma_special":(
         "Below is an instruction that describes a task, paired with an input that provides further context. "
         "Write a response that appropriately completes the request.\n\n"
-        "### Instruction:\nBelow is a diploma text. Your task is to generate abstract of this diploma.\n\n### Input:\n{input}\n\n### Response:"
+        "### Instruction:\nBelow is a diploma text. Your task is to generate abstract of this diploma.\n\n### Input:\n{input}\n\n"
     ),
 }
 
@@ -79,16 +79,15 @@ from typing import Dict, Optional, Sequence
 
 def _tokenize_fn(strings: Sequence[str], tokenizer: transformers.PreTrainedTokenizer) -> Dict:
     """Tokenize a list of strings."""
-    tokenized_list = [
-        tokenizer(
+    tokenized_list = []
+    for text in tqdm(strings, desc="Texts..."):
+        tokenized_list.append(tokenizer(
             text,
             return_tensors="pt",
             padding="longest",
             max_length=tokenizer.model_max_length,
             truncation=True,
-        )
-        for text in strings
-    ]
+        ))
     input_ids = labels = [tokenized.input_ids[0] for tokenized in tokenized_list]
     input_ids_lens = labels_lens = [
         tokenized.input_ids.ne(tokenizer.pad_token_id).sum().item() for tokenized in tokenized_list
@@ -111,11 +110,21 @@ def preprocess(
 ) -> Dict:
     """Preprocess the data by tokenizing."""
     examples = [s + t for s, t in zip(sources, targets)]
-    examples_tokenized, sources_tokenized = [_tokenize_fn(strings, tokenizer) for strings in (examples, sources)]
-    input_ids = examples_tokenized["input_ids"]
+    targets_tokenized = _tokenize_fn(targets, tokenizer)
+    examples_tokenized = _tokenize_fn(examples, tokenizer)
+    input_ids = [] 
+    for example_input_id, target_input_id, example_len, target_len in zip(examples_tokenized["input_ids"], targets_tokenized["input_ids"], examples_tokenized["input_ids_lens"], targets_tokenized["input_ids_lens"]):
+        limit = tokenizer.model_max_length
+        res = example_input_id
+        if example_len == limit:
+            res = example_input_id.tolist()[:-target_len] + target_input_id.tolist()[:target_len]
+        input_id = torch.tensor(res, dtype=torch.int)
+        input_id = input_id.type(torch.LongTensor)
+        input_ids.append(input_id)
     labels = copy.deepcopy(input_ids)
-    for label, source_len in zip(labels, sources_tokenized["input_ids_lens"]):
-        label[:source_len] = IGNORE_INDEX
+    for label, example_len, target_len in zip(labels, examples_tokenized["input_ids_lens"], targets_tokenized["input_ids_lens"]):
+        ignore_end = example_len - target_len
+        label[:ignore_end] = IGNORE_INDEX
     return dict(input_ids=input_ids, labels=labels)
 
 
@@ -123,8 +132,7 @@ def get_prefix_len_and_tokens(tokenizer, row, diploma_prefix_len):
     prompt_input_diploma = PROMPT_DICT["prompt_input_diploma_special"]
     source = prompt_input_diploma.format(input=row["diploma"][:diploma_prefix_len])
 
-    # TODO: change for 16k new tokenizer
-    target = f"{row['abstract']}{tokenizer.eos_token}"
+    target = f"### Response:{row['abstract']}{tokenizer.eos_token}"
 
     data_dict = preprocess([source], [target], tokenizer)
     
