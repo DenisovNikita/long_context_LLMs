@@ -1,0 +1,11 @@
+,model,subset,split,accuracy_score
+0,llama-2-7b,rummlu,public_test,0.30110634904814115
+1,llama-2-7b,ruopenbookqa,train,0.262617621899059
+2,mistral-7b,rummlu,public_test,0.4232034286853384
+3,mistral-7b,ruopenbookqa,train,0.5256629597946963
+4,saiga_mistral_7b_lora,rummlu,public_test,0.44742350244194157
+5,saiga_mistral_7b_lora,ruopenbookqa,train,0.6026518391787853
+6,vikhr-7b,rummlu,public_test,0.309279378052427
+7,vikhr-7b,ruopenbookqa,train,0.3361847733105218
+8,learnt_16k,rummlu,public_test,0.2622346257350743
+9,learnt_16k,ruopenbookqa,train,0.25919589392643283
