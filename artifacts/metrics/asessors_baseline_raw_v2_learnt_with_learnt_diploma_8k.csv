@@ -1,0 +1,7 @@
+,model,subset,split,accuracy_score
+0,llama-2-7b,asessors_questions,diploma,0.09090909090909091
+1,llama-2-7b,asessors_questions,learnt,0.38571428571428573
+2,llama-2-7b,asessors_questions,raw_model_v2,0.35714285714285715
+3,llama-2-7b,asessors_questions,empty,0.2714285714285714
+4,llama-2-7b,asessors_questions,abstract,0.6142857142857143
+5,llama-2-7b,asessors_questions,learnt_diploma_8k,0.2571428571428571
