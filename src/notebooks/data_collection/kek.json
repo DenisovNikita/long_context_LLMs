@@ -1,0 +1,16 @@
+{
+    "instruction": "Задание содержит вопрос по теме {subject} и 4 варианта ответа A, B, C, D, из которых только один правильный.\n{text}\nA {option_a}\nB {option_b}\nC {option_c}\nD {option_d}\nЗапишите букву правильного ответа\nОтвет:",
+    "inputs": {
+        "text": "В каком спорте спортсмены соревнуются за Кубок Уокера?",
+        "option_a": "крикет",
+        "option_b": "теннис",
+        "option_c": "сквош",
+        "option_d": "гольф",
+        "subject": "Общие факты"
+    },
+    "outputs": "D",
+    "meta": {
+        "domain": "miscellaneous",
+        "id": 1000
+    }
+}
