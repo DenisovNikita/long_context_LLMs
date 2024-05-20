@@ -1,0 +1,4 @@
+,model,subset,split,accuracy_score
+0,lora_v1_correct_run,asessors_questions,abstract,0.3142857142857143
+1,lora_v1_correct_run,asessors_questions,raw_model_v2,0.24285714285714285
+2,lora_v1_correct_run,asessors_questions,learnt,0.35714285714285715
