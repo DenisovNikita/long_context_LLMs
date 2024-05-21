@@ -27,7 +27,8 @@ def plot_tokens_distributions(tokens_dir_path: Path, vlines_blue=None, vlines_gr
     ax.vlines(vlines_blue, ymin=-1, ymax=len(labels), alpha=alpha, color='blue')
     ax.vlines(vlines_green, ymin=-1, ymax=len(labels), alpha=alpha, color='green')
     plt.xlabel("Количество токенов")
-    plt.title(f"Распределения токенов по {len(values[0])} {tokens_dir_path.stem} для разных моделей")
+    plt.title("Распределение длин 10291 текстов дипломов в токенах для разных токенизаторов")
+    # plt.title(f"Распределения токенов по {len(values[0])} {tokens_dir_path.stem} для разных моделей")
 
     plt.show()
 
