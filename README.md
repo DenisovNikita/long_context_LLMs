@@ -1,7 +1,7 @@
 # long_context_LLMs
 Diploma work about summarization long context with LLMs.
 
-Artifacts can be found in [/artifacts](/artifacts) folder.
+Artifacts can be found in [/artifacts](/artifacts) folder and in Yandex Disk:
 - [Full books texts](/artifacts/book_full_texts)
 - [Books summaries](/artifacts/parsing/books_summaries)
 - [SPbU diplomas with abstracts (raw)](https://disk.yandex.ru/d/xCv8-NUwGwc2tQ)
