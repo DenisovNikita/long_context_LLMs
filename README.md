@@ -2,7 +2,7 @@
 Diploma work about summarization long context with LLMs.
 
 Artifacts can be found in [/artifacts](/artifacts) folder.
-- [Full books texts](/artifacts/book_full_tests)
+- [Full books texts](/artifacts/book_full_texts)
 - [Books summaries](/artifacts/parsing/books_summaries)
 - [SPbU diplomas with abstracts (raw)](https://disk.yandex.ru/d/xCv8-NUwGwc2tQ)
 - [SPbU diplomas prepared dataset](https://disk.yandex.ru/d/bpi2jRR5Mq6e-Q)
