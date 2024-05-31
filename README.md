@@ -2,6 +2,10 @@
 Diploma work about summarization long context with LLMs.
 
 Artifacts can be found in [/artifacts](/artifacts) folder.
+- [Full books texts](/artifacts/book_full_tests)
+- [Books summaries](/artifacts/parsing/books_summaries)
+- [SPbU diplomas with abstracts (raw)](https://disk.yandex.ru/d/xCv8-NUwGwc2tQ)
+- [SPbU diplomas prepared dataset](https://disk.yandex.ru/d/bpi2jRR5Mq6e-Q)
 
 Jupyter notebooks can be found in [/src/notebooks](/src/notebooks) folder.
 
