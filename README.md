@@ -9,4 +9,4 @@ Diploma text can be found in [google drive](https://drive.google.com/file/d/1cUA
 
 LongLoRA modifications can be found in [DenisovNikita/LongLoRA-diploma-research](https://github.com/DenisovNikita/LongLoRA-diploma-research) repository.
 
-Learnt models can be found in [https://huggingface.co/nvdenisov2002](https://huggingface.co/nvdenisov2002).
+Prepared models can be found in [https://huggingface.co/nvdenisov2002](https://huggingface.co/nvdenisov2002).
