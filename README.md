@@ -2,10 +2,11 @@
 Diploma work about summarization long context with LLMs.
 
 Artifacts can be found in [/artifacts](/artifacts) folder and in Yandex Disk:
-- [Full books texts](/artifacts/book_full_texts)
-- [Books summaries](/artifacts/parsing/books_summaries)
 - [SPbU diplomas with abstracts (raw)](https://disk.yandex.ru/d/xCv8-NUwGwc2tQ)
 - [SPbU diplomas prepared dataset](https://disk.yandex.ru/d/bpi2jRR5Mq6e-Q)
+- [SPbU diplomas benchmark](/artifacts/datasets/diplomas_asessors_questions/mcs_df_human_filled_processed.json)
+- [Full books texts](/artifacts/book_full_texts)
+- [Books summaries](/artifacts/parsing/books_summaries)
 
 Jupyter notebooks can be found in [/src/notebooks](/src/notebooks) folder.
 
